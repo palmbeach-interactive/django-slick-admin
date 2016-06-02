@@ -1,0 +1,5 @@
+{
+    "local_port" : 4000,
+    "proxy_port" : 8080,
+    "hostname" : "local.django-slick-admin.io"
+}

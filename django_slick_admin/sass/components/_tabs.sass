@@ -1,0 +1,36 @@
+@charset "UTF-8"
+
+
+
+body
+  .hvad-language-tabs, .nani-language-tabs
+    border-bottom: $lang-bar-border-height solid $lang-bar-border-color
+    span
+      border: 0
+      background-color: $lang-bar-empty-bgcolor
+      margin-bottom: 1px
+      a
+        color: $lang-bar-empty-color
+
+
+      &.current
+        border-bottom: 0
+        background-color: $lang-bar-current-bgcolor
+        color: $lang-bar-current-color
+        font-weight: 400
+
+      &.available
+        border-bottom: 0
+        background-color: $lang-bar-available-bgcolor
+        a
+          color: $lang-bar-available-color
+          font-weight: 400
+          &.deletelink
+            color: $btn-danger-bgcolor
+            &:hover
+              color: darken($btn-danger-bgcolor, 15%)
+    a.deletelink
+      bottom: 0
+      color: $btn-danger-bgcolor
+      &:hover
+        color: darken($btn-danger-bgcolor, 15%)

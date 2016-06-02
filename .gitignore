@@ -1,0 +1,4 @@
+*.pyc
+.gitignore.swp
+node_modules/*
+.idea/*

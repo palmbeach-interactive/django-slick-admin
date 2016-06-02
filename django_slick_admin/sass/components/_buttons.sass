@@ -1,0 +1,74 @@
+//button defintions
+@mixin default-button()
+  height: $btn-default-height !important
+  line-height: $btn-default-height !important
+  border: $btn-border-size !important
+  padding-top: 0 !important
+  padding-bottom: 0 !important
+  box-shadow: none
+  display: inline-block
+
+.action-button
+  @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
+  @include default-button()
+
+.default-button
+  @include button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
+  @include default-button()
+
+.light-button
+  @include button-variant($btn-light-color, $btn-light-bgcolor, $btn-light-border, true)
+  @include default-button()
+
+.danger-button
+  @include button-variant($btn-danger-color, $btn-danger-bgcolor, $btn-danger-border, true)
+  @include default-button()
+
+//generic buttons
+.button, input[type=submit], input[type=button], .submit-row input, a.button
+  @extend .default-button
+
+//object-tool buttons
+.object-tools a:link, .object-tools a:visited
+  @extend .light-button
+
+ul.object-tools a.viewsitelink, ul.object-tools a.golink
+  @extend .action-button
+
+#content .submit-row input
+  height: $btn-default-height
+  line-height: $btn-default-height /2
+  //margin: 0 0 0 5px
+
+//save button in submit row
+.submit-row
+  input[name=_save]
+    @extend .action-button
+
+//addlink
+body
+  ul.object-tools
+    .addlink
+      @extend .action-button
+
+//general action button
+#changelist .actions .button
+  @extend .light-button
+  &:hover
+    color: $btn-action-color !important
+    background-color: $btn-action-bgcolor !important
+
+
+//delete buttons
+.submit-row a.deletelink
+  @extend .danger-button
+  height: auto !important
+
+
+//inline buttons
+.inline-group ul.tools a.add, .inline-group div.add-row a, .inline-group .tabular tr.add-row td a
+  @extend .default-button
+
+//header button
+#header #header-btn .btn
+  @extend .default-button

@@ -1,0 +1,54 @@
+@charset "UTF-8"
+
+html, body
+  height: 100%
+  font-weight: 200
+
+  th
+    font-weight: 400
+
+body
+  background-color: $body-bg
+
+  abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video
+    margin: 0
+
+  #content
+    padding: 0
+
+    h1
+      padding: 15px 5%
+
+    #content-main
+      float: none
+      padding: 0 5%
+      width: 90%
+
+      .row1
+        background-color: $white
+      .row2
+        background-color: $white
+
+
+body.dashboard
+  #container
+
+
+    #content
+
+      #content-main
+        width: 100%-$sidebar-width
+
+
+
+.cms-admin-modal
+  #content-main, #content
+    padding-top: 0 !important
+
+  #content
+    #content-main
+      width: 100%
+      padding: 0
+
+  #footer
+    display: none

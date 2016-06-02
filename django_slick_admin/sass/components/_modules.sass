@@ -1,0 +1,27 @@
+@charset "UTF-8"
+
+//.module
+  //@include shadow-box()
+
+  //padding: $page-spacing
+  background-color: $white
+
+
+  caption
+    padding-left: 0
+    background-color: transparent
+    color: $font-color
+
+
+.inline-group
+  .module
+    padding: 0
+
+.calendarbox.module
+  padding: 0
+
+body.dashboard
+  #content #content-main
+  .module
+    @include shadow-box()
+    background-color: red
