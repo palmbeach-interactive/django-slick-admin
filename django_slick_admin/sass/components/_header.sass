@@ -84,9 +84,9 @@
         padding: 4px 0
         border: 1px solid $white
         border-top: none
-        border-radius: 0 0 4px 4px
+        border-radius: $toolbar-menu-border-radius
         background: rgba($white, .97)
-        box-shadow: 0 1px 1px rgba($black, .4)
+        box-shadow: $toolbar-menu-shadow
         &.submenu-open
           display: block
 
@@ -127,35 +127,12 @@
               color: $white !important
               background: $color-primary
 
+
   #header-btn
+    line-height: $toolbar-height
     float: right
-    padding-right: $toolbar-right-space
-    margin: 8px 0
-    cursor: pointer
-    .btn
-      display: block
-      font-size: $toolbar-button-font-size !important
-      line-height: $toolbar-button-height !important
-      height: $toolbar-button-height
-      padding: 0 25px 0 12px !important
-      box-sizing: border-box
-      &:before
-        display: none
+    margin-right: 20px
 
-      &.icon-arrow-right
-        background: url('../img/icon_arrow_right.png') no-repeat right center !important
-        background-size: 20px !important
-        &:focus
-          color: $btn-default-color !important
-          background-color: darken($btn-default-bgcolor, 10%) !important
-          border-color: darken($btn-default-border, 25%) !important
-          text-decoration: none !important
-
-        &:hover
-          color: $btn-default-color !important
-          background-color: darken($btn-default-bgcolor, 10%) !important
-          border-color: darken($btn-default-border, 12%) !important
-          text-decoration: none !important
 
   #header-logo
     float: left
@@ -165,19 +142,20 @@
       display: none
 
     a
-      color: $black
+      color: $branding-color
       display: block
       font-size: 21px
       line-height: $toolbar-height
       height: $toolbar-height
-      transition: color 200ms
+      vertical-align: middle
+
       &:hover
-        color: $color-primary
+        color: $branding-hover-color
 
       &:before
         font-size: 21px
         vertical-align: inherit
-        line-height: 46px
-        height: 46px
+        line-height: $toolbar-height
+        height: $toolbar-height
         margin-right: 0
         box-sizing: border-box

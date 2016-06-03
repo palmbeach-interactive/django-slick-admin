@@ -20,7 +20,7 @@
   font-family: "Material Icons"
   font-weight: normal
   font-style: normal
-  font-size: 16px
+  font-size: $icon-size
   display: inline-block
   line-height: 0
   text-transform: none
@@ -33,7 +33,7 @@
   font-smoothing: grayscale
   font-feature-settings: 'liga'
   margin-top: -2px
-  margin-left: -7px
+  margin-left: -$icon-spacing
 
 
 @function icon-char($filename)
@@ -89,7 +89,7 @@
   @if $filename == envelope //x
     $char: "E019"
   @if $filename == exclamation-triangle //x
-    $char: "E01A"
+    $char: "E002"
   @if $filename == file-text
     $char: "E01B"
   @if $filename == file
@@ -141,11 +141,11 @@
   @if $filename == newspaper-o
     $char: "E033"
   @if $filename == pencil
-    $char: "E034"
+    $char: "E254"
   @if $filename == picture-o
     $char: "E035"
   @if $filename == picture
-    $char: "E036"
+    $char: "E410"
   @if $filename == plus-circle
     $char: "E037"
   @if $filename == plus
@@ -163,7 +163,7 @@
   @if $filename == search-plus
     $char: "E03E"
   @if $filename == search
-    $char: "E03F"
+    $char: "E8B6"
   @if $filename == shopping-cart
     $char: "E040"
   @if $filename == suitcase
@@ -185,11 +185,17 @@
   @if $filename == volume-up
     $char: "E049"
   @if $filename == wrench
-    $char: "E04A"
+    $char: "E8B9"
   @if $filename == eye
     $char: "E417"
   @if $filename == trashbin
     $char: "E872"
+  @if $filename == open-in-new
+    $char: "E89E"
+  @if $filename == radio-button-checked
+    $char: "E837"
+  @if $filename == radio-button
+    $char: "E836"
   @return $char
 
 

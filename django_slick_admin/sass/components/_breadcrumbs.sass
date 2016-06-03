@@ -6,11 +6,14 @@
 
 body
   .breadcrumbs
-    background-color: #e8e8e8
+    background-color: $breadcrumbs-bar-bg
     color: $font-color
-    padding: 10px 5%
+    padding: 10px $page-outer-spacing !important
     width: 90%
-    margin-top: $toolbar-height
+    margin-top: $breadcrumbs-bar-height
 
     a
-      color: $color-primary
+      color: $link-default-color
+
+      &:hover
+        color: $link-default-hover-color

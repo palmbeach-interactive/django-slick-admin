@@ -5,12 +5,15 @@
   border: $btn-border-size !important
   padding-top: 0 !important
   padding-bottom: 0 !important
-  box-shadow: none
+  box-shadow: none !important
   display: inline-block
+  vertical-align: middle
 
-.action-button
+
+.admin-action-button
   @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
   @include default-button()
+  text-transform: uppercase !important
 
 .default-button
   @include button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
@@ -23,6 +26,16 @@
 .danger-button
   @include button-variant($btn-danger-color, $btn-danger-bgcolor, $btn-danger-border, true)
   @include default-button()
+  text-transform: uppercase !important
+
+//generic links
+a:link, a:visited
+  color: $link-default-color
+  &:hover
+    color: $link-default-hover-color
+
+#changelist-filter a:focus, #changelist-filter a:hover, #changelist-filter li.selected a:focus, #changelist-filter li.selected a:hover
+  color: $link-highlight-color
 
 //generic buttons
 .button, input[type=submit], input[type=button], .submit-row input, a.button
@@ -33,7 +46,7 @@
   @extend .light-button
 
 ul.object-tools a.viewsitelink, ul.object-tools a.golink
-  @extend .action-button
+  @extend .admin-action-button
 
 #content .submit-row input
   height: $btn-default-height
@@ -43,13 +56,13 @@ ul.object-tools a.viewsitelink, ul.object-tools a.golink
 //save button in submit row
 .submit-row
   input[name=_save]
-    @extend .action-button
+    @extend .admin-action-button
 
 //addlink
 body
   ul.object-tools
     .addlink
-      @extend .action-button
+      @extend .admin-action-button
 
 //general action button
 #changelist .actions .button
@@ -58,11 +71,20 @@ body
     color: $btn-action-color !important
     background-color: $btn-action-bgcolor !important
 
+//toolbar search button
+#toolbar input[type=submit], .change-list #changelist-search input[type=submit]
+  @extend .admin-action-button
 
 //delete buttons
 .submit-row a.deletelink
   @extend .danger-button
   height: auto !important
+
+//related admin link
+.related-lookup
+  @extend .admin-action-button
+
+
 
 
 //inline buttons

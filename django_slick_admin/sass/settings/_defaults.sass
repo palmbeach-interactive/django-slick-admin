@@ -31,16 +31,44 @@ $font-size-large: 16px
 $font-size-small: 12px
 $font-size-normal: 15px
 
-//padding & spacing
-$page-spacing: 30px
 
+
+//DEFAULTS ////////////////////////////////////
+$element-default-shadow: 0 0 1px rgba(0,0,0,.15)
+$page-outer-spacing: 5%
+
+
+//LINK STYLES ////////////////////////////////
+$link-default-color: $color-primary
+$link-default-hover-color: darken($color-primary, 15%)
+$link-highlight-color: $color-danger
+$icon-spacing: 7px
+$icon-size: 18px
+
+//FORM DEFAULTS ////////////////////////////////////
+$form-default-bg: $white
+$form-select-border-color: $gray-lighter
+$form-select-border-radius: .25rem
+$form-default-height: 32px
+$form-input-color: $gray-darker
+$form-outer-spacing: 30px
+$form-focus-border-color: $gray-darkest
+$form-focus-background-color: $gray-super-light
+$form-focus-color: $gray-darkest
 
 //DASHBOARD ////////////////////////////////////
 $body-bg: #f0f0f0
-$content-bg: $gray-super-light
+$dashboard-row-background: $white
+$dashboard-row-border-color: $gray-lightest
+
+//BREADCRUMBS TOOLBAR ////////////////////////////////////
+$breadcrumbs-bar-height: 46px
+$breadcrumbs-bar-bg: #e8e8e8
+
+
 
 //BUTTON STYLES ////////////////////////////////
-$btn-default-height: 36px
+$btn-default-height: 30px
 $btn-border-size: 0px
 
 //button default
@@ -72,7 +100,7 @@ $btn-object-bg: $color-primary
 
 
 //SUBMIT ROW  ////////////////////////////////
-$submit-row-bg: darken($white, 4)
+$submit-row-bg: darken($white, 3)
 
 
 //LANGUAGE BAR ////////////////////////////////
@@ -83,7 +111,7 @@ $lang-bar-available-bgcolor: $white
 $lang-bar-current-color: $white
 $lang-bar-current-bgcolor: $color-primary
 $lang-bar-empty-color: $gray-darker
-$lang-bar-empty-bgcolor: $gray-lightest
+$lang-bar-empty-bgcolor: darken($gray-lightest, 15%)
 
 
 //TOOLBAR BAR ////////////////////////////////
@@ -95,8 +123,17 @@ $toolbar-margin-button: 0px
 $toolbar-button-font-size: 12px
 $toolbar-button-height: 30px
 
+$toolbar-menu-shadow: 0 1px 1px rgba($black, .4)
+$toolbar-menu-border-radius: 0 0 0 0
 
-//TOOLBAR BAR ////////////////////////////////
+$branding-color: $black
+$branding-hover-color: $color-primary
+
+//FILER  ////////////////////////////////
+$filer-action-color: $color-primary
+
+
+//SIDE-BAR ////////////////////////////////
 $sidebar-width: 25%
 
 //FORMS ////////////////////////////////

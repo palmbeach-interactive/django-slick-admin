@@ -38,7 +38,9 @@ a[id*="clocklink"],
 .messagelist li.warning,
 .cms-admin-modal.delete-confirmation .colM > p,
 .delete-confirmation .colM h1 + p,
-.admin_shortcuts .shortcuts li a
+.admin_shortcuts .shortcuts li a,
+.dashboard-module ul li a.external-link,
+#changelist-filter a
   background-image: none !important
   &:hover
     background-image: none
@@ -86,8 +88,19 @@ a.selector-chooseall,
 .calendarnav-next
   +icon(arrow-right)
 
+#header-btn .icon-arrow-right
+  &:after
+    @extend %icon
+    vertical-align: middle
+    margin-left: 5px
+    margin-right: -$icon-spacing
+  +icon(arrow-right, after)
+  &:before
+    display: none
+
 .icon-search,
-.related-lookup
+.related-lookup,
+.changelist-search input[type=submit]
   +icon(search)
 
 .icon-logo
@@ -137,6 +150,15 @@ a[id*="clocklink"]
 .messagelist li.info
   +icon(info-circle)
 
+.dashboard-module ul li a.external-link
+  +icon(open-in-new)
+
+#changelist-filter a
+  +icon(radio-button)
+
+#changelist-filter li.selected a
+  +icon(radio-button-checked)
+
 .related-lookup
   +button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
   padding: 0
@@ -179,12 +201,13 @@ a[id*="clocklink"]
   +button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
   display: inline-block
   // make sure that add another button has correct width and height on advanced setting #293
-  width: 36px
-  height: 36px
-  padding: 10px 9px !important
+  width: $btn-default-height
+  height: $btn-default-height
+  padding: 13px 5px !important
   margin: 10px 0
   // make sure that button has correct width and height on advanced setting #291
   box-sizing: border-box !important
+  vertical-align: middle
   &:before
     color: $gray-darker
     vertical-align: top
@@ -214,8 +237,15 @@ a[id*="clocklink"]
 #sitemap li .col-softroot span.icon
   width: 15px
   height: 15px
-  margin: 7px 5px 0 0
+  margin: $icon-spacing 5px 0 0
   background: url("../img/icon_softroot.png") 0 0 no-repeat
+
+.cms-pagetree-container
+  .cms-icon
+    padding: 0 0 0 $icon-spacing
+
+  .cms-icon-home:before
+    padding-right: 10px
 
 // retina
 
@@ -226,3 +256,7 @@ a[id*="clocklink"]
   #sitemap li .col-softroot span.icon
     background-image: url("../img/icon_softroot@2x.png")
     background-size: 15px
+
+
+.add-another, .add-related, .change-related, .delete-related
+  margin-top: 0

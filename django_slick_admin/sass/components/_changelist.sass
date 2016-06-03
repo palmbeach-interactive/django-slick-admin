@@ -1,6 +1,14 @@
 body.change-list
 
   #changelist
+    .actions, #toolbar, #changelist-search
+      padding: 0px 10px 10px 0
+      background-color: transparent
+
+  #changelist #changelist-search img
+    display: none
+
+  #changelist
     padding: 0
     background-color: transparent
     background: transparent
@@ -34,15 +42,11 @@ body.change-list
             font-weight: 400
 
 
+
     #changelist-form
       box-shadow: none
 
-    .actions
-      padding: 0px 10px 10px 0
-      background-color: transparent
 
-      select
-        margin-left: 0
 
       label
         font-size: 0
@@ -56,6 +60,8 @@ body.change-list
         vertical-align: middle
 
       .row1, .row2
+        td
+          vertical-align: middle
         &:hover
           background-color: lighten($color-secondary, 20)
 

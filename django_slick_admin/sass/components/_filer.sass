@@ -1,0 +1,66 @@
+@charset "UTF-8"
+
+body.filebrowser
+  &.cms-admin-sideframe
+    #container
+      .breadcrumbs + #content,
+      .breadcrumbs + .messagelist + #content
+        margin-left: 0 !important
+        margin-right: 0 !important
+
+      .breadcrumbs
+        left: 0 !important
+        padding-left: 20px !important
+
+  #container
+    min-width: auto
+    #content
+      padding: 0
+      @include shadow-box()
+
+    .breadcrumbs + #content,
+    .breadcrumbs + .messagelist + #content
+      margin-left: $page-outer-spacing !important
+      margin-right: $page-outer-spacing !important
+      margin-top: 30px
+
+    #content-main
+      padding: 0
+      width: 100%
+
+
+  h1.folder_header
+    position: relative
+    top: 6px
+
+  // required for django CMS <= 3.1 #673
+  h2
+    display: none
+
+  #content-main
+    background-color: white
+
+.navigator-button, .navigator-button:visited, .navigator-button:link:visited, .navigator-button:link
+  background-color: $filer-action-color !important
+  border: 0 !important
+
+  &:hover
+    background-color: lighten($filer-action-color, 10%) !important
+
+.filebrowser .navigator-table .column-name a
+  color: darken($filer-action-color, 5%)
+  font-weight: 200
+
+.filebrowser .navigator-table .column-action .action-button
+  border: 0 !important
+  color: $filer-action-color !important
+
+  &:hover
+    background-color: transparent !important
+    color: lighten($filer-action-color, 10%) !important
+
+
+.form-row.field-file .file-upload a
+  padding-right: 10px
+  &:before
+    padding-left: 10px

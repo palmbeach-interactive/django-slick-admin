@@ -14,15 +14,13 @@ body
     margin: 0
 
   #content
-    padding: 0
-
+    padding: 0 $page-outer-spacing
     h1
-      padding: 15px 5%
+      padding: 30px 0
 
     #content-main
       float: none
-      padding: 0 5%
-      width: 90%
+      width: 100%
 
       .row1
         background-color: $white
@@ -30,25 +28,21 @@ body
         background-color: $white
 
 
-body.dashboard
-  #container
 
-
-    #content
-
-      #content-main
-        width: 100%-$sidebar-width
-
-
+ul.messagelist li
+  padding: 15px $page-outer-spacing
+  &:before
+    color: $color-danger
+    padding-left: $icon-spacing
+    font-size: 24px !important
+    padding-right: 5px
 
 .cms-admin-modal
   #content-main, #content
     padding-top: 0 !important
 
   #content
-    #content-main
-      width: 100%
-      padding: 0
+    padding: 0
 
   #footer
     display: none
