@@ -17,7 +17,7 @@ label, .aligned label, input[type=text], input[type=password], input[type=email]
 .errors input, .errors select, .errors textarea
   border-color: $color-danger
   background-color: lighten($color-danger, 20%)
-  
+
 .form-row.errors ul.errorlist li
   color: $color-danger
 
@@ -163,59 +163,7 @@ form fieldset
           transform: rotate(180deg)
 
 
-//related widet
-.related-widget-wrapper
 
-  .selector
-
-    select
-      margin: 0
-      padding: 0
-      background: none !important
-      background-color: $form-bg !important
-
-      option
-        padding: 5px 8px
-        border-bottom: 1px solid $gray-lightest
-
-        &:focus
-          background-color: red
-
-    .selector-filter
-      height: 35px
-
-      input
-        width: 310px
-
-    .selector-available, .selector-chosen
-      h2
-        color: $font-color
-        background-color: $white
-        border-radius: 0
-
-    .selector-chooser
-      background-color: transparent
-      .selector-add, .selector-remove
-        background: none
-        text-indent: 0
-        width: $icon-size
-        height: $icon-size
-
-        &:before
-          @extend .material-icons
-          color: $white
-          background-color: $color-primary
-          border-radius: 10px
-          margin-left: 0
-          margin-top: 0
-          vertical-align: top
-
-      .selector-add:before
-        content: 'chevron_right'
-
-
-      .selector-remove:before
-        content: 'chevron_left'
 
 
 //INLINE GROUPING ////////////////////////////////
@@ -259,3 +207,49 @@ body.change-form
 
 .ui-sortable-helper
   @include shadow-box()
+
+
+
+
+
+
+  //SELECTOR WIDGET ////////////////////////////////
+.related-widget-wrapper
+
+  .selector
+
+    select
+      margin: 0
+      padding: 0
+      background: none !important
+      background-color: $selector-bg !important
+      border-radius: 0
+
+      option
+        padding: 5px 8px
+        border-bottom: 1px solid $selector-item-border
+
+    .selector-filter
+      padding: 8px
+      > p, input
+        border: 0
+
+      input
+        width: 310px
+        padding: 0 10px
+        margin-bottom: 0 !important
+
+    .selector-available select
+      height: $selector-height !important
+
+    .selector-chosen select
+      height: $selector-height + $selector-filter-height !important
+      option
+        color: $selector-chosen-color
+        text-transform: uppercase
+
+    .selector-available, .selector-chosen
+      h2
+        color: $font-color
+        background-color: $white
+        border-radius: 0

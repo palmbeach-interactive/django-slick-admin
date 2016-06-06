@@ -194,11 +194,11 @@ a[id*="clocklink"]
   &:active
     text-decoration: none !important
 
-.add-another,
-.add-related,
-.change-related,
-.delete-related
-  +button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
+//.add-another,
+//.add-related,
+//.change-related,
+//.delete-related
+  //+button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
   display: inline-block
   // make sure that add another button has correct width and height on advanced setting #293
   width: $btn-default-height
@@ -214,6 +214,14 @@ a[id*="clocklink"]
     margin: 0
   img
     display: none
+
+.add-another,
+.add-related,
+.change-related,
+.delete-related
+  img
+    display: none
+
 
 .tree
   // vertical align image icons in page tree #220
@@ -247,6 +255,40 @@ a[id*="clocklink"]
   .cms-icon-home:before
     padding-right: 10px
 
+
+.related-widget-wrapper .selector
+  .selector-chooser
+    background-color: transparent
+
+  .selector-add, .selector-remove
+    background: none
+    text-indent: 0
+    width: $icon-size
+    height: $icon-size
+
+    &:before
+      @extend .material-icons
+      color: $white
+      background-color: $color-primary
+      border-radius: 10px
+      margin-left: 0
+      margin-top: 0
+      vertical-align: top
+
+  .selector-clearall, .selector-chooseall
+    &:before
+      @extend .material-icons
+      font-size: 14px
+      margin-top: 1px !important
+      color: $white
+      background-color: $color-primary
+      border-radius: 10px
+      margin-left: 0
+      margin-top: 0
+      vertical-align: top
+
+
+
 // retina
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)
@@ -258,5 +300,3 @@ a[id*="clocklink"]
     background-size: 15px
 
 
-.add-another, .add-related, .change-related, .delete-related
-  margin-top: 0

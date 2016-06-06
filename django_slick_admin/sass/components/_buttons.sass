@@ -37,6 +37,10 @@ a:link, a:visited
 #changelist-filter a:focus, #changelist-filter a:hover, #changelist-filter li.selected a:focus, #changelist-filter li.selected a:hover
   color: $link-highlight-color
 
+a.active.selector-chooseall:focus, a.active.selector-clearall:focus, a.active.selector-chooseall:hover, a.active.selector-clearall:hover
+  color: $link-highlight-color
+
+
 //generic buttons
 .button, input[type=submit], input[type=button], .submit-row input, a.button
   @extend .default-button
@@ -83,8 +87,6 @@ body
 //related admin link
 .related-lookup
   @extend .admin-action-button
-
-
 
 
 //inline buttons
