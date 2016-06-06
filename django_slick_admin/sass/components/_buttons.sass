@@ -28,6 +28,16 @@
   @include default-button()
   text-transform: uppercase !important
 
+.dashboard-button
+  @include button-variant($btn-dashboard-color, $btn-dashboard-bgcolor, $btn-dashboard-border, true)
+  @include default-button()
+  border: 1px solid $btn-dashboard-border !important
+
+.dashboard-action-button
+  @include button-variant($btn-dashboard-action-color, $btn-dashboard-action-bgcolor, $btn-dashboard-action-border, true)
+  @include default-button()
+  border: 1px solid $btn-dashboard-border !important
+
 //generic links
 a:link, a:visited
   color: $link-default-color
@@ -96,3 +106,16 @@ body
 //header button
 #header #header-btn .btn
   @extend .default-button
+
+//dashboard
+body.dashboard
+  #content #content-main
+  .module
+    a.addlink
+      @extend .dashboard-action-button
+
+    a.changelink
+      @extend .dashboard-button
+
+    .quiet, a.quiet:link, a.quiet:visited
+      margin-left: $icon-size

@@ -8,7 +8,18 @@
   padding: 0
 
 body.dashboard
+  margin-top: $toolbar-height
   #content #content-main
   .module
     @include shadow-box()
-    background-color: red
+
+    caption
+      background-color: darken($white, 2)
+      a
+        color: $color-primary
+
+
+    th, td
+      vertical-align: middle
+      a
+        font-weight: 100

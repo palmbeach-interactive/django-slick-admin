@@ -5,11 +5,11 @@
 $white: #fff
 $black: #000
 
-$color-primary: #0dceb5
-$color-secondary: #af94e0
+$color-primary: #0cc2aa
+$color-secondary: #a88add
 $color-success: #75cb8f
 $color-danger: #f55060
-$color-warning: #ffc60a
+$color-warning: #fcc100
 $color-window: #fcfcfc
 
 // #COLORS gray
@@ -68,33 +68,40 @@ $breadcrumbs-bar-bg: #e8e8e8
 //BUTTON STYLES ////////////////////////////////
 $btn-default-height: 30px
 $btn-border-size: 0px
+$btn-border-radius-base: .25rem
+$btn-active-shadow: 0
 
 //button default
 $btn-default-color: $gray-darkest
 $btn-default-bgcolor: lighten($gray-lighter, 5%)
 $btn-default-border: transparent
-$btn-border-radius-base: .25rem
 
 //button action
 $btn-action-color: $white
 $btn-action-bgcolor: $color-primary
 $btn-action-border: transparent
-$btn-active-shadow: 0
 
 //button light
 $btn-light-color: $gray-darkest
 $btn-light-bgcolor: $white
 $btn-light-border: transparent
-$btn-border-radius-base: .25rem
 
 //button danger
 $btn-danger-color: $white
 $btn-danger-bgcolor: $color-danger
 $btn-danger-border: transparent
-$btn-border-radius-base: .25rem
 
 
-$btn-object-bg: $color-primary
+//button dashboard
+$btn-dashboard-color: $color-primary
+$btn-dashboard-bgcolor: $white
+$btn-dashboard-border: $gray-lightest
+
+$btn-dashboard-action-color: $color-secondary
+$btn-dashboard-action-bgcolor: $white
+$btn-dashboard-action-border: $gray-lightest
+
+
 
 
 //SUBMIT ROW  ////////////////////////////////
@@ -129,13 +136,24 @@ $branding-hover-color: $color-primary
 
 //FILER  ////////////////////////////////
 $filer-action-color: $color-primary
-
+$filer-drag-bg: lighten($color-secondary, 20)
 
 //SIDE-BAR ////////////////////////////////
 $sidebar-width: 25%
 
 //FORMS ////////////////////////////////
 $form-bg: $white
+
+
+//COLLAPSIBLE FIELDSETS ////////////////////////////////
+$collapse-hilight-color: $color-primary
+$collapse-border-color: lighten($gray-lighter, 4)
+$collapse-border-left-size: 3px
+$collapse-background-color: darken($white, 2)
+$expanded-border-color: $collapse-hilight-color
+
+$collapse-header-bg: transparent
+
 
 //SELECTOR WIDGET ////////////////////////////////
 $selector-bg: $white
