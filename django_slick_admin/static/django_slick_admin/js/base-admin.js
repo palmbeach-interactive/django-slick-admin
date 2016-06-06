@@ -56,11 +56,30 @@
     }
 
     if (window.jQuery || (window.django && window.django.jQuery)) {
+
+
+        $('input').each(function () {
+            $(this).on('focus', function () {
+                $(this).parent('.css').addClass('active');
+            });
+
+            $(this).on('blur', function () {
+                if ($(this).val().length == 0) {
+                    $(this).parent('.css').removeClass('active');
+                }
+            });
+
+            if ($(this).val() != '') $(this).parent('.css').addClass('active');
+
+        });
+
         // scopes the jQuery
         (function ($) {
             // waits for the document.ready
             $(function () {
                 var toplinks = $('.toplinks');
+
+                alert("this");
 
                 // calls touch support function
                 if ($.fn.touchSupport && $('.drag-handler').length) {
@@ -75,6 +94,7 @@
                 if (toplinks.children().length === 0 && toplinks.parent().hasClass('xfull')) {
                     toplinks.parent().addClass('hidden');
                 }
+
             });
         })(window.jQuery || window.django.jQuery);
     }
