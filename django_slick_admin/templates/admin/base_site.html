@@ -1,7 +1,7 @@
 {% extends "admin/base.html" %}
 {% load i18n staticfiles %}
 
-{% block bodyclass %}django-default-admin{% endblock %}
+{% block bodyclass %}django-cms-admin{% endblock %}
 
 {% block extrahead %}
 
@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="{% static 'django_slick_admin/css/django-slick-admin.css' %}"/>
 {% endblock %}
 
-{% block branding %}{% include 'admin/components/header_default.html' %}{% endblock %}
+{% block branding %}{% include 'admin/components/header_cms.html' %}{% endblock %}
 
 
 
