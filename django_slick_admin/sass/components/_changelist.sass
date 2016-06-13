@@ -63,10 +63,10 @@ body.change-list
         td
           vertical-align: middle
         &:hover
-          background-color: lighten($color-secondary, 20)
+          background-color: $changelist-hover-color
 
         &.selected
-          background-color: lighten($color-secondary, 10)
+          background-color: $changelist-selected-color
 
     .results
       @include shadow-box()

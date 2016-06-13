@@ -10,10 +10,15 @@ body
     color: $font-color
     padding: 10px $page-outer-spacing !important
     width: 90%
-    margin-top: $breadcrumbs-bar-height
+    margin-top: 0
 
     a
       color: $link-default-color
 
       &:hover
         color: $link-default-hover-color
+
+
+body.django-cms-admin
+  .breadcrumbs
+    margin-top: $breadcrumbs-bar-height

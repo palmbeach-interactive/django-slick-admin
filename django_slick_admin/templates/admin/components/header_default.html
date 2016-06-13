@@ -1,40 +1,81 @@
 {% load i18n %}
 {% load static from staticfiles %}
+
+<svg style="display:none;">
+    <symbol id="icecream" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 800">
+        <g id="Layer_3">
+            <path id="path412" fill="currentColor" d="M213.604,591.967v4.273c-0.295,0.789-0.041,1.891-0.4,2.719
+            c-1.664,13.992-14.064,26.699-28.447,29.148c-1.465,0.555-3.195,0.543-4.697,0.777h-5.502c-1.504-0.234-3.234-0.223-4.697-0.777
+            c-15.512-2.578-28.145-17.008-28.85-31.996v-4.402c0.492-2.93,1.117-5.973,2.314-8.773c1.213-2.25,2.461-4.492,3.893-6.602
+            l4.562-5.961c10.203-11.711,19.141-24.285,25.863-37.992l1.852,3.789c5.555,13.062,14.316,24.629,23.885,35.5
+            c1.033,1.465,2.146,2.887,3.355,4.273c1.797,2.668,3.555,5.363,4.965,8.289C212.663,586.709,213.268,589.377,213.604,591.967
+            L213.604,591.967z"/>
+        </g>
+        <g id="Layer_2">
+            <path fill="currentColor" d="M548.275,576.21l108.193,108.193c12.104,12.104,31.726,12.104,43.829,0
+            c12.104-12.104,12.104-31.727,0-43.83L592.105,532.381L548.275,576.21z"/>
+            <g>
+                <path fill="currentColor"
+                      d="M411.277,623.081l9.634,9.634c13.318,13.319,34.943,13.289,48.301-0.068l10.526-10.526L411.277,623.081z"
+                />
+                <polygon fill="currentColor"
+                         points="375.788,587.592 397.084,608.888 494.337,607.521 516.239,585.62 		"/>
+                <polygon fill="currentColor"
+                         points="346.191,552.021 343.204,555.008 361.595,573.398 530.839,571.02 552.739,549.12 		"/>
+                <polygon fill="currentColor"
+                         points="382.691,515.521 360.795,537.417 567.342,534.518 589.239,512.62 		"/>
+                <polygon fill="currentColor"
+                         points="419.194,479.018 397.292,500.92 603.84,498.019 625.743,476.116 		"/>
+                <path fill="currentColor"
+                      d="M433.792,464.42l205.811-2.89c4.553-6.459,6.612-14.131,6.173-21.683l-190.081,2.67L433.792,464.42z"/>
+                <path fill="currentColor" d="M470.298,427.914l171.375-2.407c-1.52-2.781-3.448-5.398-5.802-7.752l-13.564-13.564l-130.112,1.827
+                L470.298,427.914z"/>
+                <polygon fill="currentColor"
+                         points="528.694,369.517 506.797,391.415 608.108,389.992 586.817,368.701 		"/>
+                <polygon fill="currentColor" points="543.299,354.913 572.617,354.5 558.164,340.047 		"/>
+            </g>
+            <path fill="currentColor" d="M163.929,160.772c-59.358,59.358-59.36,155.601,0,214.96l15.226,15.227l214.96-214.96l-15.226-15.227
+            C319.529,101.413,223.287,101.414,163.929,160.772z"/>
+
+            <rect x="257.664" y="364.499" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -249.4672 326.7301)"
+                  fill="currentColor" width="24" height="199.999"/>
+
+            <rect x="285.949" y="336.214" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -221.1856 338.4607)"
+                  fill="currentColor" width="24" height="200"/>
+
+            <rect x="314.233" y="307.93" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -192.9003 350.1763)"
+                  fill="currentColor" width="24" height="200"/>
+
+            <rect x="342.517" y="279.645" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -164.6141 361.8774)"
+                  fill="currentColor" width="24" height="200.001"/>
+
+            <rect x="370.802" y="251.361" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -136.3296 373.5929)"
+                  fill="currentColor" width="24" height="200"/>
+
+            <rect x="399.086" y="223.077" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -108.0447 385.3162)"
+                  fill="currentColor" width="24.001" height="200.001"/>
+
+            <rect x="427.371" y="194.793" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -79.7612 397.0247)"
+                  fill="currentColor" width="24" height="200"/>
+
+            <rect x="455.655" y="166.509" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -51.4771 408.7404)"
+                  fill="currentColor" width="24" height="200"/>
+        </g>
+
+
+    </symbol>
+</svg>
+
+
 <div id="header-logo">
-    <a class="icon-logo" href="/"><span>django CMS</span></a>
+    <a href="/">
+        <svg class="graphics icecream">
+            <use xlink:href="#icecream"/>
+        </svg>
+        <span>Django Admin</span></a>
 </div>
 <h1>{{ site_header|default:_('Django Administration') }}</h1>
-<ul id="site-name" class="toolbar-item toolbar-item-navigation">
-    <li>
-        <a class="menu-item" href="">{{ site_header|default:_('Django Administration') }}</a>
-        <ul class="submenu">
-            {% if user.is_active and user.is_staff %}
-            {% url 'django-admindocs-docroot' as docsroot %}
-            {% if docsroot %}
-            <li>
-                <a href="{{ docsroot }}">{% trans 'Documentation' %}</a>
-            </li>
-            <li class="toolbar-item-navigation-break">-----</li>
-            {% endif %}
-            {% endif %}
-            {% if user.has_usable_password %}
-            <li>
-                <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a>
-            </li>
-            <li class="toolbar-item-navigation-break">-----</li>
-            {% endif %}
-            <li>
-                <a href="{% url 'admin:logout' %}">
-                    <span>{% trans 'Log out' %} {% firstof user.get_short_name user.get_username %}</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-</ul>
-<div id="header-btn">
-    <a href="/" class="icon-arrow-right btn js-header-link">
-        {% trans 'Open' %} {{ request.site.name|default:_('my site') }}
-    </a>
-</div>
 
-<script src="{% static 'django_slick_admin/js/base-admin.js' %}"></script>
+
+<!--
+<script src="{% static 'django_slick_admin/js/base-admin.js' %}"></script>-->

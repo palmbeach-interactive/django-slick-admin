@@ -79,8 +79,6 @@
             $(function () {
                 var toplinks = $('.toplinks');
 
-                alert("this");
-
                 // calls touch support function
                 if ($.fn.touchSupport && $('.drag-handler').length) {
                     $(window).touchSupport();
