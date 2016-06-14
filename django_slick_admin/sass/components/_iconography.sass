@@ -30,7 +30,6 @@
   direction: ltr
   font-smoothing: antialiased
   text-rendering: optimizeLegibility
-  font-smoothing: grayscale
   font-feature-settings: 'liga'
   margin-top: -2px
   margin-left: -$icon-spacing
@@ -201,6 +200,9 @@
 
 
 .cms-icon
+  @extend %icon
+
+.md-icon
   @extend %icon
 
 =icon($filename, $insert: before)

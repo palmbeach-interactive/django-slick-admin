@@ -4,6 +4,7 @@ var config = require('./gulp-settings.json');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var $ = require('gulp-load-plugins')();
+var prefix = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 
@@ -58,9 +59,9 @@ gulp.task('styles', function () {
         .pipe($.sass({
             precision: 10
         }))
-        .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe($.sourcemaps.write())
         .pipe(gulp.dest(PROJECT_PATH.css))
+        .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe(browserSync.stream({match: '**/*.css'}))
         .pipe($.size({title: 'styles'}));
 });
