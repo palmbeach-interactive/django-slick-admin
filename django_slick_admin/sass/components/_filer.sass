@@ -40,31 +40,36 @@ body.filebrowser
   #content-main
     background-color: white
 
-.navigator-button, .navigator-button:visited, .navigator-button:link:visited, .navigator-button:link
-  background-color: $filer-action-color !important
-  border: 0 !important
+body
+  .navigator-button, .navigator-button:visited, .navigator-button:link:visited, .navigator-button:link
+    background-color: $filer-action-color !important
+    border: 0 !important
 
-  &:hover
-    background-color: lighten($filer-action-color, 10%) !important
-
-.filebrowser .navigator-table .column-name a
-  color: darken($filer-action-color, 5%)
-  font-weight: 200
-
-.filebrowser .navigator-table .column-action .action-button
-  border: 0 !important
-  color: $filer-action-color !important
-
-  &:hover
-    background-color: transparent !important
-    color: lighten($filer-action-color, 10%) !important
+    &:hover
+      background-color: lighten($filer-action-color, 10%) !important
 
 
-.form-row.field-file .file-upload a
-  padding-right: 10px
-  &:before
+  .navigator-button[disabled], .navigator-button[disabled]:hover, .navigator-button[disabled]:focus .navigator-button[disabled]:active, .navigator-button:visited[disabled], .navigator-button:visited[disabled]:hover, .navigator-button:visited[disabled]:focus .navigator-button[disabled]:active, .navigator-button:link:visited[disabled], .navigator-button:link:visited[disabled]:hover, .navigator-button:link:visited[disabled]:focus .navigator-button[disabled]:active, .navigator-button:link[disabled], .navigator-button:link[disabled]:hover, .navigator-button:link[disabled]:focus .navigator-button[disabled]:active, .navigator-button[disabled]:focus .navigator-button:visited[disabled]:active, .navigator-button:visited[disabled]:focus .navigator-button:visited[disabled]:active, .navigator-button:link:visited[disabled]:focus .navigator-button:visited[disabled]:active, .navigator-button:link[disabled]:focus .navigator-button:visited[disabled]:active, .navigator-button[disabled]:focus .navigator-button:link:visited[disabled]:active, .navigator-button:visited[disabled]:focus .navigator-button:link:visited[disabled]:active, .navigator-button:link:visited[disabled]:focus .navigator-button:link:visited[disabled]:active, .navigator-button:link[disabled]:focus .navigator-button:link:visited[disabled]:active, .navigator-button[disabled]:focus .navigator-button:link[disabled]:active, .navigator-button:visited[disabled]:focus .navigator-button:link[disabled]:active, .navigator-button:link:visited[disabled]:focus .navigator-button:link[disabled]:active, .navigator-button:link[disabled]:focus .navigator-button:link[disabled]:active
+    background-color: lighten($filer-action-color, 35) !important
+
+  .filebrowser .navigator-table .column-name a
+    color: darken($filer-action-color, 5%)
+    font-weight: 200
+
+  .filebrowser .navigator-table .column-action .action-button
+    border: 0 !important
+    color: $filer-action-color !important
+
+    &:hover
+      background-color: transparent !important
+      color: lighten($filer-action-color, 10%) !important
+
+
+  .form-row.field-file .file-upload a
+    padding-right: 10px
+    &:before
+      padding-left: 10px
+
+  .file-upload a
     padding-left: 10px
-
-.file-upload a
-  padding-left: 10px
 

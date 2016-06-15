@@ -8,15 +8,17 @@
 //##############################################################################
 // DASHBOARD
 body.admin-tools-dahsboard
+
   .warning
     color: $color-danger
-    background: transparent url(../images/admin-tools.png) 0 -412px no-repeat
+    //background: transparent url(../images/admin-tools.png) 0 -412px no-repeat
     padding-left: 25px
 
-  .dashboard #content
+  #content
+
     display: block
     width: auto !important
-    margin: 15px 5px
+    margin: $dashboard-spacing
 
   .dashboard-container
     clear: both
@@ -35,7 +37,7 @@ body.admin-tools-dahsboard
       min-width: 100px
       display: block
       text-align: center
-      border: 1px solid #e5e5e5
+      border: 1px solid red
       -moz-border-radius: 6px
       -webkit-border-radius: 6px
     ul
@@ -46,8 +48,8 @@ body.admin-tools-dahsboard
       margin-top: -1px
       li
         padding: 5px
-        border: 1px solid #e5e5e5
-        background-color: white
+        border: 1px solid red
+        background-color: $dashboard-inner-bg
         a
           display: block
     &:hover ul
@@ -66,8 +68,8 @@ body.admin-tools-dahsboard
     min-height: 200px
 
   .dashboard-placeholder
-    border: 2px dashed #cbe0ff
-    background-color: #f8f8f8
+    border: 1px dashed $dashboard-placeholder-border
+    background-color: $dashboard-placeholder-bg
     margin: 10px 10px 5px 10px
 
   .dashboard-module
@@ -76,8 +78,8 @@ body.admin-tools-dahsboard
       padding: 7px 5px 8px 8px
       text-align: left
       font-weight: normal
-      background: $dashboard-row-background
-      color: #555
+      background: $dashboard-inner-bg
+      color: $dashboard-panel-heading-color
     &.draggable h2
       cursor: move
     h2 a
@@ -88,7 +90,7 @@ body.admin-tools-dahsboard
         width: 17px
         margin: 0 0 0 5px
         cursor: pointer
-        background-image: url(../images/admin-tools.png)
+        //background-image: url(../images/admin-tools.png)
         background-repeat: no-repeat
       &.toggle-icon
         background-position: 0 -45px
@@ -99,7 +101,9 @@ body.admin-tools-dahsboard
           &:hover
             background-position: 0 -105px
       &.close-icon
-        background-position: 0 -125px
+        &:before
+          content: 'close'
+
         &:hover
           background-position: 0 -145px
 
@@ -110,14 +114,16 @@ body.admin-tools-dahsboard
   .dashboard-module h3
     padding: 5px 8px
     margin: 0
-    background: $dashboard-row-background
+    background: $dashboard-inner-bg
     height: 22px
-    border-bottom: 1px solid $dashboard-row-border-color
+    border-bottom: 1px solid $dashboard-border-color
     a
       margin: 0
-      color: $dashboard-link-color
-      font-size: 13px
-      font-weight: normal
+      color: $dashboard-module-heading-color
+      font-size: $font-size-normal
+      font-weight: 100
+      &:hover
+        text-decoration: underline
 
   .dashboard-module-content
     border-top: 1px solid #ececec
@@ -126,69 +132,58 @@ body.admin-tools-dahsboard
     p
       margin: 10px
 
-  .dashboard-module ul
-    li
-      vertical-align: top
-      padding: 5px 8px
-      &.odd
-        background: #f5f5f5
-      &.even
-        background: #ffffff
-      a.external-link
-        background-image: url(../images/admin-tools.png)
-        background-repeat: no-repeat
-        background-position: -5px -168px
-        padding-left: 15px
-      ul
-        float: right
-        li
-          display: block
-          float: left
-          border: 0
-          padding: 0 5px
-          vertical-align: top
-          height: auto
-          line-height: auto
-      &:hover
-        background: #fffff4
-    &.inline
-      display: block
-      height: auto
-      padding: 15px
-      text-align: center
-      li
-        display: inline
-        margin: 10px auto
-        &.odd, &.even
-          background: none
-
   .dashboard-module
     border: 0
     border-radius: 0
+    background-color: $dashboard-inner-bg
     +shadow-box()
-
-    ul li a
-      vertical-align: middle
-    ul
-      li, li.odd, li.even
-        background-color: $dashboard-row-background
-        border-bottom: 1px solid $dashboard-row-border-color
-        line-height: $btn-default-height + 8px
-        vertical-align: middle
-        ul li
-          line-height: $btn-default-height + 8px
-          vertical-align: middle
-          &:last-child
-            padding-left: 20px
 
     h3
       padding-top: 20px
 
-  /* }}}
-  /* link list specific styles {{{
+    ul
+      li, li.odd, li.even
+        vertical-align: top
+        padding: 5px 8px
+        border-bottom: 1px solid $dashboard-border-color
+        line-height: $btn-default-height + 8px
+        vertical-align: middle
+        background-color: transparent
 
-  /* }}}
-  /* Dashboard groups {{{
+        a
+          vertical-align: middle
+          &.external-link
+            //background-image: url(../images/admin-tools.png)
+            background-repeat: no-repeat
+            background-position: -5px -168px
+            padding-left: 15px
+
+        ul
+          float: right
+          li
+            display: block
+            float: left
+            border: 0
+            padding: 0 5px
+            vertical-align: top
+            height: auto
+            line-height: inherit
+
+        &:hover
+          background-color: $dashboard-hover-bg
+      &.inline
+        display: block
+        height: auto
+        padding: 15px
+        text-align: left
+        li
+          display: inline
+          margin: 10px auto
+          text-align: center
+          &.odd, &.even
+            background: transparent
+            &:hover
+              background-color: $dashboard-hover-bg
 
   .group
     border: 0
@@ -241,13 +236,16 @@ body.admin-tools-dahsboard
       li
         margin: 0
         padding: 0
-        width: 24.9%
+        width: 25%
         display: inline-block
         line-height: 64px
         border-bottom: 0
-        border-right: 1px solid $dashboard-row-border-color
+        //box-shadow: 0 0 0 1px blue inset
+        border-right: 1px solid $dashboard-border-color
+        border-bottom: 1px solid $dashboard-border-color
+        box-sizing: border-box
 
-        &:nth-child(4)
+        &:nth-child(4n+4)
           border-right: 0px
 
         a
@@ -271,6 +269,10 @@ body.admin-tools-dahsboard
         text-align: center
         color: $dashboard-postit-color
 
+  .no-postit-header
+    .postit
+      display: none
+
   //RECENT ACTIVITIES
   .dashboard-module.recent-actions
     .dashboard-module-content
@@ -285,7 +287,7 @@ body.admin-tools-dahsboard
         -webkit-align-items: center
         -webkit-box-align: center
         align-items: center
-        border-bottom: 1px solid $dashboard-row-border-color
+        border-bottom: 1px solid $dashboard-border-color
 
         a
           margin-left: 20px
@@ -325,10 +327,30 @@ body.admin-tools-dahsboard
       &:before
         content: 'playlist_add'
 
-    &.view-articles
+    &.playlists
+      &:before
+        content: 'playlist_add_check'
+
+    &.articles
       &:before
         content: 'view_list'
 
     &.files-folders
       &:before
         content: 'folder_special'
+
+    &.add-news-entry, &.news-entries
+      &:before
+        content: 'new_releases'
+
+    &.add-website-link, &.website-links
+      &:before
+        content: 'open_in_browser'
+
+    &.a-z
+      &:before
+        content: 'filter_list'
+
+    &.classification
+      &:before
+        content: 'label'
