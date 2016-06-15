@@ -268,6 +268,17 @@ body.admin-tools-dahsboard
         text-align: center
         color: $dashboard-postit-color
 
+    &.support-panel
+      ul.inline li
+        width: 33.333333%
+
+        a:before
+          display: none
+
+        a .md-icon
+          color: $dashboard-postit-bg
+
+
   .no-postit-header
     .postit
       display: none
@@ -345,6 +356,19 @@ body.admin-tools-dahsboard
     &.add-website-link, &.website-links
       &:before
         content: 'open_in_browser'
+
+    &.report-a-bug
+      &:before
+        content: 'bug_report'
+
+    &.report-a-bug-mail
+      &:before
+        content: 'send'
+
+    &.cms-documentation
+      &:before
+        content: 'help'
+
 
     &.a-z
       &:before
