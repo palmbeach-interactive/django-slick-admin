@@ -6,7 +6,7 @@ CLASSIFIERS = [
     'Environment :: Web Environment',
     'Framework :: Django',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: BSD License',
+    'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2',
@@ -21,7 +21,7 @@ setup(
     description='Slick admin styles for Django and django CMS.',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     url='https://github.com/palmbeach-interactive/django-slick-admin/',
-    license='BSD License',
+    license='MIT License',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
