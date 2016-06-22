@@ -1,20 +1,20 @@
 {% extends "admin/base.html" %}
-{% load i18n staticfiles %}
+{% load i18n staticfiles slick_admin_tags %}
 
 {% block bodyclass %}django-default-admin{% endblock %}
 
 {% block extrahead %}
-
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="{% static 'django_slick_admin/css/django-slick-admin.css' %}"/>
-
-
 {% endblock %}
 
-{% block branding %}{% include 'admin/components/header_default.html' %}{% endblock %}
-
+{% block branding %}
+{% slick_admin_cms_enabled_as as cms_enabled %}
+{% if cms_enabled %}
+    {% include 'admin/components/header_cms.html' %}
+{% else %}
+    {% include 'admin/components/header_default.html' %}
+{% endif %}
+{% endblock %}
 
 {% block footer %}{% include 'admin/components/footer.html' %}{% endblock %}
-
-
-

@@ -1,8 +1,9 @@
 {% load i18n %}
-{% load static from staticfiles %}
+{% load slick_admin_tags %}
 
 <div id="footer" class="footer">
     <div class="content">
-        <p>© <a href="https://www.pbi.io">Palmbeach Interactive</a>  - Built with Love v1.0.0</p>
+        {% slick_admin_version_as as version %}
+        <p>© <a href="https://www.pbi.io">Palmbeach Interactive</a>  - Built with Love v{{ version }}</p>
     </div>
 </div>

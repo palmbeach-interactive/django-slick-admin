@@ -1,4 +1,9 @@
 *.pyc
 .gitignore.swp
+*egg-info*
+build/
+dist/
+bin/
 node_modules/*
 .idea/*
+.pypirc
