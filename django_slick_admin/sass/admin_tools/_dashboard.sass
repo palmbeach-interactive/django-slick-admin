@@ -18,7 +18,7 @@ body.admin-tools-dahsboard
 
     display: block
     width: auto !important
-    margin: $dashboard-spacing
+    margin: $dashboard-spacing 0
 
   .dashboard-container
     clear: both
@@ -378,3 +378,9 @@ body.admin-tools-dahsboard
     &.classification
       &:before
         content: 'label'
+
+
+//cms admin extra styles
+body.admin-tools-dahsboard.slick-admin-cms
+  #content
+    margin-top: $toolbar-height + $dashboard-spacing

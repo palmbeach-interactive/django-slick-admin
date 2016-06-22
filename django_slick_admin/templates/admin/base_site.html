@@ -1,7 +1,9 @@
 {% extends "admin/base.html" %}
 {% load i18n staticfiles slick_admin_tags %}
 
-{% block bodyclass %}django-default-admin{% endblock %}
+
+
+{% block bodyclass %}{% slick_admin_cms_enabled_as as cms_enabled %}slick-admin{% if cms_enabled %} slick-admin-cms{% endif %}{% endblock %}
 
 {% block extrahead %}
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
