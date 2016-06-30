@@ -1,0 +1,10 @@
+{% load staticfiles sekizai_tags slick_admin_tags %}
+
+{% if toolbar_enabled %}
+    {% slick_admin_version_as as version %}
+
+    {% addtoblock 'css' %}
+    <link rel="stylesheet" type="text/css" href="{{ stylesheet }}?{{ version }}"/>
+    {% endaddtoblock %}
+
+{% endif %}

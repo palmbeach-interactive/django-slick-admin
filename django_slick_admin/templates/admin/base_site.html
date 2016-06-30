@@ -10,6 +10,7 @@
 
 {% block branding %}
 {% slick_admin_cms_enabled_as as cms_enabled %}
+{% slick_admin_dashboard_enabled_as as dashboard_enabled %}
 {% if cms_enabled %}
     {% include 'admin/components/header_cms.html' %}
 {% else %}

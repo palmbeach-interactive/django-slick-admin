@@ -1,0 +1,94 @@
+@import settings/base
+@import mixins/base
+//@import components/buttons
+
+@mixin cms-button($bg-color: $black, $color: $gray)
+  background-color: $bg-color
+  border: 1px solid $bg-color
+  color: $color
+
+  &:hover, &:focus
+    background-color: darken($bg-color, 5)
+    border-color: darken($bg-color, 10)
+    color: $color
+
+    &:before
+      color: $color
+
+  &:before
+    color: $color
+
+
+body div.cms
+
+  // toolbar logo
+  .cms-toolbar
+    .cms-toolbar-item.cms-toolbar-item-logo
+      a
+        color: $gray
+        &:hover
+          color: $color-primary
+
+
+  // toolbar
+  .cms-toolbar
+    .cms-toolbar-item-navigation
+      .cms-toolbar-item-navigation-hover
+        > a
+          background-color: $color-primary
+        > ul
+          border: none
+          padding: 0
+
+          li.cms-toolbar-item-navigation-break
+            margin-bottom: 0
+            padding-bottom: 0
+
+  // structure mode context menu
+  .cms-submenu-dropdown-settings .cms-submenu-item
+    a:hover,
+    a.hover
+      background-color: $color-primary
+
+
+  // structure mode plugin placeholder
+  .cms-add-plugin-placeholder
+    color: $color-primary
+    background-color: lighten($color-primary, 45)
+    border-color: $color-primary
+
+  // dragbar
+  .cms-structure .cms-dragbar .cms-dragbar-toggler
+    a
+      color: $color-primary !important
+      &:hover
+        color: darken($color-primary, 5) !important
+
+
+  // modal breadcrumbs
+  .cms-modal-has-breadcrumb .cms-modal-breadcrumb
+    a
+      color: $color-primary
+      &.active
+        color: $gray-light
+
+  // modal top-bar icons
+  .cms-modal .cms-modal-head
+    .cms-icon[class^="cms-modal-"]
+      &:hover
+        color: $color-primary
+
+  // plugin picker
+  .cms-plugin-picker .cms-submenu-item
+    a:hover
+      color: $color-primary
+      border-color: $color-primary
+
+  // buttons
+  .cms-btn
+    &.cms-btn-action
+      @include cms-button($color-primary, $white)
+
+    &.cms-btn-caution
+      @include cms-button($color-danger, $white)
+

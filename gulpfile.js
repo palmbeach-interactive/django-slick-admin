@@ -16,7 +16,10 @@ var PROJECT_PATH = {
     'css': PROJECT_ROOT + '/django_slick_admin/static/django_slick_admin/css'
 };
 
-var PROJECT_SASS_SRC = PROJECT_PATH.sass + '/django-slick-admin.sass'
+var PROJECT_SASS_SRC = [
+    PROJECT_PATH.sass + '/django-slick-admin.sass',
+    PROJECT_PATH.sass + '/cms-styles.sass'
+]
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -52,9 +55,7 @@ gulp.task('proxy', ['styles'], function () {
 });
 
 gulp.task('styles', function () {
-    return gulp.src([
-            PROJECT_SASS_SRC
-        ])
+    return gulp.src(PROJECT_SASS_SRC)
         .pipe($.sourcemaps.init())
         .pipe($.sass({
             precision: 10
@@ -67,9 +68,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('dist', function () {
-    return gulp.src([
-            PROJECT_SASS_SRC
-        ])
+    return gulp.src(PROJECT_SASS_SRC)
         .pipe($.sass({
             outputStyle: 'compact',
             sourceComments: false,
