@@ -78,4 +78,54 @@ repository.
 The versions/tags for the styles are aligned with the main repository. So if - for example - you are installing `django-slick-admin==0.1.1` 
 you should use tag '0.1.1' version for the styles as well.
 
+#### Quick & dirty way to compile stylesheets with adjusted settings
 
+Install required npm modules:
+ 
+    npm install -D https://github.com/palmbeach-interactive/django-slick-admin-styles
+    npm install -D node-sass
+
+    
+Create a sass file - e.g. `custom-admin-styles.sass` to override some defaults and import *django-slick-admin-styles*. 
+See [\_defaults.sass](https://github.com/palmbeach-interactive/django-slick-admin/blob/master/django_slick_admin/sass/settings/_defaults.sass) for vailable settings.
+
+    
+    // custom-admin-styles.sass
+    @charset "UTF-8"
+    
+    $color-primary: #00ccff
+    $color-secondary: #ffcc00
+    
+    @import settings/base
+    @import mixins/base
+    @import components/base
+    @import admin_tools/base
+
+
+Run sass compiler (adjust output path according to your setup):
+ 
+    ./node_modules/node-sass/bin/node-sass \
+    --include-path ./node_modules/django-slick-admin-styles/sass \
+    custom-admin-styles.sass  \
+    ./site-static/django_slick_admin/css/django-slick-admin.css
+
+
+#### Integrate via Gulp tasks
+
+    // gulpfile.js
+    gulp.task('admin-styles', function () {
+        return gulp.src([
+                './sass/admin/custom.sass'
+            ])
+            .pipe(sass({
+                includePaths: './node_modules/django-slick-admin-styles/sass/',
+                outputStyle: 'expanded',
+                precision: 10
+            }))
+            .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
+            .pipe(concat('django-slick-admin.css'))
+            .pipe(gulp.dest('website/site-static/django_slick_admin/css/'))
+    });
+
+
+    
