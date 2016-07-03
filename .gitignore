@@ -1,6 +1,7 @@
 *.pyc
 .gitignore.swp
 *egg-info*
+docs/screenshots/
 build/
 dist/
 bin/

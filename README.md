@@ -76,7 +76,7 @@ Start with customizing the included `admin/base_site.html` template.
 The stylesheets are based on *Sass* and live in the separate [django-slick-admin-styles](https://github.com/palmbeach-interactive/django-slick-admin-styles)
 repository.  
 The versions/tags for the styles are aligned with the main repository. So if - for example - you are installing `django-slick-admin==0.1.1` 
-you should use tag '0.1.1' version for the styles as well.
+you should use the '0.1.1' version for the styles as well.
 
 #### Quick & dirty way to compile stylesheets with adjusted settings
 
@@ -111,6 +111,7 @@ Run sass compiler (adjust output path according to your setup):
 
 
 #### Integrate via Gulp tasks
+
 
     // gulpfile.js
     gulp.task('admin-styles', function () {

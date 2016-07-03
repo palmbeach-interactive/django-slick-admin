@@ -27,7 +27,7 @@ def slick_admin_cms_style(context):
 
     request = context['request']
     toolbar_enabled = False
-    if request.user.is_staff and not request.session['cms_toolbar_disabled']:
+    if request.user.is_staff and 'cms_toolbar_disabled' in request.session and not request.session['cms_toolbar_disabled']:
         toolbar_enabled = True
 
     stylesheet = getattr(slick_admin_settings, 'ADMIN_CMS_CSS')
