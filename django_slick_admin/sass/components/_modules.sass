@@ -2,11 +2,73 @@
 
 .inline-group
   .module
-    padding: 0
+    //padding: 0
 
 .calendarbox.module
   padding: 0
 
+
+.module h2, .module caption, .inline-group h2
+  background-color: transparent
+
+
+//INLINE GROUPING ////////////////////////////////
+.inline-group
+  margin: 0px
+  border-top: 1px solid $gray-lighter
+  //background-color: $gray-lightest
+
+  >h2
+    margin-top: 20px
+    padding: 20px 30px
+    color: $form-input-color
+    font-weight: bold
+
+  .inline-related
+    margin: 30px
+    border: 1px solid $gray-lighter
+
+    &.ui-sortable-helper
+      background-color: $form-default-bg
+      transform: scale(0.5)
+
+    h3.ui-sortable-handle
+      padding: 20px 30px
+      border-top: 0
+      background: url(../img/drag-norepeat.png) 12px no-repeat!important
+      background-size: 8px 30px!important
+      cursor: move!important
+
+    &.tabular
+      margin: 0
+      border: 0px
+
+
+    fieldset
+      width: auto
+
+
+      thead th
+        background-color: transparent
+        border-top: 0px
+        color: $gray-light
+
+
+  .tabular tr.add-row
+    td
+      background-color: transparent
+      border-bottom: 0
+      padding-left: 0
+
+      a
+        margin-top: 10px
+
+  fieldset
+    h2
+      background-color: transparent
+      color: $font-color
+      margin-bottom: 10px
+      padding-left: 0
 
 
 body.dashboard
