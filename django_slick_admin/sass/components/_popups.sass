@@ -4,11 +4,14 @@ body.popup, body.slick-admin-cms.popup
   background-color: $popup-cms-bg
   #content
     margin-top: 0
-    padding: 0
 
     h1
-      padding: $form-outer-spacing/2 $form-outer-spacing
+      padding: $form-outer-spacing 0
 
+
+
+  #changelist #toolbar
+    border: 0
 
   #footer
     display: none
@@ -26,5 +29,13 @@ body.popup, body.slick-admin-cms.popup
       vertical-align: middle
 
 
-.cke_dialog_footer
-  background-color: red !important
+
+body.popup.change-form
+  #content
+    padding: 0
+
+    h1
+      padding: $form-outer-spacing/2 $form-outer-spacing
+
+  form
+    box-shadow: none
