@@ -10,7 +10,7 @@ form button, form input[type=password], form input[type=url], form input[type=nu
 
 label, .aligned label, input[type=text], input[type=password], input[type=email], input[type=url], input[type=number], textarea, select, .vTextField
   line-height: $form-default-height
-  border-radius: $form-select-border-radius
+  border-radius: $form-default-border-radius
   vertical-align: middle
 
 //errors
@@ -28,13 +28,22 @@ form select, #changelist .actions select, form #searchbar
   line-height: $btn-default-height
   height: auto!important
   min-width: 160px
-  padding: 0px 30px 0px 10px
   background: url(../img/icon_arrow_down.png) right center no-repeat $form-default-bg !important
   background-size: 25px!important
+  padding: 0px 40px 0px 10px !important
   border: 1px solid $form-select-border-color
-  border-radius: $form-select-border-radius
+  margin: 0 0 1rem
+  color: $form-input-color
   background-color: $form-default-bg !important
-  margin-left: 0
+  border-radius: $form-default-border-radius
+  background-position: right -1rem center
+  background-origin: content-box
+  background-repeat: no-repeat
+  padding-right: 1.5rem
+  -webkit-appearance: none
+  -moz-appearance: none
+  text-indent: 1px
+  text-overflow: ''
   vertical-align: middle !important
 
 //toolbar searchfield
@@ -43,6 +52,7 @@ form select, #changelist .actions select, form #searchbar
   height: auto!important
   padding: 0px 10px  !important
   background-image: none !important
+  border-radius: $form-default-border-radius
 
 
 //publication time & date
