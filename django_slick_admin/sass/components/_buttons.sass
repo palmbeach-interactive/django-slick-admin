@@ -135,3 +135,11 @@ body.login
   .submit-row
     input
       @extend .admin-action-button
+
+
+
+//filer
+.slick-admin
+  form .form-row .filer-dropzone .filerFile .related-lookup
+    @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
+    @include default-button()

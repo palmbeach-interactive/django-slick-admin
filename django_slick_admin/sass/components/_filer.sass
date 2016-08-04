@@ -1,5 +1,37 @@
 @charset "UTF-8"
 
+//FILER INLINE    ////////////////////////////////
+body.change-form
+  form .form-row .filer-dropzone
+    background-color: $white
+    border-radius: 0
+    padding: 10px
+    min-height: 140px !important
+
+    &.js-object-attached
+      min-height: 75px !important
+
+
+    img
+      border-radius: 0
+
+
+    .filerFile
+      top: 20px !important
+      left: 10px !important
+
+
+.ui-sortable-helper
+
+  @include shadow-box()
+  .field-image
+    padding-bottom: 20px !important
+
+
+
+
+
+
 body.filebrowser
   &.cms-admin-sideframe
     #container
