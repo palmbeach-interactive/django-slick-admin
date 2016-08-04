@@ -143,3 +143,10 @@ body.login
   form .form-row .filer-dropzone .filerFile .related-lookup
     @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
     @include default-button()
+
+  form .form-row .filer-dropzone .filerFile .filerClearer
+    @include button-variant($btn-default-color, $btn-default-bgcolor, $btn-default-border, true)
+    @include default-button()
+    border: 1px solid $btn-default-bgcolor !important
+    background-color: transparent !important
+    padding: 8px 0 !important
