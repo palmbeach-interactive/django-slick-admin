@@ -59,6 +59,15 @@
         
         (function ($) {
 
+            // hack
+            var body_container = $('body.change-list.filebrowser');
+            if(slick_admin_mode == 'cms'){
+                body_container.addClass('slick-admin slick-admin-cms')
+            } else {
+                body_container.addClass('slick-admin')
+            }
+
+
             $('input').each(function () {
                 $(this).on('focus', function () {
                     $(this).parent('.css').addClass('active');
