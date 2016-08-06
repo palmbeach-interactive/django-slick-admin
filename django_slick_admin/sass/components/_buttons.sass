@@ -150,3 +150,16 @@ body.login
     border: 1px solid $btn-default-bgcolor !important
     background-color: transparent !important
     padding: 8px 0 !important
+
+
+
+.delete-confirmation form .cancel-link
+  @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
+  @include default-button()
+  text-transform: uppercase !important
+  //line-height: 40px !important
+
+.delete-confirmation form input[type="submit"]
+  @include button-variant($btn-danger-color, $btn-danger-bgcolor, $btn-danger-border, true)
+  @include default-button()
+  text-transform: uppercase !important
