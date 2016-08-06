@@ -30,56 +30,58 @@ body.change-form
 
 
 //Basic Styles
-body.slick-admin
-  &.filebrowser
-    .navigator-table .column-name a
-      color: $filer-action-color
+body.filebrowser
 
-    .filer-dropdown-container .filer-dropdown-menu>li>a, .filer-dropdown-container+.filer-dropdown-menu>li>a
-      color: $filer-action-color
+  .navigator-table .column-name a
+    color: $filer-action-color
 
-    .navigator-breadcrumbs-folder-name-inner
-      line-height: 42px
+  .filer-dropdown-container .filer-dropdown-menu>li>a, .filer-dropdown-container+.filer-dropdown-menu>li>a
+    color: $filer-action-color
 
-    .navigator-breadcrumbs-name-dropdown-wrapper .filer-dropdown-menu
-      padding-left: 0
+  .navigator-breadcrumbs-folder-name-inner
+    line-height: 42px
 
-      &:hover:before
-        background-color: $filer-action-color
+  .navigator-breadcrumbs-name-dropdown-wrapper .filer-dropdown-menu
+    padding-left: 0
 
-      li a
-        text-align: center
-
-        &:hover
-          background-color: $filer-action-color !important
-          border-radius: $filer-border-radius
-
-    .navigator-breadcrumbs-name-dropdown-wrapper .filer-dropdown-menu
-      right: -75px
-
-    .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown
-      left: -20px !important
-
-    .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown:hover:before
+    &:hover:before
       background-color: $filer-action-color
-      border-radius: $filer-border-radius
 
-    .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown>li>a:hover
-      background-color: $filer-action-color !important
-      border-radius: $filer-border-radius
+    li a
+      text-align: center
 
-    .filer-dropdown-menu, .filer-dropdown-menu li, .filer-dropdown-menu li a
-      border-radius: $filer-border-radius !important
+      &:hover
+        background-color: $filer-action-color !important
+        border-radius: $filer-border-radius
 
-    .js-filer-dropzone-folder:hover img,
-    .filer-dropdown-container a:hover img,
-    .js-filer-dropzone-base.navigator-table tr:hover img
-      opacity: 0.7
+  .navigator-breadcrumbs-name-dropdown-wrapper .filer-dropdown-menu
+    right: -75px
+
+  .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown
+    left: -20px !important
+
+  .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown:hover:before
+    background-color: $filer-action-color
+    border-radius: $filer-border-radius
+
+  .filer-navigator-breadcrumbs-dropdown-container .navigator-breadcrumbs-dropdown>li>a:hover
+    background-color: $filer-action-color !important
+    border-radius: $filer-border-radius
+
+  .filer-dropdown-menu, .filer-dropdown-menu li, .filer-dropdown-menu li a
+    border-radius: $filer-border-radius !important
+
+  .js-filer-dropzone-folder:hover img,
+  .filer-dropdown-container a:hover img,
+  .js-filer-dropzone-base.navigator-table tr:hover img
+    opacity: 0.7
 
 
   .navigator-table .column-action .action-button span
     font-size: $icon-size
 
+//icons
+.filebrowser, .js-filer-dropzone
   .fa
     font-family: 'Material Icons'
     font-size: $icon-size
@@ -98,7 +100,7 @@ body.slick-admin
     &.fa-caret-down:before
       content: 'arrow_drop_down'
       font-size: $icon-size+4
-    &.fa-file-image-o:before
+    &.fa-file-image-o:before, &.fa-picture-o:before
       content: "insert_photo"
     &.fa-file:before
       content: "insert_drive_file"
@@ -114,6 +116,14 @@ body.slick-admin
       content: "menu"
     &.fa-user:before
       content: "person_pin"
+    &.fa-arrow-down:before
+      content: "arrow_downward"
+
+
+form .form-row .filer-dropzone .icon
+  vertical-align: bottom
+
+
 
 body.filebrowser
   &.cms-admin-sideframe
