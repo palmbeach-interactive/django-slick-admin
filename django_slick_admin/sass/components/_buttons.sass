@@ -83,14 +83,13 @@ body
 
 //general action button
 #changelist .actions .button
-  @extend .light-button
-  &:hover
-    color: $btn-action-color !important
-    background-color: $btn-action-bgcolor !important
+  @extend .default-button
+  margin-left: 10px !important
 
 //toolbar search button
 #toolbar input[type=submit], .change-list #changelist-search input[type=submit]
   @extend .admin-action-button
+
 
 //delete buttons
 .submit-row a.deletelink
