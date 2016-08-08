@@ -19,18 +19,20 @@ body
       padding: 30px 0
 
     #content-main
+      @include shadow-box()
       float: none
       width: 100%
+      background-color: $form-bg
 
       .row1
-        background-color: $white
+        background-color: $form-bg
       .row2
-        background-color: $white
+        background-color: $form-bg
 
 
 body.slick-admin-cms
   #content
-    margin-top: $toolbar-height
+    //margin-top: $toolbar-height
 
 ul.messagelist li
   padding: 15px $page-outer-spacing

@@ -22,6 +22,8 @@
 .light-button
   @include button-variant($btn-light-color, $btn-light-bgcolor, $btn-light-border, true)
   @include default-button()
+  &:hover
+    background-color: darken($btn-light-bgcolor, 12%) !important
 
 .danger-button
   @include button-variant($btn-danger-color, $btn-danger-bgcolor, $btn-danger-border, true)
@@ -44,8 +46,9 @@ a:link, a:visited
   &:hover
     color: $link-default-hover-color
 
+//filter color, hover
 #changelist-filter a:focus, #changelist-filter a:hover, #changelist-filter li.selected a:focus, #changelist-filter li.selected a:hover
-  color: $link-highlight-color
+  color: $color-secondary
 
 a.active.selector-chooseall:focus, a.active.selector-clearall:focus, a.active.selector-chooseall:hover, a.active.selector-clearall:hover
   color: $link-highlight-color
