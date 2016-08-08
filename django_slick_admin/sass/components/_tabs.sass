@@ -62,3 +62,32 @@ body
         font-size: 14px
         position: relative
         left: 7.5px
+
+
+
+//cms language tabs
+body
+  #page_form_lang_tabs
+    border-bottom: $lang-bar-border-height solid $lang-bar-border-color
+    background-color: $form-default-bg
+    padding: 0 20px
+
+    input
+      font-size: 14px !important
+      margin: 10px !important
+      padding: 0px 20px !important
+      border-radius: $btn-border-radius-base !important
+      line-height: $btn-default-height !important
+      border: 1px solid $lang-bar-default-border-color !important
+      color: $lang-bar-default-color !important
+      background-color: transparent !important
+
+      &:hover
+        background-color: $lang-bar-current-bgcolor !important
+        border-color: transparent !important
+        color: white !important
+
+      &.selected
+        background-color: $lang-bar-current-bgcolor !important
+        border-color: transparent !important
+        color: white !important
