@@ -5,32 +5,60 @@
 body
   .hvad-language-tabs, .nani-language-tabs
     border-bottom: $lang-bar-border-height solid $lang-bar-border-color
+    background-color: $form-default-bg
+    padding: 0 20px
     span
       border: 0
-      background-color: $lang-bar-empty-bgcolor
-      margin-bottom: 1px
-      a
-        color: $lang-bar-empty-color
+      margin: 10px
+      padding: 0px 20px
+      border-radius: $btn-border-radius-base
+      line-height: $btn-default-height
+      border: 1px solid $lang-bar-default-border-color
 
+      a
+        color: $lang-bar-default-color
+
+      &:hover
+        background-color: $lang-bar-current-bgcolor !important
+        border-color: transparent !important
+        a
+          color: $lang-bar-current-color !important
 
       &.current
-        border-bottom: 0
+        border-color: transparent
         background-color: $lang-bar-current-bgcolor
         color: $lang-bar-current-color
         font-weight: 400
 
+
       &.available
-        border-bottom: 0
+        border: 1px solid $lang-bar-available-border-color
         background-color: $lang-bar-available-bgcolor
         a
           color: $lang-bar-available-color
           font-weight: 400
-          &.deletelink
-            color: $btn-danger-bgcolor
-            &:hover
-              color: darken($btn-danger-bgcolor, 15%)
+
+      &.empty
+        opacity: 1
+
     a.deletelink
       bottom: 0
-      color: $btn-danger-bgcolor
+      font-size: 14px
+      background-color: white
+      border-radius: 14px
+      padding: 0
+      margin: 0
+      overflow: hidden
+      padding: 0 2px
+
       &:hover
-        color: darken($btn-danger-bgcolor, 15%)
+        background-color: $btn-danger-bgcolor
+
+        &:before
+          color: white
+
+      &:before
+        color: $btn-danger-bgcolor
+        font-size: 14px
+        position: relative
+        left: 7.5px
