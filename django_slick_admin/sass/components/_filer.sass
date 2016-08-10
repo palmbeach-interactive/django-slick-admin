@@ -9,7 +9,7 @@ body.change-form
     min-height: 140px !important
 
     &.js-object-attached
-      min-height: 75px !important
+      min-height: 85px !important
 
 
     img
@@ -118,10 +118,26 @@ body.filebrowser
       content: "person_pin"
     &.fa-arrow-down:before
       content: "arrow_downward"
+    &.fa-cloud-upload:before
+      content: "cloud_upload"
+      font-size: 24px
+      color: $color-secondary
 
 
 form .form-row .filer-dropzone .icon
   vertical-align: bottom
+
+body
+  form .form-row .filer-dropzone .filerFile img
+    padding: 5px !important
+    width: 46px
+    height: 46px
+
+  form .form-row .filer-dropzone .filerFile span.description_text
+    line-height: 46px
+    vertical-align: middle
+    margin-top: 0
+
 
 
 
