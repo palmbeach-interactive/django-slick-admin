@@ -5,6 +5,9 @@ form .aligned input + p.help, form .aligned textarea + p.help, form .aligned sel
   margin-left: 200px
 
 
+form .wide p.help
+  padding-left: 50px
+
 form button, form input[type=password], form input[type=url], form input[type=number], form input[type=text], form input[type=email], form select, form textarea
   appearance: none
 
@@ -234,3 +237,17 @@ form fieldset
         color: $font-color
         background-color: $white
         border-radius: 0
+
+
+
+//DATETIME WIDGET ////////////////////////////////
+.form-row.field-publish_time
+  .datetime
+    vertical-align: middle
+    line-height: 40px
+    input
+      margin: 0
+
+    .datetimeshortcuts
+      a
+        margin-left: 10px
