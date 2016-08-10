@@ -131,6 +131,13 @@ body.dashboard
   a.changelink
     @extend .dashboard-button
 
+  .deletelink
+    @extend .dashboard-button
+    color: $gray-light !important
+    cursor: not-allowed
+    &:before
+      color: $color-danger
+    //background-color: $gray-lightest !important
 
 //login
 body.login
