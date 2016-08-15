@@ -35,7 +35,7 @@ label, .aligned label, input[type=text], input[type=password], input[type=email]
 form select, #changelist .actions select, form #searchbar
   font-size: $font-size-small
   line-height: $btn-default-height
-  height: auto!important
+  height: $form-default-height !important
   min-width: 160px
   background: url(../img/icon_arrow_down.png) right center no-repeat $form-default-bg !important
   background-size: 25px!important
@@ -58,7 +58,7 @@ form select, #changelist .actions select, form #searchbar
 //toolbar searchfield
 #changelist #toolbar form #searchbar
   line-height: $btn-default-height
-  height: auto!important
+  //height: auto!important
   padding: 0px 10px  !important
   background-image: none !important
   border-radius: $form-default-border-radius
@@ -137,7 +137,7 @@ form
     height: $form-default-height
 
   .wide label, label, .aligned label, input[type=text], input[type=password], input[type=email], input[type=url], input[type=number], textarea, select, .vTextField
-    min-width: 200px
+    //min-width: 200px
 
 //COLLAPSABLE FIELDSETS //////////////////////////////////////
 form fieldset
@@ -260,3 +260,9 @@ form fieldset
     .datetimeshortcuts
       a
         margin-left: 10px
+
+
+
+//IE STYLES
+select::-ms-expand
+  display: none
