@@ -207,45 +207,46 @@ form fieldset
 
 
 //SELECTOR WIDGET ////////////////////////////////
-.related-widget-wrapper
+body
+  .related-widget-wrapper
+    float: inherit !important
+    .selector
 
-  .selector
-
-    select
-      margin: 0
-      padding: 0
-      background: none !important
-      background-color: $selector-bg !important
-      border-radius: 0
-
-      option
-        padding: 5px 8px
-        border-bottom: 1px solid $selector-item-border
-
-    .selector-filter
-      padding: 8px
-      > p, input
-        border: 0
-
-      input
-        width: 310px
-        padding: 0 10px
-        margin-bottom: 0 !important
-
-    .selector-available select
-      height: $selector-height !important
-
-    .selector-chosen select
-      height: $selector-height + $selector-filter-height !important
-      option
-        color: $selector-chosen-color
-        text-transform: uppercase
-
-    .selector-available, .selector-chosen
-      h2
-        color: $font-color
-        background-color: $white
+      select
+        margin: 0
+        padding: 0
+        background: none !important
+        background-color: $selector-bg !important
         border-radius: 0
+
+        option
+          padding: 5px 8px
+          border-bottom: 1px solid $selector-item-border
+
+      .selector-filter
+        padding: 8px
+        > p, input
+          border: 0
+
+        input
+          width: 310px
+          padding: 0 10px
+          margin-bottom: 0 !important
+
+      .selector-available select
+        height: $selector-height !important
+
+      .selector-chosen select
+        height: $selector-height + $selector-filter-height !important
+        option
+          color: $selector-chosen-color
+          text-transform: uppercase
+
+      .selector-available, .selector-chosen
+        h2
+          color: $font-color
+          background-color: $white
+          border-radius: 0
 
 
 
