@@ -7,7 +7,10 @@ var $ = require('gulp-load-plugins')();
 var prefix = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
-
+var cssCodepoints = require('css-codepoints');
+var fs = require('fs');
+var vfs = require('vinyl-fs');
+var converter = require('sass-convert');
 
 var PROJECT_ROOT = __dirname;
 
@@ -32,6 +35,30 @@ var AUTOPREFIXER_BROWSERS = [
   'android >= 4.4'
 ];
 
+//only needed to genereate font mappings for md-icons (currently manually)
+/*
+var cssCodepoints = require('css-codepoints');
+var codepoints = JSON.parse(fs.readFileSync('./codepoints.json'));
+
+var css = cssCodepoints({
+    fontFamily: 'MaterialIcons-Regular',
+    prefix: '',
+
+    formats: {
+        'woff2': '../fonts/MaterialIcons-Regular.woff2',
+        'woff': '../fonts/MaterialIcons-Regular.woff',
+        'truetype': '../fonts/MaterialIcons-Regular.ttf',
+        'svg': '../fonts/MaterialIcons-Regular.svg',
+        'embedded-opentype': '../fonts/MaterialIcons-Regular.eot'
+    },
+
+    icons: codepoints.icons
+});
+*/
+
+
+
+
 gulp.task('proxy', ['styles'], function () {
 
     browserSync.init({
@@ -53,6 +80,8 @@ gulp.task('proxy', ['styles'], function () {
 
     gulp.watch(PROJECT_PATH.sass + '/**/*.sass', ['styles']);
 });
+
+
 
 gulp.task('styles', function () {
     return gulp.src(PROJECT_SASS_SRC)
