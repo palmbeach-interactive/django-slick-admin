@@ -37,18 +37,18 @@ body.admin-tools-dahsboard
       min-width: 100px
       display: block
       text-align: center
-      border: 1px solid red
       border-radius: 6px
     ul
       display: none
       position: absolute
       top: auto
-      right: 25px
+      right: $page-outer-spacing
+      margin: 8px
       margin-top: -1px
       li
-        padding: 5px
-        border: 1px solid red
-        background-color: $dashboard-inner-bg
+        padding: 5px 0 5px 5px
+        background-color: transparent //$dashboard-inner-bg
+        border-color: transparent
         a
           display: block
     &:hover ul
@@ -145,7 +145,7 @@ body.admin-tools-dahsboard
         vertical-align: top
         padding: 5px 8px
         border-bottom: 1px solid $dashboard-border-color
-        line-height: $btn-default-height + 8px
+        line-height: $btn-default-height + 16px
         vertical-align: middle
         background-color: transparent
 
@@ -283,41 +283,7 @@ body.admin-tools-dahsboard
     .postit
       display: none
 
-  //RECENT ACTIVITIES
-  .dashboard-module.recent-actions
-    .dashboard-module-content
-      ul li
-        height: $dashboard-date-bullet-size
-        border-bottom: 1px solid $white
-        padding: 15px
-        display: -ms-flexbox
-        display: -webkit-flex
-        display: flex
-        -ms-flex-align: center
-        -webkit-align-items: center
-        -webkit-box-align: center
-        align-items: center
-        border-bottom: 1px solid $dashboard-border-color
 
-        a, span
-          margin-left: 20px
-          vertical-align: middle
-          line-height: $dashboard-date-bullet-size
-          //display: block
-
-        div.object-name
-          color: $gray-light
-          margin-left: 20px
-
-        .date-bullet
-          border-radius: 50%
-          width: $dashboard-date-bullet-size
-          height: $dashboard-date-bullet-size
-          line-height: $dashboard-date-bullet-size
-          background-color: $dashboard-date-bullet-bg
-          color: $dashboard-date-bullet-color
-          text-align: center
-          float: left
 
 
   .md-icon

@@ -11,6 +11,7 @@ $color-success: #75cb8f !default
 $color-danger: #f55060 !default
 $color-warning: #fcc100 !default
 $color-window: #fcfcfc !default
+$color-mark: #dfd !default
 
 // #COLORS gray
 $gray:            lighten($black, 40%) !default
@@ -46,8 +47,8 @@ $icon-spacing: 7px !default
 $icon-size: 18px !default
 
 //CHANGE-LIST STYLES ////////////////////////////////
-$changelist-hover-color: lighten($color-secondary, 20)
-$changelist-selected-color: lighten($color-secondary, 10)
+$changelist-hover-color: lighten($color-mark, 2)
+$changelist-selected-color: darken($color-mark, 2)
 
 //FORM DEFAULTS ////////////////////////////////////
 $form-default-bg: $white
@@ -63,7 +64,7 @@ $form-focus-color: $gray-darkest
 //DASHBOARD ////////////////////////////////////
 $dashboard-inner-bg: $white
 $dashboard-border-color: $gray-lightest
-$dashboard-hover-bg: lighten(yellow, 40)
+$dashboard-hover-bg: $changelist-hover-color
 $dashboard-link-color: $color-primary
 $dashboard-quicklinks-bg: $white
 $dashboard-postit-bg: $color-secondary
@@ -71,7 +72,7 @@ $dashboard-postit-color: $white
 $dashboard-date-bullet-bg: $color-primary
 $dashboard-date-bullet-color: $white
 $dashboard-date-bullet-size: 64px
-$dashboard-placeholder-border: $color-secondary
+$dashboard-placeholder-border: $color-danger
 $dashboard-placeholder-bg: rgba($white, 0.5)
 $dashboard-panel-heading-color: $font-color
 $dashboard-module-heading-color: $color-secondary
@@ -117,6 +118,10 @@ $btn-dashboard-border: $gray-lightest
 $btn-dashboard-action-color: $color-secondary
 $btn-dashboard-action-bgcolor: $white
 $btn-dashboard-action-border: $gray-lightest
+
+$btn-dashboard-module-action-color: $gray-darkest
+$btn-dashboard-module-action-bgcolor: $changelist-hover-color
+$btn-dashboard-module-action-border: transparent
 
 
 //FILTER PANEL
@@ -195,6 +200,12 @@ $selector-chosen-color: $color-primary
 
 //POPUP CMS ////////////////////////////////
 $popup-cms-bg: $white
+
+
+//ERROR NOTE / LOGIN////////////////////////////////
+$errornote-color: $white
+$errornote-bg: $color-danger
+$errornote-border: 0px solid transparent
 
 
 //FOOTER ////////////////////////////////

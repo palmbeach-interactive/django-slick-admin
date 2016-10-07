@@ -1,15 +1,3 @@
-//button defintions
-@mixin default-button()
-  height: $btn-default-height !important
-  line-height: $btn-default-height !important
-  border: $btn-border-size !important
-  padding-top: 0 !important
-  padding-bottom: 0 !important
-  box-shadow: none !important
-  display: inline-block
-  vertical-align: middle
-
-
 .admin-action-button
   @include button-variant($btn-action-color, $btn-action-bgcolor, $btn-action-border, true)
   @include default-button()
@@ -30,15 +18,6 @@
   @include default-button()
   text-transform: uppercase !important
 
-.dashboard-button
-  @include button-variant($btn-dashboard-color, $btn-dashboard-bgcolor, $btn-dashboard-border, true)
-  @include default-button()
-  border: 1px solid $btn-dashboard-border !important
-
-.dashboard-action-button
-  @include button-variant($btn-dashboard-action-color, $btn-dashboard-action-bgcolor, $btn-dashboard-action-border, true)
-  @include default-button()
-  border: 1px solid $btn-dashboard-border !important
 
 //generic links
 a:link, a:visited
@@ -111,7 +90,6 @@ body
 
 //dashboard
 body.dashboard
-  #content #content-main
   .module
     a.addlink
       @extend .dashboard-action-button
@@ -122,22 +100,6 @@ body.dashboard
     .quiet, a.quiet:link, a.quiet:visited
       margin-left: $icon-size
 
-
-//admintools dashboard
-.dashboard-module
-  a.addlink
-    @extend .dashboard-action-button
-
-  a.changelink
-    @extend .dashboard-button
-
-  .deletelink
-    @extend .dashboard-button
-    color: $gray-light !important
-    cursor: not-allowed
-    &:before
-      color: $color-danger
-    //background-color: $gray-lightest !important
 
 //login
 body.login
