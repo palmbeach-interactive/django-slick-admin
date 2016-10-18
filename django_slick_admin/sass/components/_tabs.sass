@@ -3,7 +3,7 @@
 
 
 body
-  .hvad-language-tabs, .nani-language-tabs
+  .hvad-language-tabs, .nani-language-tabs, .parler-language-tabs
     border-bottom: $lang-bar-border-height solid $lang-bar-border-color
     background-color: $form-default-bg
     padding: 0 20px
@@ -91,3 +91,12 @@ body
         background-color: $lang-bar-current-bgcolor !important
         border-color: transparent !important
         color: white !important
+
+  //parler
+  .parler-language-tabs span.available, .parler-language-tabs span.current, .parler-language-tabs span.empty
+    border-radius: $btn-border-radius-base
+
+
+  .lang-code.active
+    background-color: $color-secondary
+
