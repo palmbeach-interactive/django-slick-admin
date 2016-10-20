@@ -177,16 +177,19 @@ form fieldset
       text-transform: uppercase
 
       a.collapse-toggle, a.collapse-toggle:focus
-        background-color: $collapse-hilight-color
-        color: $form-default-bg
+        background-color: $collapse-toggle-bg
+        color: $collapse-toggle-color
         border-radius: $btn-border-radius-base
+        border: 1px solid $collapse-border-color
         margin: 0 -5px
         padding: 0 4px
         text-decoration: none
-        text-transform: capitalize
+        position: absolute
+        margin-top: -1px
 
         &:hover
-          background-color: lighten($collapse-hilight-color, 3)
+          background-color: $collapse-hilight-color
+          color: $collapse-toggle-hover-color
 
     > h2
       padding-left: 0 !important
