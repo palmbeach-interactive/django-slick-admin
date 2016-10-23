@@ -35,6 +35,21 @@
     </li>
 </ul>
 
+{% block language_chooser %}
+<!-- TODO: just dummy structure - needs to be adjusted and styled in css -->
+<div id="language-chooser" style="display: inline;">
+    <div class="language-chooser-inner" style="display: inline; line-height: 48px; padding-left: 24px;">
+        <span>{% trans 'Backend Sprache' %}:</span>
+        {% for lang in LANGUAGES %}
+        <a href="/{{ lang.0 }}{{ request.get_full_path|slice:'3:' }}" class="{% ifequal lang.0 request.LANGUAGE_CODE %} active{% endifequal %}">
+            {% ifequal lang.0 request.LANGUAGE_CODE %}<strong>{{ lang.1 }}</strong>{% else %}{{ lang.1 }}{% endifequal %}
+        </a>
+        {% if not forloop.last %}|{% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
 <div id="header-btn">
     <a href="/" class="icon-arrow-right btn js-header-link">
         {% trans 'Open' %} {{ request.site.name|default:_('my site') }}
