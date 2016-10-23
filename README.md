@@ -58,7 +58,7 @@ Same behaviour applies for the *admin-tools Dashboard*. Automatically set to `Tr
     
 Stylesheet locations:
 
-    SLICK_ADMIN_CSS = <path>     # default: STATIC_URL + 'django_slick_admin/css/admin.css'
+    SLICK_ADMIN_CSS = <path>     # default: STATIC_URL + 'django_slick_admin/css/django-slick-admin.css'
     
     SLICK_ADMIN_CMS_CSS = <path> # default: STATIC_URL + 'django_slick_admin/css/cms-styles.css'
 
