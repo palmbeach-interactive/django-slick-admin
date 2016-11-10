@@ -146,3 +146,25 @@ body.login
 
   &.cms-btn-active
     opacity: 0.7
+
+
+
+.backend-language-chooser-button
+  @include button-variant($btn-admin-language-chooser-color, $btn-admin-language-chooser-bgcolor, $btn-admin-language-chooser-border, true)
+  @include default-button()
+  border: 1px solid $btn-admin-language-chooser-border !important
+  padding: 1px 6px !important
+  line-height: 20px !important
+  height: 20px !important
+
+  &.active
+    border: 1px solid $btn-admin-language-chooser-active-border !important
+    color: $btn-admin-language-chooser-active-color !important
+    background-color: $btn-admin-language-chooser-active-bgcolor !important
+
+
+//admin_language_chooser
+#header
+  #language-chooser
+    a.button
+      @extend .backend-language-chooser-button
