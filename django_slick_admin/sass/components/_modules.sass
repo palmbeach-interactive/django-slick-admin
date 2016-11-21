@@ -99,3 +99,32 @@ body.dashboard
       vertical-align: middle
       a
         font-weight: 100
+
+
+
+
+//CALENDARBOX MODULE ////////////////////////////////
+.module.calendarbox
+  border-radius: 0 
+  .calendar
+    caption,h2
+      background-color: $calendarbox-caption-bg
+      color: $calendarbox-caption-color
+
+    td.selected a
+      background-color: $calendarbox-selected-bg
+
+    td a:focus, .timelist a:focus, td a:hover, .timelist a:hover
+      background-color: lighten($calendarbox-selected-bg,5)
+
+
+//CLOCKBOX MODULE ////////////////////////////////
+.module.clockbox
+  border-radius: 0
+  h2
+    background-color: $calendarbox-caption-bg
+    color: $calendarbox-caption-color
+
+  ul li
+    a:hover, a:focus
+      background-color: lighten($calendarbox-selected-bg,5)
