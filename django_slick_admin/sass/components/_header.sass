@@ -1,6 +1,44 @@
 //##############################################################################
 // HEADER
+//##############################################################################
 
+
+body.slick-admin.login
+  #header
+    overflow: visible
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+
+
+  #container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: 100vh
+    width: 100vw
+    background-color: $login-background-color
+    background: $login-background-gradient
+    border: 0px
+    border-radius: 0px
+    margin: 0
+
+
+
+    #content
+      background-color: $login-window-background-color
+      max-height: 300px
+      max-width: 24em
+      box-shadow: $element-default-shadow
+
+    #footer.footer
+      clear: none
+      padding: 20px
+
+      .content
+        color: $login-footer-color
 
 
 body.slick-admin
@@ -43,7 +81,6 @@ body.slick-admin
     a
       margin-left: 5px
       margin-right: 5px
-
 
 
 body.slick-admin-cms
