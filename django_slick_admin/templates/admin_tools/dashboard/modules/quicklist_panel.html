@@ -1,0 +1,45 @@
+{% load i18n %}
+{% if not module.is_empty %}
+    <div id="module_{{ module.id }}" class="{{ module.render_css_classes }}">
+        {% if module.show_title and module.title %}
+            <h2>{% if module.title_url %}<a href="{{ module.title_url }}">{{ module.title|capfirst }}</a>{% else %}
+                {{ module.title|capfirst }}{% endif %}</h2>{% endif %}
+        <div class="dashboard-module-content">
+            {% spaceless %}
+
+                <div class="postit">
+                    <h2>{% trans "Welcome" %}, {% firstof user.get_short_name user.get_username %}</h2>
+                    {% if module.pre_content %}
+                        {{ module.pre_content }}
+                    {% endif %}
+                </div>
+
+                <ul class="{{ module.layout }}">
+                    {% spaceless %}
+                        {% for child in module.children %}
+                            <li class="{% cycle 'odd' 'even' %}">
+
+                                {% if not child.disabled %}
+                                    <a{{ child.attrs|safe }}>
+                                        <i class="md-icon {{ child.css_classes }}"></i>
+                                        <span>{{ child.title|capfirst }}</span>
+                                    </a>
+                                {% else %}
+                                    <!-- TODO: style in appropriate place... -->
+                                    <a class="disabled" style="-webkit-filter: grayscale(100%); opacity: 0.7; cursor: not-allowed;">
+                                        <i class="md-icon {{ child.css_classes }}"></i>
+                                        <span>{{ child.title|capfirst }}</span>
+                                    </a>
+                                {% endif %}
+
+                            </li>
+                        {% endfor %}
+                    {% endspaceless %}
+                </ul>
+                {% if module.post_content %}
+                    <p>{{ module.post_content }}</p>
+                {% endif %}
+            {% endspaceless %}
+        </div>
+    </div>
+{% endif %}

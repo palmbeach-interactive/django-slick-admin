@@ -15,14 +15,15 @@ var converter = require('sass-convert');
 var PROJECT_ROOT = __dirname;
 
 var PROJECT_PATH = {
-    'sass': PROJECT_ROOT + '/django_slick_admin/sass',
+    //'sass': PROJECT_ROOT + '/django_slick_admin/sass',
+    'sass': PROJECT_ROOT + '/node_modules/django-slick-admin-styles/sass',
     'css': PROJECT_ROOT + '/django_slick_admin/static/django_slick_admin/css'
 };
 
 var PROJECT_SASS_SRC = [
     PROJECT_PATH.sass + '/django-slick-admin.sass',
     PROJECT_PATH.sass + '/cms-styles.sass'
-]
+];
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -57,8 +58,6 @@ var css = cssCodepoints({
 */
 
 
-
-
 gulp.task('proxy', ['styles'], function () {
 
     browserSync.init({
@@ -81,8 +80,6 @@ gulp.task('proxy', ['styles'], function () {
     gulp.watch(PROJECT_PATH.sass + '/**/*.sass', ['styles']);
 });
 
-
-
 gulp.task('styles', function () {
     return gulp.src(PROJECT_SASS_SRC)
         .pipe($.sourcemaps.init())
@@ -99,7 +96,7 @@ gulp.task('styles', function () {
 gulp.task('dist', function () {
     return gulp.src(PROJECT_SASS_SRC)
         .pipe($.sass({
-            outputStyle: 'compact',
+            outputStyle: 'compressed',
             sourceComments: false,
             precision: 10
         }))

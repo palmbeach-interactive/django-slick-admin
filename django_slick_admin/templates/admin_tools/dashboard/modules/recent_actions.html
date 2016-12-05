@@ -1,0 +1,40 @@
+{% load i18n %}
+{% if not module.is_empty %}
+    <div id="module_{{ module.id }}" class="recent-actions {{ module.render_css_classes }}">
+        {% if module.show_title and module.title %}
+            <h2>{% if module.title_url %}<a href="{{ module.title_url }}">{{ module.title|capfirst }}</a>{% else %}
+                {{ module.title|capfirst }}{% endif %}</h2>{% endif %}
+        <div class="dashboard-module-content">
+            {% spaceless %}
+
+                <ul>
+                    {% spaceless %}
+                        {% for child in module.children %}
+                            <li class="{% cycle 'odd' 'even' %}">
+                                <div class="date-bullet">{{ child.action_time|date:"j M"}}</div>
+                                <div class="content">
+                                    {% comment %}<span class="float-right">{{ child.action_time|date }}</span>{% endcomment %}
+                                    {% if child.is_deletion %}
+                                        <span class="deletelink">{% if child.content_type %}{% filter capfirst %}
+                                            {{ child.content_type.name }}{% endfilter %}
+                                            &nbsp;{% endif %}{{ child.object_repr }}</span>
+                                    {% else %}
+                                        <a href="{{ child.get_admin_url }}"
+                                           class="{% if child.is_addition %} addlink{% endif %}{% if child.is_change %} changelink{% endif %}">
+                                            {% if child.content_type %}{% filter capfirst %}{{ child.content_type.name }}
+                                            {% endfilter %}&nbsp;{% endif %}</a>
+                                        <div class="object-name">{{ child.object_repr }}</div>
+
+                                    {% endif %}
+                                </div>
+                            </li>
+                        {% endfor %}
+                    {% endspaceless %}
+                </ul>
+                {% if module.post_content %}
+                    <p>{{ module.post_content }}</p>
+                {% endif %}
+            {% endspaceless %}
+        </div>
+    </div>
+{% endif %}

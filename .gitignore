@@ -8,3 +8,6 @@ bin/
 node_modules/*
 .idea/*
 .pypirc
+
+
+django_slick_admin/sass
