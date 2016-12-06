@@ -1,3 +1,10 @@
+//##############################################################################
+// Based on:
+// https://github.com/divio/djangocms-admin-style
+//
+//
+//#############################################################################
+
 (function () {
     // native javascript which opens menu on click
     function toggleClass(element, className) {
