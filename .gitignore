@@ -11,3 +11,5 @@ node_modules/*
 
 
 django_slick_admin/sass
+django-slick-admin-styles
+django_slick_admin

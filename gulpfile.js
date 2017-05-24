@@ -2,21 +2,25 @@
 
 var config = require('./gulp-settings.json');
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+//var gutil = require('gulp-util');
 var $ = require('gulp-load-plugins')();
-var prefix = require('gulp-autoprefixer');
+
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
-var cssCodepoints = require('css-codepoints');
+
 var fs = require('fs');
-var vfs = require('vinyl-fs');
-var converter = require('sass-convert');
+
+//only needed to genereate font mappings for md-icons (currently manually)
+//var prefix = require('gulp-autoprefixer');
+//var cssCodepoints = require('css-codepoints');
+//var vfs = require('vinyl-fs');
+//var converter = require('sass-convert');
 
 var PROJECT_ROOT = __dirname;
 
 var PROJECT_PATH = {
-    //'sass': PROJECT_ROOT + '/django_slick_admin/sass',
-    'sass': PROJECT_ROOT + '/node_modules/django-slick-admin-styles/sass',
+    'sass': PROJECT_ROOT + '/django-slick-admin-styles/sass',
+    //'sass': PROJECT_ROOT + '/node_modules/django-slick-admin-styles/sass',
     'css': PROJECT_ROOT + '/django_slick_admin/static/django_slick_admin/css'
 };
 
@@ -80,18 +84,20 @@ gulp.task('proxy', ['styles'], function () {
     gulp.watch(PROJECT_PATH.sass + '/**/*.sass', ['styles']);
 });
 
+
 gulp.task('styles', function () {
     return gulp.src(PROJECT_SASS_SRC)
         .pipe($.sourcemaps.init())
         .pipe($.sass({
             precision: 10
         }))
+        .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe($.sourcemaps.write())
         .pipe(gulp.dest(PROJECT_PATH.css))
-        .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe(browserSync.stream({match: '**/*.css'}))
-        .pipe($.size({title: 'styles'}));
+        .pipe($.size({title: 'stylesheet size:'}));
 });
+
 
 gulp.task('dist', function () {
     return gulp.src(PROJECT_SASS_SRC)
@@ -103,7 +109,7 @@ gulp.task('dist', function () {
         .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe($.stripCssComments({}))
         .pipe(gulp.dest(PROJECT_PATH.css))
-        .pipe($.size({title: 'styles'}));
+        .pipe($.size({title: 'stylesheet size:'}));
 });
 
 
