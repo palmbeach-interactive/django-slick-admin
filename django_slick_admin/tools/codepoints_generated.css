@@ -8,7 +8,7 @@
 }
 
 .\33 d_rotation::before {
-    content: "\0xe84d";
+    content: "\e84d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -18,7 +18,7 @@
     vertical-align: bottom;
 }
 .ac_unit::before {
-    content: "\0xeb3b";
+    content: "\eb3b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -28,7 +28,7 @@
     vertical-align: bottom;
 }
 .access_alarm::before {
-    content: "\0xe190";
+    content: "\e190";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -38,7 +38,7 @@
     vertical-align: bottom;
 }
 .access_alarms::before {
-    content: "\0xe191";
+    content: "\e191";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -48,7 +48,7 @@
     vertical-align: bottom;
 }
 .access_time::before {
-    content: "\0xe192";
+    content: "\e192";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -58,7 +58,7 @@
     vertical-align: bottom;
 }
 .accessibility::before {
-    content: "\0xe84e";
+    content: "\e84e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -68,7 +68,7 @@
     vertical-align: bottom;
 }
 .accessible::before {
-    content: "\0xe914";
+    content: "\e914";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -78,7 +78,7 @@
     vertical-align: bottom;
 }
 .account_balance::before {
-    content: "\0xe84f";
+    content: "\e84f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -88,7 +88,7 @@
     vertical-align: bottom;
 }
 .account_balance_wallet::before {
-    content: "\0xe850";
+    content: "\e850";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -98,7 +98,7 @@
     vertical-align: bottom;
 }
 .account_box::before {
-    content: "\0xe851";
+    content: "\e851";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -108,7 +108,7 @@
     vertical-align: bottom;
 }
 .account_circle::before {
-    content: "\0xe853";
+    content: "\e853";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -118,7 +118,7 @@
     vertical-align: bottom;
 }
 .adb::before {
-    content: "\0xe60e";
+    content: "\e60e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -128,7 +128,7 @@
     vertical-align: bottom;
 }
 .add::before {
-    content: "\0xe145";
+    content: "\e145";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -138,7 +138,7 @@
     vertical-align: bottom;
 }
 .add_a_photo::before {
-    content: "\0xe439";
+    content: "\e439";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -148,7 +148,7 @@
     vertical-align: bottom;
 }
 .add_alarm::before {
-    content: "\0xe193";
+    content: "\e193";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -158,7 +158,7 @@
     vertical-align: bottom;
 }
 .add_alert::before {
-    content: "\0xe003";
+    content: "\e003";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -168,7 +168,7 @@
     vertical-align: bottom;
 }
 .add_box::before {
-    content: "\0xe146";
+    content: "\e146";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -178,7 +178,7 @@
     vertical-align: bottom;
 }
 .add_circle::before {
-    content: "\0xe147";
+    content: "\e147";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -188,7 +188,7 @@
     vertical-align: bottom;
 }
 .add_circle_outline::before {
-    content: "\0xe148";
+    content: "\e148";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -198,7 +198,7 @@
     vertical-align: bottom;
 }
 .add_location::before {
-    content: "\0xe567";
+    content: "\e567";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -208,7 +208,7 @@
     vertical-align: bottom;
 }
 .add_shopping_cart::before {
-    content: "\0xe854";
+    content: "\e854";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -218,7 +218,7 @@
     vertical-align: bottom;
 }
 .add_to_photos::before {
-    content: "\0xe39d";
+    content: "\e39d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -228,7 +228,7 @@
     vertical-align: bottom;
 }
 .add_to_queue::before {
-    content: "\0xe05c";
+    content: "\e05c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -238,7 +238,7 @@
     vertical-align: bottom;
 }
 .adjust::before {
-    content: "\0xe39e";
+    content: "\e39e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -248,7 +248,7 @@
     vertical-align: bottom;
 }
 .airline_seat_flat::before {
-    content: "\0xe630";
+    content: "\e630";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -258,7 +258,7 @@
     vertical-align: bottom;
 }
 .airline_seat_flat_angled::before {
-    content: "\0xe631";
+    content: "\e631";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -268,7 +268,7 @@
     vertical-align: bottom;
 }
 .airline_seat_individual_suite::before {
-    content: "\0xe632";
+    content: "\e632";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -278,7 +278,7 @@
     vertical-align: bottom;
 }
 .airline_seat_legroom_extra::before {
-    content: "\0xe633";
+    content: "\e633";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -288,7 +288,7 @@
     vertical-align: bottom;
 }
 .airline_seat_legroom_normal::before {
-    content: "\0xe634";
+    content: "\e634";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -298,7 +298,7 @@
     vertical-align: bottom;
 }
 .airline_seat_legroom_reduced::before {
-    content: "\0xe635";
+    content: "\e635";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -308,7 +308,7 @@
     vertical-align: bottom;
 }
 .airline_seat_recline_extra::before {
-    content: "\0xe636";
+    content: "\e636";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -318,7 +318,7 @@
     vertical-align: bottom;
 }
 .airline_seat_recline_normal::before {
-    content: "\0xe637";
+    content: "\e637";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -328,7 +328,7 @@
     vertical-align: bottom;
 }
 .airplanemode_active::before {
-    content: "\0xe195";
+    content: "\e195";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -338,7 +338,7 @@
     vertical-align: bottom;
 }
 .airplanemode_inactive::before {
-    content: "\0xe194";
+    content: "\e194";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -348,7 +348,7 @@
     vertical-align: bottom;
 }
 .airplay::before {
-    content: "\0xe055";
+    content: "\e055";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -358,7 +358,7 @@
     vertical-align: bottom;
 }
 .airport_shuttle::before {
-    content: "\0xeb3c";
+    content: "\eb3c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -368,7 +368,7 @@
     vertical-align: bottom;
 }
 .alarm::before {
-    content: "\0xe855";
+    content: "\e855";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -378,7 +378,7 @@
     vertical-align: bottom;
 }
 .alarm_add::before {
-    content: "\0xe856";
+    content: "\e856";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -388,7 +388,7 @@
     vertical-align: bottom;
 }
 .alarm_off::before {
-    content: "\0xe857";
+    content: "\e857";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -398,7 +398,7 @@
     vertical-align: bottom;
 }
 .alarm_on::before {
-    content: "\0xe858";
+    content: "\e858";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -408,7 +408,7 @@
     vertical-align: bottom;
 }
 .album::before {
-    content: "\0xe019";
+    content: "\e019";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -418,7 +418,7 @@
     vertical-align: bottom;
 }
 .all_inclusive::before {
-    content: "\0xeb3d";
+    content: "\eb3d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -428,7 +428,7 @@
     vertical-align: bottom;
 }
 .all_out::before {
-    content: "\0xe90b";
+    content: "\e90b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -438,7 +438,7 @@
     vertical-align: bottom;
 }
 .android::before {
-    content: "\0xe859";
+    content: "\e859";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -448,7 +448,7 @@
     vertical-align: bottom;
 }
 .announcement::before {
-    content: "\0xe85a";
+    content: "\e85a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -458,7 +458,7 @@
     vertical-align: bottom;
 }
 .apps::before {
-    content: "\0xe5c3";
+    content: "\e5c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -468,7 +468,7 @@
     vertical-align: bottom;
 }
 .archive::before {
-    content: "\0xe149";
+    content: "\e149";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -478,7 +478,7 @@
     vertical-align: bottom;
 }
 .arrow_back::before {
-    content: "\0xe5c4";
+    content: "\e5c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -488,7 +488,7 @@
     vertical-align: bottom;
 }
 .arrow_downward::before {
-    content: "\0xe5db";
+    content: "\e5db";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -498,7 +498,7 @@
     vertical-align: bottom;
 }
 .arrow_drop_down::before {
-    content: "\0xe5c5";
+    content: "\e5c5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -508,7 +508,7 @@
     vertical-align: bottom;
 }
 .arrow_drop_down_circle::before {
-    content: "\0xe5c6";
+    content: "\e5c6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -518,7 +518,7 @@
     vertical-align: bottom;
 }
 .arrow_drop_up::before {
-    content: "\0xe5c7";
+    content: "\e5c7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -528,7 +528,7 @@
     vertical-align: bottom;
 }
 .arrow_forward::before {
-    content: "\0xe5c8";
+    content: "\e5c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -538,7 +538,7 @@
     vertical-align: bottom;
 }
 .arrow_upward::before {
-    content: "\0xe5d8";
+    content: "\e5d8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -548,7 +548,7 @@
     vertical-align: bottom;
 }
 .art_track::before {
-    content: "\0xe060";
+    content: "\e060";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -558,7 +558,7 @@
     vertical-align: bottom;
 }
 .aspect_ratio::before {
-    content: "\0xe85b";
+    content: "\e85b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -568,7 +568,7 @@
     vertical-align: bottom;
 }
 .assessment::before {
-    content: "\0xe85c";
+    content: "\e85c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -578,7 +578,7 @@
     vertical-align: bottom;
 }
 .assignment::before {
-    content: "\0xe85d";
+    content: "\e85d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -588,7 +588,7 @@
     vertical-align: bottom;
 }
 .assignment_ind::before {
-    content: "\0xe85e";
+    content: "\e85e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -598,7 +598,7 @@
     vertical-align: bottom;
 }
 .assignment_late::before {
-    content: "\0xe85f";
+    content: "\e85f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -608,7 +608,7 @@
     vertical-align: bottom;
 }
 .assignment_return::before {
-    content: "\0xe860";
+    content: "\e860";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -618,7 +618,7 @@
     vertical-align: bottom;
 }
 .assignment_returned::before {
-    content: "\0xe861";
+    content: "\e861";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -628,7 +628,7 @@
     vertical-align: bottom;
 }
 .assignment_turned_in::before {
-    content: "\0xe862";
+    content: "\e862";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -638,7 +638,7 @@
     vertical-align: bottom;
 }
 .assistant::before {
-    content: "\0xe39f";
+    content: "\e39f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -648,7 +648,7 @@
     vertical-align: bottom;
 }
 .assistant_photo::before {
-    content: "\0xe3a0";
+    content: "\e3a0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -658,7 +658,7 @@
     vertical-align: bottom;
 }
 .attach_file::before {
-    content: "\0xe226";
+    content: "\e226";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -668,7 +668,7 @@
     vertical-align: bottom;
 }
 .attach_money::before {
-    content: "\0xe227";
+    content: "\e227";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -678,7 +678,7 @@
     vertical-align: bottom;
 }
 .attachment::before {
-    content: "\0xe2bc";
+    content: "\e2bc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -688,7 +688,7 @@
     vertical-align: bottom;
 }
 .audiotrack::before {
-    content: "\0xe3a1";
+    content: "\e3a1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -698,7 +698,7 @@
     vertical-align: bottom;
 }
 .autorenew::before {
-    content: "\0xe863";
+    content: "\e863";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -708,7 +708,7 @@
     vertical-align: bottom;
 }
 .av_timer::before {
-    content: "\0xe01b";
+    content: "\e01b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -718,7 +718,7 @@
     vertical-align: bottom;
 }
 .backspace::before {
-    content: "\0xe14a";
+    content: "\e14a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -728,7 +728,7 @@
     vertical-align: bottom;
 }
 .backup::before {
-    content: "\0xe864";
+    content: "\e864";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -738,7 +738,7 @@
     vertical-align: bottom;
 }
 .battery_alert::before {
-    content: "\0xe19c";
+    content: "\e19c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -748,7 +748,7 @@
     vertical-align: bottom;
 }
 .battery_charging_full::before {
-    content: "\0xe1a3";
+    content: "\e1a3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -758,7 +758,7 @@
     vertical-align: bottom;
 }
 .battery_full::before {
-    content: "\0xe1a4";
+    content: "\e1a4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -768,7 +768,7 @@
     vertical-align: bottom;
 }
 .battery_std::before {
-    content: "\0xe1a5";
+    content: "\e1a5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -778,7 +778,7 @@
     vertical-align: bottom;
 }
 .battery_unknown::before {
-    content: "\0xe1a6";
+    content: "\e1a6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -788,7 +788,7 @@
     vertical-align: bottom;
 }
 .beach_access::before {
-    content: "\0xeb3e";
+    content: "\eb3e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -798,7 +798,7 @@
     vertical-align: bottom;
 }
 .beenhere::before {
-    content: "\0xe52d";
+    content: "\e52d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -808,7 +808,7 @@
     vertical-align: bottom;
 }
 .block::before {
-    content: "\0xe14b";
+    content: "\e14b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -818,7 +818,7 @@
     vertical-align: bottom;
 }
 .bluetooth::before {
-    content: "\0xe1a7";
+    content: "\e1a7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -828,7 +828,7 @@
     vertical-align: bottom;
 }
 .bluetooth_audio::before {
-    content: "\0xe60f";
+    content: "\e60f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -838,7 +838,7 @@
     vertical-align: bottom;
 }
 .bluetooth_connected::before {
-    content: "\0xe1a8";
+    content: "\e1a8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -848,7 +848,7 @@
     vertical-align: bottom;
 }
 .bluetooth_disabled::before {
-    content: "\0xe1a9";
+    content: "\e1a9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -858,7 +858,7 @@
     vertical-align: bottom;
 }
 .bluetooth_searching::before {
-    content: "\0xe1aa";
+    content: "\e1aa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -868,7 +868,7 @@
     vertical-align: bottom;
 }
 .blur_circular::before {
-    content: "\0xe3a2";
+    content: "\e3a2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -878,7 +878,7 @@
     vertical-align: bottom;
 }
 .blur_linear::before {
-    content: "\0xe3a3";
+    content: "\e3a3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -888,7 +888,7 @@
     vertical-align: bottom;
 }
 .blur_off::before {
-    content: "\0xe3a4";
+    content: "\e3a4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -898,7 +898,7 @@
     vertical-align: bottom;
 }
 .blur_on::before {
-    content: "\0xe3a5";
+    content: "\e3a5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -908,7 +908,7 @@
     vertical-align: bottom;
 }
 .book::before {
-    content: "\0xe865";
+    content: "\e865";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -918,7 +918,7 @@
     vertical-align: bottom;
 }
 .bookmark::before {
-    content: "\0xe866";
+    content: "\e866";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -928,7 +928,7 @@
     vertical-align: bottom;
 }
 .bookmark_border::before {
-    content: "\0xe867";
+    content: "\e867";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -938,7 +938,7 @@
     vertical-align: bottom;
 }
 .border_all::before {
-    content: "\0xe228";
+    content: "\e228";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -948,7 +948,7 @@
     vertical-align: bottom;
 }
 .border_bottom::before {
-    content: "\0xe229";
+    content: "\e229";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -958,7 +958,7 @@
     vertical-align: bottom;
 }
 .border_clear::before {
-    content: "\0xe22a";
+    content: "\e22a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -968,7 +968,7 @@
     vertical-align: bottom;
 }
 .border_color::before {
-    content: "\0xe22b";
+    content: "\e22b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -978,7 +978,7 @@
     vertical-align: bottom;
 }
 .border_horizontal::before {
-    content: "\0xe22c";
+    content: "\e22c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -988,7 +988,7 @@
     vertical-align: bottom;
 }
 .border_inner::before {
-    content: "\0xe22d";
+    content: "\e22d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -998,7 +998,7 @@
     vertical-align: bottom;
 }
 .border_left::before {
-    content: "\0xe22e";
+    content: "\e22e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1008,7 +1008,7 @@
     vertical-align: bottom;
 }
 .border_outer::before {
-    content: "\0xe22f";
+    content: "\e22f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1018,7 +1018,7 @@
     vertical-align: bottom;
 }
 .border_right::before {
-    content: "\0xe230";
+    content: "\e230";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1028,7 +1028,7 @@
     vertical-align: bottom;
 }
 .border_style::before {
-    content: "\0xe231";
+    content: "\e231";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1038,7 +1038,7 @@
     vertical-align: bottom;
 }
 .border_top::before {
-    content: "\0xe232";
+    content: "\e232";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1048,7 +1048,7 @@
     vertical-align: bottom;
 }
 .border_vertical::before {
-    content: "\0xe233";
+    content: "\e233";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1058,7 +1058,7 @@
     vertical-align: bottom;
 }
 .branding_watermark::before {
-    content: "\0xe06b";
+    content: "\e06b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1068,7 +1068,7 @@
     vertical-align: bottom;
 }
 .brightness_1::before {
-    content: "\0xe3a6";
+    content: "\e3a6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1078,7 +1078,7 @@
     vertical-align: bottom;
 }
 .brightness_2::before {
-    content: "\0xe3a7";
+    content: "\e3a7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1088,7 +1088,7 @@
     vertical-align: bottom;
 }
 .brightness_3::before {
-    content: "\0xe3a8";
+    content: "\e3a8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1098,7 +1098,7 @@
     vertical-align: bottom;
 }
 .brightness_4::before {
-    content: "\0xe3a9";
+    content: "\e3a9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1108,7 +1108,7 @@
     vertical-align: bottom;
 }
 .brightness_5::before {
-    content: "\0xe3aa";
+    content: "\e3aa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1118,7 +1118,7 @@
     vertical-align: bottom;
 }
 .brightness_6::before {
-    content: "\0xe3ab";
+    content: "\e3ab";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1128,7 +1128,7 @@
     vertical-align: bottom;
 }
 .brightness_7::before {
-    content: "\0xe3ac";
+    content: "\e3ac";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1138,7 +1138,7 @@
     vertical-align: bottom;
 }
 .brightness_auto::before {
-    content: "\0xe1ab";
+    content: "\e1ab";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1148,7 +1148,7 @@
     vertical-align: bottom;
 }
 .brightness_high::before {
-    content: "\0xe1ac";
+    content: "\e1ac";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1158,7 +1158,7 @@
     vertical-align: bottom;
 }
 .brightness_low::before {
-    content: "\0xe1ad";
+    content: "\e1ad";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1168,7 +1168,7 @@
     vertical-align: bottom;
 }
 .brightness_medium::before {
-    content: "\0xe1ae";
+    content: "\e1ae";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1178,7 +1178,7 @@
     vertical-align: bottom;
 }
 .broken_image::before {
-    content: "\0xe3ad";
+    content: "\e3ad";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1188,7 +1188,7 @@
     vertical-align: bottom;
 }
 .brush::before {
-    content: "\0xe3ae";
+    content: "\e3ae";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1198,7 +1198,7 @@
     vertical-align: bottom;
 }
 .bubble_chart::before {
-    content: "\0xe6dd";
+    content: "\e6dd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1208,7 +1208,7 @@
     vertical-align: bottom;
 }
 .bug_report::before {
-    content: "\0xe868";
+    content: "\e868";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1218,7 +1218,7 @@
     vertical-align: bottom;
 }
 .build::before {
-    content: "\0xe869";
+    content: "\e869";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1228,7 +1228,7 @@
     vertical-align: bottom;
 }
 .burst_mode::before {
-    content: "\0xe43c";
+    content: "\e43c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1238,7 +1238,7 @@
     vertical-align: bottom;
 }
 .business::before {
-    content: "\0xe0af";
+    content: "\e0af";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1248,7 +1248,7 @@
     vertical-align: bottom;
 }
 .business_center::before {
-    content: "\0xeb3f";
+    content: "\eb3f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1258,7 +1258,7 @@
     vertical-align: bottom;
 }
 .cached::before {
-    content: "\0xe86a";
+    content: "\e86a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1268,7 +1268,7 @@
     vertical-align: bottom;
 }
 .cake::before {
-    content: "\0xe7e9";
+    content: "\e7e9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1278,7 +1278,7 @@
     vertical-align: bottom;
 }
 .call::before {
-    content: "\0xe0b0";
+    content: "\e0b0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1288,7 +1288,7 @@
     vertical-align: bottom;
 }
 .call_end::before {
-    content: "\0xe0b1";
+    content: "\e0b1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1298,7 +1298,7 @@
     vertical-align: bottom;
 }
 .call_made::before {
-    content: "\0xe0b2";
+    content: "\e0b2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1308,7 +1308,7 @@
     vertical-align: bottom;
 }
 .call_merge::before {
-    content: "\0xe0b3";
+    content: "\e0b3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1318,7 +1318,7 @@
     vertical-align: bottom;
 }
 .call_missed::before {
-    content: "\0xe0b4";
+    content: "\e0b4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1328,7 +1328,7 @@
     vertical-align: bottom;
 }
 .call_missed_outgoing::before {
-    content: "\0xe0e4";
+    content: "\e0e4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1338,7 +1338,7 @@
     vertical-align: bottom;
 }
 .call_received::before {
-    content: "\0xe0b5";
+    content: "\e0b5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1348,7 +1348,7 @@
     vertical-align: bottom;
 }
 .call_split::before {
-    content: "\0xe0b6";
+    content: "\e0b6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1358,7 +1358,7 @@
     vertical-align: bottom;
 }
 .call_to_action::before {
-    content: "\0xe06c";
+    content: "\e06c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1368,7 +1368,7 @@
     vertical-align: bottom;
 }
 .camera::before {
-    content: "\0xe3af";
+    content: "\e3af";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1378,7 +1378,7 @@
     vertical-align: bottom;
 }
 .camera_alt::before {
-    content: "\0xe3b0";
+    content: "\e3b0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1388,7 +1388,7 @@
     vertical-align: bottom;
 }
 .camera_enhance::before {
-    content: "\0xe8fc";
+    content: "\e8fc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1398,7 +1398,7 @@
     vertical-align: bottom;
 }
 .camera_front::before {
-    content: "\0xe3b1";
+    content: "\e3b1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1408,7 +1408,7 @@
     vertical-align: bottom;
 }
 .camera_rear::before {
-    content: "\0xe3b2";
+    content: "\e3b2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1418,7 +1418,7 @@
     vertical-align: bottom;
 }
 .camera_roll::before {
-    content: "\0xe3b3";
+    content: "\e3b3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1428,7 +1428,7 @@
     vertical-align: bottom;
 }
 .cancel::before {
-    content: "\0xe5c9";
+    content: "\e5c9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1438,7 +1438,7 @@
     vertical-align: bottom;
 }
 .card_giftcard::before {
-    content: "\0xe8f6";
+    content: "\e8f6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1448,7 +1448,7 @@
     vertical-align: bottom;
 }
 .card_membership::before {
-    content: "\0xe8f7";
+    content: "\e8f7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1458,7 +1458,7 @@
     vertical-align: bottom;
 }
 .card_travel::before {
-    content: "\0xe8f8";
+    content: "\e8f8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1468,7 +1468,7 @@
     vertical-align: bottom;
 }
 .casino::before {
-    content: "\0xeb40";
+    content: "\eb40";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1478,7 +1478,7 @@
     vertical-align: bottom;
 }
 .cast::before {
-    content: "\0xe307";
+    content: "\e307";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1488,7 +1488,7 @@
     vertical-align: bottom;
 }
 .cast_connected::before {
-    content: "\0xe308";
+    content: "\e308";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1498,7 +1498,7 @@
     vertical-align: bottom;
 }
 .center_focus_strong::before {
-    content: "\0xe3b4";
+    content: "\e3b4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1508,7 +1508,7 @@
     vertical-align: bottom;
 }
 .center_focus_weak::before {
-    content: "\0xe3b5";
+    content: "\e3b5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1518,7 +1518,7 @@
     vertical-align: bottom;
 }
 .change_history::before {
-    content: "\0xe86b";
+    content: "\e86b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1528,7 +1528,7 @@
     vertical-align: bottom;
 }
 .chat::before {
-    content: "\0xe0b7";
+    content: "\e0b7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1538,7 +1538,7 @@
     vertical-align: bottom;
 }
 .chat_bubble::before {
-    content: "\0xe0ca";
+    content: "\e0ca";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1548,7 +1548,7 @@
     vertical-align: bottom;
 }
 .chat_bubble_outline::before {
-    content: "\0xe0cb";
+    content: "\e0cb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1558,7 +1558,7 @@
     vertical-align: bottom;
 }
 .check::before {
-    content: "\0xe5ca";
+    content: "\e5ca";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1568,7 +1568,7 @@
     vertical-align: bottom;
 }
 .check_box::before {
-    content: "\0xe834";
+    content: "\e834";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1578,7 +1578,7 @@
     vertical-align: bottom;
 }
 .check_box_outline_blank::before {
-    content: "\0xe835";
+    content: "\e835";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1588,7 +1588,7 @@
     vertical-align: bottom;
 }
 .check_circle::before {
-    content: "\0xe86c";
+    content: "\e86c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1598,7 +1598,7 @@
     vertical-align: bottom;
 }
 .chevron_left::before {
-    content: "\0xe5cb";
+    content: "\e5cb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1608,7 +1608,7 @@
     vertical-align: bottom;
 }
 .chevron_right::before {
-    content: "\0xe5cc";
+    content: "\e5cc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1618,7 +1618,7 @@
     vertical-align: bottom;
 }
 .child_care::before {
-    content: "\0xeb41";
+    content: "\eb41";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1628,7 +1628,7 @@
     vertical-align: bottom;
 }
 .child_friendly::before {
-    content: "\0xeb42";
+    content: "\eb42";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1638,7 +1638,7 @@
     vertical-align: bottom;
 }
 .chrome_reader_mode::before {
-    content: "\0xe86d";
+    content: "\e86d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1648,7 +1648,7 @@
     vertical-align: bottom;
 }
 .class::before {
-    content: "\0xe86e";
+    content: "\e86e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1658,7 +1658,7 @@
     vertical-align: bottom;
 }
 .clear::before {
-    content: "\0xe14c";
+    content: "\e14c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1668,7 +1668,7 @@
     vertical-align: bottom;
 }
 .clear_all::before {
-    content: "\0xe0b8";
+    content: "\e0b8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1678,7 +1678,7 @@
     vertical-align: bottom;
 }
 .close::before {
-    content: "\0xe5cd";
+    content: "\e5cd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1688,7 +1688,7 @@
     vertical-align: bottom;
 }
 .closed_caption::before {
-    content: "\0xe01c";
+    content: "\e01c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1698,7 +1698,7 @@
     vertical-align: bottom;
 }
 .cloud::before {
-    content: "\0xe2bd";
+    content: "\e2bd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1708,7 +1708,7 @@
     vertical-align: bottom;
 }
 .cloud_circle::before {
-    content: "\0xe2be";
+    content: "\e2be";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1718,7 +1718,7 @@
     vertical-align: bottom;
 }
 .cloud_done::before {
-    content: "\0xe2bf";
+    content: "\e2bf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1728,7 +1728,7 @@
     vertical-align: bottom;
 }
 .cloud_download::before {
-    content: "\0xe2c0";
+    content: "\e2c0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1738,7 +1738,7 @@
     vertical-align: bottom;
 }
 .cloud_off::before {
-    content: "\0xe2c1";
+    content: "\e2c1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1748,7 +1748,7 @@
     vertical-align: bottom;
 }
 .cloud_queue::before {
-    content: "\0xe2c2";
+    content: "\e2c2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1758,7 +1758,7 @@
     vertical-align: bottom;
 }
 .cloud_upload::before {
-    content: "\0xe2c3";
+    content: "\e2c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1768,7 +1768,7 @@
     vertical-align: bottom;
 }
 .code::before {
-    content: "\0xe86f";
+    content: "\e86f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1778,7 +1778,7 @@
     vertical-align: bottom;
 }
 .collections::before {
-    content: "\0xe3b6";
+    content: "\e3b6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1788,7 +1788,7 @@
     vertical-align: bottom;
 }
 .collections_bookmark::before {
-    content: "\0xe431";
+    content: "\e431";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1798,7 +1798,7 @@
     vertical-align: bottom;
 }
 .color_lens::before {
-    content: "\0xe3b7";
+    content: "\e3b7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1808,7 +1808,7 @@
     vertical-align: bottom;
 }
 .colorize::before {
-    content: "\0xe3b8";
+    content: "\e3b8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1818,7 +1818,7 @@
     vertical-align: bottom;
 }
 .comment::before {
-    content: "\0xe0b9";
+    content: "\e0b9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1828,7 +1828,7 @@
     vertical-align: bottom;
 }
 .compare::before {
-    content: "\0xe3b9";
+    content: "\e3b9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1838,7 +1838,7 @@
     vertical-align: bottom;
 }
 .compare_arrows::before {
-    content: "\0xe915";
+    content: "\e915";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1848,7 +1848,7 @@
     vertical-align: bottom;
 }
 .computer::before {
-    content: "\0xe30a";
+    content: "\e30a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1858,7 +1858,7 @@
     vertical-align: bottom;
 }
 .confirmation_number::before {
-    content: "\0xe638";
+    content: "\e638";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1868,7 +1868,7 @@
     vertical-align: bottom;
 }
 .contact_mail::before {
-    content: "\0xe0d0";
+    content: "\e0d0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1878,7 +1878,7 @@
     vertical-align: bottom;
 }
 .contact_phone::before {
-    content: "\0xe0cf";
+    content: "\e0cf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1888,7 +1888,7 @@
     vertical-align: bottom;
 }
 .contacts::before {
-    content: "\0xe0ba";
+    content: "\e0ba";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1898,7 +1898,7 @@
     vertical-align: bottom;
 }
 .content_copy::before {
-    content: "\0xe14d";
+    content: "\e14d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1908,7 +1908,7 @@
     vertical-align: bottom;
 }
 .content_cut::before {
-    content: "\0xe14e";
+    content: "\e14e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1918,7 +1918,7 @@
     vertical-align: bottom;
 }
 .content_paste::before {
-    content: "\0xe14f";
+    content: "\e14f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1928,7 +1928,7 @@
     vertical-align: bottom;
 }
 .control_point::before {
-    content: "\0xe3ba";
+    content: "\e3ba";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1938,7 +1938,7 @@
     vertical-align: bottom;
 }
 .control_point_duplicate::before {
-    content: "\0xe3bb";
+    content: "\e3bb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1948,7 +1948,7 @@
     vertical-align: bottom;
 }
 .copyright::before {
-    content: "\0xe90c";
+    content: "\e90c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1958,7 +1958,7 @@
     vertical-align: bottom;
 }
 .create::before {
-    content: "\0xe150";
+    content: "\e150";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1968,7 +1968,7 @@
     vertical-align: bottom;
 }
 .create_new_folder::before {
-    content: "\0xe2cc";
+    content: "\e2cc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1978,7 +1978,7 @@
     vertical-align: bottom;
 }
 .credit_card::before {
-    content: "\0xe870";
+    content: "\e870";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1988,7 +1988,7 @@
     vertical-align: bottom;
 }
 .crop::before {
-    content: "\0xe3be";
+    content: "\e3be";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -1998,7 +1998,7 @@
     vertical-align: bottom;
 }
 .crop_16_9::before {
-    content: "\0xe3bc";
+    content: "\e3bc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2008,7 +2008,7 @@
     vertical-align: bottom;
 }
 .crop_3_2::before {
-    content: "\0xe3bd";
+    content: "\e3bd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2018,7 +2018,7 @@
     vertical-align: bottom;
 }
 .crop_5_4::before {
-    content: "\0xe3bf";
+    content: "\e3bf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2028,7 +2028,7 @@
     vertical-align: bottom;
 }
 .crop_7_5::before {
-    content: "\0xe3c0";
+    content: "\e3c0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2038,7 +2038,7 @@
     vertical-align: bottom;
 }
 .crop_din::before {
-    content: "\0xe3c1";
+    content: "\e3c1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2048,7 +2048,7 @@
     vertical-align: bottom;
 }
 .crop_free::before {
-    content: "\0xe3c2";
+    content: "\e3c2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2058,7 +2058,7 @@
     vertical-align: bottom;
 }
 .crop_landscape::before {
-    content: "\0xe3c3";
+    content: "\e3c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2068,7 +2068,7 @@
     vertical-align: bottom;
 }
 .crop_original::before {
-    content: "\0xe3c4";
+    content: "\e3c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2078,7 +2078,7 @@
     vertical-align: bottom;
 }
 .crop_portrait::before {
-    content: "\0xe3c5";
+    content: "\e3c5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2088,7 +2088,7 @@
     vertical-align: bottom;
 }
 .crop_rotate::before {
-    content: "\0xe437";
+    content: "\e437";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2098,7 +2098,7 @@
     vertical-align: bottom;
 }
 .crop_square::before {
-    content: "\0xe3c6";
+    content: "\e3c6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2108,7 +2108,7 @@
     vertical-align: bottom;
 }
 .dashboard::before {
-    content: "\0xe871";
+    content: "\e871";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2118,7 +2118,7 @@
     vertical-align: bottom;
 }
 .data_usage::before {
-    content: "\0xe1af";
+    content: "\e1af";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2128,7 +2128,7 @@
     vertical-align: bottom;
 }
 .date_range::before {
-    content: "\0xe916";
+    content: "\e916";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2138,7 +2138,7 @@
     vertical-align: bottom;
 }
 .dehaze::before {
-    content: "\0xe3c7";
+    content: "\e3c7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2148,7 +2148,7 @@
     vertical-align: bottom;
 }
 .delete::before {
-    content: "\0xe872";
+    content: "\e872";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2158,7 +2158,7 @@
     vertical-align: bottom;
 }
 .delete_forever::before {
-    content: "\0xe92b";
+    content: "\e92b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2168,7 +2168,7 @@
     vertical-align: bottom;
 }
 .delete_sweep::before {
-    content: "\0xe16c";
+    content: "\e16c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2178,7 +2178,7 @@
     vertical-align: bottom;
 }
 .description::before {
-    content: "\0xe873";
+    content: "\e873";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2188,7 +2188,7 @@
     vertical-align: bottom;
 }
 .desktop_mac::before {
-    content: "\0xe30b";
+    content: "\e30b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2198,7 +2198,7 @@
     vertical-align: bottom;
 }
 .desktop_windows::before {
-    content: "\0xe30c";
+    content: "\e30c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2208,7 +2208,7 @@
     vertical-align: bottom;
 }
 .details::before {
-    content: "\0xe3c8";
+    content: "\e3c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2218,7 +2218,7 @@
     vertical-align: bottom;
 }
 .developer_board::before {
-    content: "\0xe30d";
+    content: "\e30d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2228,7 +2228,7 @@
     vertical-align: bottom;
 }
 .developer_mode::before {
-    content: "\0xe1b0";
+    content: "\e1b0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2238,7 +2238,7 @@
     vertical-align: bottom;
 }
 .device_hub::before {
-    content: "\0xe335";
+    content: "\e335";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2248,7 +2248,7 @@
     vertical-align: bottom;
 }
 .devices::before {
-    content: "\0xe1b1";
+    content: "\e1b1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2258,7 +2258,7 @@
     vertical-align: bottom;
 }
 .devices_other::before {
-    content: "\0xe337";
+    content: "\e337";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2268,7 +2268,7 @@
     vertical-align: bottom;
 }
 .dialer_sip::before {
-    content: "\0xe0bb";
+    content: "\e0bb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2278,7 +2278,7 @@
     vertical-align: bottom;
 }
 .dialpad::before {
-    content: "\0xe0bc";
+    content: "\e0bc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2288,7 +2288,7 @@
     vertical-align: bottom;
 }
 .directions::before {
-    content: "\0xe52e";
+    content: "\e52e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2298,7 +2298,7 @@
     vertical-align: bottom;
 }
 .directions_bike::before {
-    content: "\0xe52f";
+    content: "\e52f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2308,7 +2308,7 @@
     vertical-align: bottom;
 }
 .directions_boat::before {
-    content: "\0xe532";
+    content: "\e532";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2318,7 +2318,7 @@
     vertical-align: bottom;
 }
 .directions_bus::before {
-    content: "\0xe530";
+    content: "\e530";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2328,7 +2328,7 @@
     vertical-align: bottom;
 }
 .directions_car::before {
-    content: "\0xe531";
+    content: "\e531";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2338,7 +2338,7 @@
     vertical-align: bottom;
 }
 .directions_railway::before {
-    content: "\0xe534";
+    content: "\e534";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2348,7 +2348,7 @@
     vertical-align: bottom;
 }
 .directions_run::before {
-    content: "\0xe566";
+    content: "\e566";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2358,7 +2358,7 @@
     vertical-align: bottom;
 }
 .directions_subway::before {
-    content: "\0xe533";
+    content: "\e533";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2368,7 +2368,7 @@
     vertical-align: bottom;
 }
 .directions_transit::before {
-    content: "\0xe535";
+    content: "\e535";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2378,7 +2378,7 @@
     vertical-align: bottom;
 }
 .directions_walk::before {
-    content: "\0xe536";
+    content: "\e536";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2388,7 +2388,7 @@
     vertical-align: bottom;
 }
 .disc_full::before {
-    content: "\0xe610";
+    content: "\e610";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2398,7 +2398,7 @@
     vertical-align: bottom;
 }
 .dns::before {
-    content: "\0xe875";
+    content: "\e875";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2408,7 +2408,7 @@
     vertical-align: bottom;
 }
 .do_not_disturb::before {
-    content: "\0xe612";
+    content: "\e612";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2418,7 +2418,7 @@
     vertical-align: bottom;
 }
 .do_not_disturb_alt::before {
-    content: "\0xe611";
+    content: "\e611";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2428,7 +2428,7 @@
     vertical-align: bottom;
 }
 .do_not_disturb_off::before {
-    content: "\0xe643";
+    content: "\e643";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2438,7 +2438,7 @@
     vertical-align: bottom;
 }
 .do_not_disturb_on::before {
-    content: "\0xe644";
+    content: "\e644";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2448,7 +2448,7 @@
     vertical-align: bottom;
 }
 .dock::before {
-    content: "\0xe30e";
+    content: "\e30e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2458,7 +2458,7 @@
     vertical-align: bottom;
 }
 .domain::before {
-    content: "\0xe7ee";
+    content: "\e7ee";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2468,7 +2468,7 @@
     vertical-align: bottom;
 }
 .done::before {
-    content: "\0xe876";
+    content: "\e876";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2478,7 +2478,7 @@
     vertical-align: bottom;
 }
 .done_all::before {
-    content: "\0xe877";
+    content: "\e877";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2488,7 +2488,7 @@
     vertical-align: bottom;
 }
 .donut_large::before {
-    content: "\0xe917";
+    content: "\e917";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2498,7 +2498,7 @@
     vertical-align: bottom;
 }
 .donut_small::before {
-    content: "\0xe918";
+    content: "\e918";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2508,7 +2508,7 @@
     vertical-align: bottom;
 }
 .drafts::before {
-    content: "\0xe151";
+    content: "\e151";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2518,7 +2518,7 @@
     vertical-align: bottom;
 }
 .drag_handle::before {
-    content: "\0xe25d";
+    content: "\e25d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2528,7 +2528,7 @@
     vertical-align: bottom;
 }
 .drive_eta::before {
-    content: "\0xe613";
+    content: "\e613";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2538,7 +2538,7 @@
     vertical-align: bottom;
 }
 .dvr::before {
-    content: "\0xe1b2";
+    content: "\e1b2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2548,7 +2548,7 @@
     vertical-align: bottom;
 }
 .edit::before {
-    content: "\0xe3c9";
+    content: "\e3c9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2558,7 +2558,7 @@
     vertical-align: bottom;
 }
 .edit_location::before {
-    content: "\0xe568";
+    content: "\e568";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2568,7 +2568,7 @@
     vertical-align: bottom;
 }
 .eject::before {
-    content: "\0xe8fb";
+    content: "\e8fb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2578,7 +2578,7 @@
     vertical-align: bottom;
 }
 .email::before {
-    content: "\0xe0be";
+    content: "\e0be";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2588,7 +2588,7 @@
     vertical-align: bottom;
 }
 .enhanced_encryption::before {
-    content: "\0xe63f";
+    content: "\e63f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2598,7 +2598,7 @@
     vertical-align: bottom;
 }
 .equalizer::before {
-    content: "\0xe01d";
+    content: "\e01d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2608,7 +2608,7 @@
     vertical-align: bottom;
 }
 .error::before {
-    content: "\0xe000";
+    content: "\e000";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2618,7 +2618,7 @@
     vertical-align: bottom;
 }
 .error_outline::before {
-    content: "\0xe001";
+    content: "\e001";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2628,7 +2628,7 @@
     vertical-align: bottom;
 }
 .euro_symbol::before {
-    content: "\0xe926";
+    content: "\e926";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2638,7 +2638,7 @@
     vertical-align: bottom;
 }
 .ev_station::before {
-    content: "\0xe56d";
+    content: "\e56d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2648,7 +2648,7 @@
     vertical-align: bottom;
 }
 .event::before {
-    content: "\0xe878";
+    content: "\e878";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2658,7 +2658,7 @@
     vertical-align: bottom;
 }
 .event_available::before {
-    content: "\0xe614";
+    content: "\e614";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2668,7 +2668,7 @@
     vertical-align: bottom;
 }
 .event_busy::before {
-    content: "\0xe615";
+    content: "\e615";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2678,7 +2678,7 @@
     vertical-align: bottom;
 }
 .event_note::before {
-    content: "\0xe616";
+    content: "\e616";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2688,7 +2688,7 @@
     vertical-align: bottom;
 }
 .event_seat::before {
-    content: "\0xe903";
+    content: "\e903";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2698,7 +2698,7 @@
     vertical-align: bottom;
 }
 .exit_to_app::before {
-    content: "\0xe879";
+    content: "\e879";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2708,7 +2708,7 @@
     vertical-align: bottom;
 }
 .expand_less::before {
-    content: "\0xe5ce";
+    content: "\e5ce";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2718,7 +2718,7 @@
     vertical-align: bottom;
 }
 .expand_more::before {
-    content: "\0xe5cf";
+    content: "\e5cf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2728,7 +2728,7 @@
     vertical-align: bottom;
 }
 .explicit::before {
-    content: "\0xe01e";
+    content: "\e01e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2738,7 +2738,7 @@
     vertical-align: bottom;
 }
 .explore::before {
-    content: "\0xe87a";
+    content: "\e87a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2748,7 +2748,7 @@
     vertical-align: bottom;
 }
 .exposure::before {
-    content: "\0xe3ca";
+    content: "\e3ca";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2758,7 +2758,7 @@
     vertical-align: bottom;
 }
 .exposure_neg_1::before {
-    content: "\0xe3cb";
+    content: "\e3cb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2768,7 +2768,7 @@
     vertical-align: bottom;
 }
 .exposure_neg_2::before {
-    content: "\0xe3cc";
+    content: "\e3cc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2778,7 +2778,7 @@
     vertical-align: bottom;
 }
 .exposure_plus_1::before {
-    content: "\0xe3cd";
+    content: "\e3cd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2788,7 +2788,7 @@
     vertical-align: bottom;
 }
 .exposure_plus_2::before {
-    content: "\0xe3ce";
+    content: "\e3ce";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2798,7 +2798,7 @@
     vertical-align: bottom;
 }
 .exposure_zero::before {
-    content: "\0xe3cf";
+    content: "\e3cf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2808,7 +2808,7 @@
     vertical-align: bottom;
 }
 .extension::before {
-    content: "\0xe87b";
+    content: "\e87b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2818,7 +2818,7 @@
     vertical-align: bottom;
 }
 .face::before {
-    content: "\0xe87c";
+    content: "\e87c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2828,7 +2828,7 @@
     vertical-align: bottom;
 }
 .fast_forward::before {
-    content: "\0xe01f";
+    content: "\e01f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2838,7 +2838,7 @@
     vertical-align: bottom;
 }
 .fast_rewind::before {
-    content: "\0xe020";
+    content: "\e020";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2848,7 +2848,7 @@
     vertical-align: bottom;
 }
 .favorite::before {
-    content: "\0xe87d";
+    content: "\e87d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2858,7 +2858,7 @@
     vertical-align: bottom;
 }
 .favorite_border::before {
-    content: "\0xe87e";
+    content: "\e87e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2868,7 +2868,7 @@
     vertical-align: bottom;
 }
 .featured_play_list::before {
-    content: "\0xe06d";
+    content: "\e06d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2878,7 +2878,7 @@
     vertical-align: bottom;
 }
 .featured_video::before {
-    content: "\0xe06e";
+    content: "\e06e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2888,7 +2888,7 @@
     vertical-align: bottom;
 }
 .feedback::before {
-    content: "\0xe87f";
+    content: "\e87f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2898,7 +2898,7 @@
     vertical-align: bottom;
 }
 .fiber_dvr::before {
-    content: "\0xe05d";
+    content: "\e05d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2908,7 +2908,7 @@
     vertical-align: bottom;
 }
 .fiber_manual_record::before {
-    content: "\0xe061";
+    content: "\e061";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2918,7 +2918,7 @@
     vertical-align: bottom;
 }
 .fiber_new::before {
-    content: "\0xe05e";
+    content: "\e05e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2928,7 +2928,7 @@
     vertical-align: bottom;
 }
 .fiber_pin::before {
-    content: "\0xe06a";
+    content: "\e06a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2938,7 +2938,7 @@
     vertical-align: bottom;
 }
 .fiber_smart_record::before {
-    content: "\0xe062";
+    content: "\e062";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2948,7 +2948,7 @@
     vertical-align: bottom;
 }
 .file_download::before {
-    content: "\0xe2c4";
+    content: "\e2c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2958,7 +2958,7 @@
     vertical-align: bottom;
 }
 .file_upload::before {
-    content: "\0xe2c6";
+    content: "\e2c6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2968,7 +2968,7 @@
     vertical-align: bottom;
 }
 .filter::before {
-    content: "\0xe3d3";
+    content: "\e3d3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2978,7 +2978,7 @@
     vertical-align: bottom;
 }
 .filter_1::before {
-    content: "\0xe3d0";
+    content: "\e3d0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2988,7 +2988,7 @@
     vertical-align: bottom;
 }
 .filter_2::before {
-    content: "\0xe3d1";
+    content: "\e3d1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -2998,7 +2998,7 @@
     vertical-align: bottom;
 }
 .filter_3::before {
-    content: "\0xe3d2";
+    content: "\e3d2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3008,7 +3008,7 @@
     vertical-align: bottom;
 }
 .filter_4::before {
-    content: "\0xe3d4";
+    content: "\e3d4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3018,7 +3018,7 @@
     vertical-align: bottom;
 }
 .filter_5::before {
-    content: "\0xe3d5";
+    content: "\e3d5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3028,7 +3028,7 @@
     vertical-align: bottom;
 }
 .filter_6::before {
-    content: "\0xe3d6";
+    content: "\e3d6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3038,7 +3038,7 @@
     vertical-align: bottom;
 }
 .filter_7::before {
-    content: "\0xe3d7";
+    content: "\e3d7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3048,7 +3048,7 @@
     vertical-align: bottom;
 }
 .filter_8::before {
-    content: "\0xe3d8";
+    content: "\e3d8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3058,7 +3058,7 @@
     vertical-align: bottom;
 }
 .filter_9::before {
-    content: "\0xe3d9";
+    content: "\e3d9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3068,7 +3068,7 @@
     vertical-align: bottom;
 }
 .filter_9_plus::before {
-    content: "\0xe3da";
+    content: "\e3da";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3078,7 +3078,7 @@
     vertical-align: bottom;
 }
 .filter_b_and_w::before {
-    content: "\0xe3db";
+    content: "\e3db";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3088,7 +3088,7 @@
     vertical-align: bottom;
 }
 .filter_center_focus::before {
-    content: "\0xe3dc";
+    content: "\e3dc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3098,7 +3098,7 @@
     vertical-align: bottom;
 }
 .filter_drama::before {
-    content: "\0xe3dd";
+    content: "\e3dd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3108,7 +3108,7 @@
     vertical-align: bottom;
 }
 .filter_frames::before {
-    content: "\0xe3de";
+    content: "\e3de";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3118,7 +3118,7 @@
     vertical-align: bottom;
 }
 .filter_hdr::before {
-    content: "\0xe3df";
+    content: "\e3df";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3128,7 +3128,7 @@
     vertical-align: bottom;
 }
 .filter_list::before {
-    content: "\0xe152";
+    content: "\e152";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3138,7 +3138,7 @@
     vertical-align: bottom;
 }
 .filter_none::before {
-    content: "\0xe3e0";
+    content: "\e3e0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3148,7 +3148,7 @@
     vertical-align: bottom;
 }
 .filter_tilt_shift::before {
-    content: "\0xe3e2";
+    content: "\e3e2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3158,7 +3158,7 @@
     vertical-align: bottom;
 }
 .filter_vintage::before {
-    content: "\0xe3e3";
+    content: "\e3e3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3168,7 +3168,7 @@
     vertical-align: bottom;
 }
 .find_in_page::before {
-    content: "\0xe880";
+    content: "\e880";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3178,7 +3178,7 @@
     vertical-align: bottom;
 }
 .find_replace::before {
-    content: "\0xe881";
+    content: "\e881";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3188,7 +3188,7 @@
     vertical-align: bottom;
 }
 .fingerprint::before {
-    content: "\0xe90d";
+    content: "\e90d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3198,7 +3198,7 @@
     vertical-align: bottom;
 }
 .first_page::before {
-    content: "\0xe5dc";
+    content: "\e5dc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3208,7 +3208,7 @@
     vertical-align: bottom;
 }
 .fitness_center::before {
-    content: "\0xeb43";
+    content: "\eb43";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3218,7 +3218,7 @@
     vertical-align: bottom;
 }
 .flag::before {
-    content: "\0xe153";
+    content: "\e153";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3228,7 +3228,7 @@
     vertical-align: bottom;
 }
 .flare::before {
-    content: "\0xe3e4";
+    content: "\e3e4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3238,7 +3238,7 @@
     vertical-align: bottom;
 }
 .flash_auto::before {
-    content: "\0xe3e5";
+    content: "\e3e5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3248,7 +3248,7 @@
     vertical-align: bottom;
 }
 .flash_off::before {
-    content: "\0xe3e6";
+    content: "\e3e6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3258,7 +3258,7 @@
     vertical-align: bottom;
 }
 .flash_on::before {
-    content: "\0xe3e7";
+    content: "\e3e7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3268,7 +3268,7 @@
     vertical-align: bottom;
 }
 .flight::before {
-    content: "\0xe539";
+    content: "\e539";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3278,7 +3278,7 @@
     vertical-align: bottom;
 }
 .flight_land::before {
-    content: "\0xe904";
+    content: "\e904";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3288,7 +3288,7 @@
     vertical-align: bottom;
 }
 .flight_takeoff::before {
-    content: "\0xe905";
+    content: "\e905";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3298,7 +3298,7 @@
     vertical-align: bottom;
 }
 .flip::before {
-    content: "\0xe3e8";
+    content: "\e3e8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3308,7 +3308,7 @@
     vertical-align: bottom;
 }
 .flip_to_back::before {
-    content: "\0xe882";
+    content: "\e882";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3318,7 +3318,7 @@
     vertical-align: bottom;
 }
 .flip_to_front::before {
-    content: "\0xe883";
+    content: "\e883";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3328,7 +3328,7 @@
     vertical-align: bottom;
 }
 .folder::before {
-    content: "\0xe2c7";
+    content: "\e2c7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3338,7 +3338,7 @@
     vertical-align: bottom;
 }
 .folder_open::before {
-    content: "\0xe2c8";
+    content: "\e2c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3348,7 +3348,7 @@
     vertical-align: bottom;
 }
 .folder_shared::before {
-    content: "\0xe2c9";
+    content: "\e2c9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3358,7 +3358,7 @@
     vertical-align: bottom;
 }
 .folder_special::before {
-    content: "\0xe617";
+    content: "\e617";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3368,7 +3368,7 @@
     vertical-align: bottom;
 }
 .font_download::before {
-    content: "\0xe167";
+    content: "\e167";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3378,7 +3378,7 @@
     vertical-align: bottom;
 }
 .format_align_center::before {
-    content: "\0xe234";
+    content: "\e234";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3388,7 +3388,7 @@
     vertical-align: bottom;
 }
 .format_align_justify::before {
-    content: "\0xe235";
+    content: "\e235";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3398,7 +3398,7 @@
     vertical-align: bottom;
 }
 .format_align_left::before {
-    content: "\0xe236";
+    content: "\e236";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3408,7 +3408,7 @@
     vertical-align: bottom;
 }
 .format_align_right::before {
-    content: "\0xe237";
+    content: "\e237";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3418,7 +3418,7 @@
     vertical-align: bottom;
 }
 .format_bold::before {
-    content: "\0xe238";
+    content: "\e238";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3428,7 +3428,7 @@
     vertical-align: bottom;
 }
 .format_clear::before {
-    content: "\0xe239";
+    content: "\e239";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3438,7 +3438,7 @@
     vertical-align: bottom;
 }
 .format_color_fill::before {
-    content: "\0xe23a";
+    content: "\e23a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3448,7 +3448,7 @@
     vertical-align: bottom;
 }
 .format_color_reset::before {
-    content: "\0xe23b";
+    content: "\e23b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3458,7 +3458,7 @@
     vertical-align: bottom;
 }
 .format_color_text::before {
-    content: "\0xe23c";
+    content: "\e23c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3468,7 +3468,7 @@
     vertical-align: bottom;
 }
 .format_indent_decrease::before {
-    content: "\0xe23d";
+    content: "\e23d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3478,7 +3478,7 @@
     vertical-align: bottom;
 }
 .format_indent_increase::before {
-    content: "\0xe23e";
+    content: "\e23e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3488,7 +3488,7 @@
     vertical-align: bottom;
 }
 .format_italic::before {
-    content: "\0xe23f";
+    content: "\e23f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3498,7 +3498,7 @@
     vertical-align: bottom;
 }
 .format_line_spacing::before {
-    content: "\0xe240";
+    content: "\e240";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3508,7 +3508,7 @@
     vertical-align: bottom;
 }
 .format_list_bulleted::before {
-    content: "\0xe241";
+    content: "\e241";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3518,7 +3518,7 @@
     vertical-align: bottom;
 }
 .format_list_numbered::before {
-    content: "\0xe242";
+    content: "\e242";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3528,7 +3528,7 @@
     vertical-align: bottom;
 }
 .format_paint::before {
-    content: "\0xe243";
+    content: "\e243";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3538,7 +3538,7 @@
     vertical-align: bottom;
 }
 .format_quote::before {
-    content: "\0xe244";
+    content: "\e244";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3548,7 +3548,7 @@
     vertical-align: bottom;
 }
 .format_shapes::before {
-    content: "\0xe25e";
+    content: "\e25e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3558,7 +3558,7 @@
     vertical-align: bottom;
 }
 .format_size::before {
-    content: "\0xe245";
+    content: "\e245";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3568,7 +3568,7 @@
     vertical-align: bottom;
 }
 .format_strikethrough::before {
-    content: "\0xe246";
+    content: "\e246";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3578,7 +3578,7 @@
     vertical-align: bottom;
 }
 .format_textdirection_l_to_r::before {
-    content: "\0xe247";
+    content: "\e247";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3588,7 +3588,7 @@
     vertical-align: bottom;
 }
 .format_textdirection_r_to_l::before {
-    content: "\0xe248";
+    content: "\e248";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3598,7 +3598,7 @@
     vertical-align: bottom;
 }
 .format_underlined::before {
-    content: "\0xe249";
+    content: "\e249";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3608,7 +3608,7 @@
     vertical-align: bottom;
 }
 .forum::before {
-    content: "\0xe0bf";
+    content: "\e0bf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3618,7 +3618,7 @@
     vertical-align: bottom;
 }
 .forward::before {
-    content: "\0xe154";
+    content: "\e154";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3628,7 +3628,7 @@
     vertical-align: bottom;
 }
 .forward_10::before {
-    content: "\0xe056";
+    content: "\e056";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3638,7 +3638,7 @@
     vertical-align: bottom;
 }
 .forward_30::before {
-    content: "\0xe057";
+    content: "\e057";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3648,7 +3648,7 @@
     vertical-align: bottom;
 }
 .forward_5::before {
-    content: "\0xe058";
+    content: "\e058";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3658,7 +3658,7 @@
     vertical-align: bottom;
 }
 .free_breakfast::before {
-    content: "\0xeb44";
+    content: "\eb44";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3668,7 +3668,7 @@
     vertical-align: bottom;
 }
 .fullscreen::before {
-    content: "\0xe5d0";
+    content: "\e5d0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3678,7 +3678,7 @@
     vertical-align: bottom;
 }
 .fullscreen_exit::before {
-    content: "\0xe5d1";
+    content: "\e5d1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3688,7 +3688,7 @@
     vertical-align: bottom;
 }
 .functions::before {
-    content: "\0xe24a";
+    content: "\e24a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3698,7 +3698,7 @@
     vertical-align: bottom;
 }
 .g_translate::before {
-    content: "\0xe927";
+    content: "\e927";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3708,7 +3708,7 @@
     vertical-align: bottom;
 }
 .gamepad::before {
-    content: "\0xe30f";
+    content: "\e30f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3718,7 +3718,7 @@
     vertical-align: bottom;
 }
 .games::before {
-    content: "\0xe021";
+    content: "\e021";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3728,7 +3728,7 @@
     vertical-align: bottom;
 }
 .gavel::before {
-    content: "\0xe90e";
+    content: "\e90e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3738,7 +3738,7 @@
     vertical-align: bottom;
 }
 .gesture::before {
-    content: "\0xe155";
+    content: "\e155";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3748,7 +3748,7 @@
     vertical-align: bottom;
 }
 .get_app::before {
-    content: "\0xe884";
+    content: "\e884";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3758,7 +3758,7 @@
     vertical-align: bottom;
 }
 .gif::before {
-    content: "\0xe908";
+    content: "\e908";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3768,7 +3768,7 @@
     vertical-align: bottom;
 }
 .golf_course::before {
-    content: "\0xeb45";
+    content: "\eb45";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3778,7 +3778,7 @@
     vertical-align: bottom;
 }
 .gps_fixed::before {
-    content: "\0xe1b3";
+    content: "\e1b3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3788,7 +3788,7 @@
     vertical-align: bottom;
 }
 .gps_not_fixed::before {
-    content: "\0xe1b4";
+    content: "\e1b4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3798,7 +3798,7 @@
     vertical-align: bottom;
 }
 .gps_off::before {
-    content: "\0xe1b5";
+    content: "\e1b5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3808,7 +3808,7 @@
     vertical-align: bottom;
 }
 .grade::before {
-    content: "\0xe885";
+    content: "\e885";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3818,7 +3818,7 @@
     vertical-align: bottom;
 }
 .gradient::before {
-    content: "\0xe3e9";
+    content: "\e3e9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3828,7 +3828,7 @@
     vertical-align: bottom;
 }
 .grain::before {
-    content: "\0xe3ea";
+    content: "\e3ea";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3838,7 +3838,7 @@
     vertical-align: bottom;
 }
 .graphic_eq::before {
-    content: "\0xe1b8";
+    content: "\e1b8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3848,7 +3848,7 @@
     vertical-align: bottom;
 }
 .grid_off::before {
-    content: "\0xe3eb";
+    content: "\e3eb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3858,7 +3858,7 @@
     vertical-align: bottom;
 }
 .grid_on::before {
-    content: "\0xe3ec";
+    content: "\e3ec";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3868,7 +3868,7 @@
     vertical-align: bottom;
 }
 .group::before {
-    content: "\0xe7ef";
+    content: "\e7ef";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3878,7 +3878,7 @@
     vertical-align: bottom;
 }
 .group_add::before {
-    content: "\0xe7f0";
+    content: "\e7f0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3888,7 +3888,7 @@
     vertical-align: bottom;
 }
 .group_work::before {
-    content: "\0xe886";
+    content: "\e886";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3898,7 +3898,7 @@
     vertical-align: bottom;
 }
 .hd::before {
-    content: "\0xe052";
+    content: "\e052";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3908,7 +3908,7 @@
     vertical-align: bottom;
 }
 .hdr_off::before {
-    content: "\0xe3ed";
+    content: "\e3ed";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3918,7 +3918,7 @@
     vertical-align: bottom;
 }
 .hdr_on::before {
-    content: "\0xe3ee";
+    content: "\e3ee";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3928,7 +3928,7 @@
     vertical-align: bottom;
 }
 .hdr_strong::before {
-    content: "\0xe3f1";
+    content: "\e3f1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3938,7 +3938,7 @@
     vertical-align: bottom;
 }
 .hdr_weak::before {
-    content: "\0xe3f2";
+    content: "\e3f2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3948,7 +3948,7 @@
     vertical-align: bottom;
 }
 .headset::before {
-    content: "\0xe310";
+    content: "\e310";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3958,7 +3958,7 @@
     vertical-align: bottom;
 }
 .headset_mic::before {
-    content: "\0xe311";
+    content: "\e311";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3968,7 +3968,7 @@
     vertical-align: bottom;
 }
 .healing::before {
-    content: "\0xe3f3";
+    content: "\e3f3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3978,7 +3978,7 @@
     vertical-align: bottom;
 }
 .hearing::before {
-    content: "\0xe023";
+    content: "\e023";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3988,7 +3988,7 @@
     vertical-align: bottom;
 }
 .help::before {
-    content: "\0xe887";
+    content: "\e887";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -3998,7 +3998,7 @@
     vertical-align: bottom;
 }
 .help_outline::before {
-    content: "\0xe8fd";
+    content: "\e8fd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4008,7 +4008,7 @@
     vertical-align: bottom;
 }
 .high_quality::before {
-    content: "\0xe024";
+    content: "\e024";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4018,7 +4018,7 @@
     vertical-align: bottom;
 }
 .highlight::before {
-    content: "\0xe25f";
+    content: "\e25f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4028,7 +4028,7 @@
     vertical-align: bottom;
 }
 .highlight_off::before {
-    content: "\0xe888";
+    content: "\e888";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4038,7 +4038,7 @@
     vertical-align: bottom;
 }
 .history::before {
-    content: "\0xe889";
+    content: "\e889";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4048,7 +4048,7 @@
     vertical-align: bottom;
 }
 .home::before {
-    content: "\0xe88a";
+    content: "\e88a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4058,7 +4058,7 @@
     vertical-align: bottom;
 }
 .hot_tub::before {
-    content: "\0xeb46";
+    content: "\eb46";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4068,7 +4068,7 @@
     vertical-align: bottom;
 }
 .hotel::before {
-    content: "\0xe53a";
+    content: "\e53a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4078,7 +4078,7 @@
     vertical-align: bottom;
 }
 .hourglass_empty::before {
-    content: "\0xe88b";
+    content: "\e88b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4088,7 +4088,7 @@
     vertical-align: bottom;
 }
 .hourglass_full::before {
-    content: "\0xe88c";
+    content: "\e88c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4098,7 +4098,7 @@
     vertical-align: bottom;
 }
 .http::before {
-    content: "\0xe902";
+    content: "\e902";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4108,7 +4108,7 @@
     vertical-align: bottom;
 }
 .https::before {
-    content: "\0xe88d";
+    content: "\e88d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4118,7 +4118,7 @@
     vertical-align: bottom;
 }
 .image::before {
-    content: "\0xe3f4";
+    content: "\e3f4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4128,7 +4128,7 @@
     vertical-align: bottom;
 }
 .image_aspect_ratio::before {
-    content: "\0xe3f5";
+    content: "\e3f5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4138,7 +4138,7 @@
     vertical-align: bottom;
 }
 .import_contacts::before {
-    content: "\0xe0e0";
+    content: "\e0e0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4148,7 +4148,7 @@
     vertical-align: bottom;
 }
 .import_export::before {
-    content: "\0xe0c3";
+    content: "\e0c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4158,7 +4158,7 @@
     vertical-align: bottom;
 }
 .important_devices::before {
-    content: "\0xe912";
+    content: "\e912";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4168,7 +4168,7 @@
     vertical-align: bottom;
 }
 .inbox::before {
-    content: "\0xe156";
+    content: "\e156";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4178,7 +4178,7 @@
     vertical-align: bottom;
 }
 .indeterminate_check_box::before {
-    content: "\0xe909";
+    content: "\e909";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4188,7 +4188,7 @@
     vertical-align: bottom;
 }
 .info::before {
-    content: "\0xe88e";
+    content: "\e88e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4198,7 +4198,7 @@
     vertical-align: bottom;
 }
 .info_outline::before {
-    content: "\0xe88f";
+    content: "\e88f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4208,7 +4208,7 @@
     vertical-align: bottom;
 }
 .input::before {
-    content: "\0xe890";
+    content: "\e890";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4218,7 +4218,7 @@
     vertical-align: bottom;
 }
 .insert_chart::before {
-    content: "\0xe24b";
+    content: "\e24b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4228,7 +4228,7 @@
     vertical-align: bottom;
 }
 .insert_comment::before {
-    content: "\0xe24c";
+    content: "\e24c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4238,7 +4238,7 @@
     vertical-align: bottom;
 }
 .insert_drive_file::before {
-    content: "\0xe24d";
+    content: "\e24d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4248,7 +4248,7 @@
     vertical-align: bottom;
 }
 .insert_emoticon::before {
-    content: "\0xe24e";
+    content: "\e24e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4258,7 +4258,7 @@
     vertical-align: bottom;
 }
 .insert_invitation::before {
-    content: "\0xe24f";
+    content: "\e24f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4268,7 +4268,7 @@
     vertical-align: bottom;
 }
 .insert_link::before {
-    content: "\0xe250";
+    content: "\e250";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4278,7 +4278,7 @@
     vertical-align: bottom;
 }
 .insert_photo::before {
-    content: "\0xe251";
+    content: "\e251";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4288,7 +4288,7 @@
     vertical-align: bottom;
 }
 .invert_colors::before {
-    content: "\0xe891";
+    content: "\e891";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4298,7 +4298,7 @@
     vertical-align: bottom;
 }
 .invert_colors_off::before {
-    content: "\0xe0c4";
+    content: "\e0c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4308,7 +4308,7 @@
     vertical-align: bottom;
 }
 .iso::before {
-    content: "\0xe3f6";
+    content: "\e3f6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4318,7 +4318,7 @@
     vertical-align: bottom;
 }
 .keyboard::before {
-    content: "\0xe312";
+    content: "\e312";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4328,7 +4328,7 @@
     vertical-align: bottom;
 }
 .keyboard_arrow_down::before {
-    content: "\0xe313";
+    content: "\e313";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4338,7 +4338,7 @@
     vertical-align: bottom;
 }
 .keyboard_arrow_left::before {
-    content: "\0xe314";
+    content: "\e314";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4348,7 +4348,7 @@
     vertical-align: bottom;
 }
 .keyboard_arrow_right::before {
-    content: "\0xe315";
+    content: "\e315";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4358,7 +4358,7 @@
     vertical-align: bottom;
 }
 .keyboard_arrow_up::before {
-    content: "\0xe316";
+    content: "\e316";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4368,7 +4368,7 @@
     vertical-align: bottom;
 }
 .keyboard_backspace::before {
-    content: "\0xe317";
+    content: "\e317";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4378,7 +4378,7 @@
     vertical-align: bottom;
 }
 .keyboard_capslock::before {
-    content: "\0xe318";
+    content: "\e318";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4388,7 +4388,7 @@
     vertical-align: bottom;
 }
 .keyboard_hide::before {
-    content: "\0xe31a";
+    content: "\e31a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4398,7 +4398,7 @@
     vertical-align: bottom;
 }
 .keyboard_return::before {
-    content: "\0xe31b";
+    content: "\e31b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4408,7 +4408,7 @@
     vertical-align: bottom;
 }
 .keyboard_tab::before {
-    content: "\0xe31c";
+    content: "\e31c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4418,7 +4418,7 @@
     vertical-align: bottom;
 }
 .keyboard_voice::before {
-    content: "\0xe31d";
+    content: "\e31d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4428,7 +4428,7 @@
     vertical-align: bottom;
 }
 .kitchen::before {
-    content: "\0xeb47";
+    content: "\eb47";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4438,7 +4438,7 @@
     vertical-align: bottom;
 }
 .label::before {
-    content: "\0xe892";
+    content: "\e892";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4448,7 +4448,7 @@
     vertical-align: bottom;
 }
 .label_outline::before {
-    content: "\0xe893";
+    content: "\e893";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4458,7 +4458,7 @@
     vertical-align: bottom;
 }
 .landscape::before {
-    content: "\0xe3f7";
+    content: "\e3f7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4468,7 +4468,7 @@
     vertical-align: bottom;
 }
 .language::before {
-    content: "\0xe894";
+    content: "\e894";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4478,7 +4478,7 @@
     vertical-align: bottom;
 }
 .laptop::before {
-    content: "\0xe31e";
+    content: "\e31e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4488,7 +4488,7 @@
     vertical-align: bottom;
 }
 .laptop_chromebook::before {
-    content: "\0xe31f";
+    content: "\e31f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4498,7 +4498,7 @@
     vertical-align: bottom;
 }
 .laptop_mac::before {
-    content: "\0xe320";
+    content: "\e320";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4508,7 +4508,7 @@
     vertical-align: bottom;
 }
 .laptop_windows::before {
-    content: "\0xe321";
+    content: "\e321";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4518,7 +4518,7 @@
     vertical-align: bottom;
 }
 .last_page::before {
-    content: "\0xe5dd";
+    content: "\e5dd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4528,7 +4528,7 @@
     vertical-align: bottom;
 }
 .launch::before {
-    content: "\0xe895";
+    content: "\e895";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4538,7 +4538,7 @@
     vertical-align: bottom;
 }
 .layers::before {
-    content: "\0xe53b";
+    content: "\e53b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4548,7 +4548,7 @@
     vertical-align: bottom;
 }
 .layers_clear::before {
-    content: "\0xe53c";
+    content: "\e53c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4558,7 +4558,7 @@
     vertical-align: bottom;
 }
 .leak_add::before {
-    content: "\0xe3f8";
+    content: "\e3f8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4568,7 +4568,7 @@
     vertical-align: bottom;
 }
 .leak_remove::before {
-    content: "\0xe3f9";
+    content: "\e3f9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4578,7 +4578,7 @@
     vertical-align: bottom;
 }
 .lens::before {
-    content: "\0xe3fa";
+    content: "\e3fa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4588,7 +4588,7 @@
     vertical-align: bottom;
 }
 .library_add::before {
-    content: "\0xe02e";
+    content: "\e02e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4598,7 +4598,7 @@
     vertical-align: bottom;
 }
 .library_books::before {
-    content: "\0xe02f";
+    content: "\e02f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4608,7 +4608,7 @@
     vertical-align: bottom;
 }
 .library_music::before {
-    content: "\0xe030";
+    content: "\e030";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4618,7 +4618,7 @@
     vertical-align: bottom;
 }
 .lightbulb_outline::before {
-    content: "\0xe90f";
+    content: "\e90f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4628,7 +4628,7 @@
     vertical-align: bottom;
 }
 .line_style::before {
-    content: "\0xe919";
+    content: "\e919";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4638,7 +4638,7 @@
     vertical-align: bottom;
 }
 .line_weight::before {
-    content: "\0xe91a";
+    content: "\e91a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4648,7 +4648,7 @@
     vertical-align: bottom;
 }
 .linear_scale::before {
-    content: "\0xe260";
+    content: "\e260";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4658,7 +4658,7 @@
     vertical-align: bottom;
 }
 .link::before {
-    content: "\0xe157";
+    content: "\e157";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4668,7 +4668,7 @@
     vertical-align: bottom;
 }
 .linked_camera::before {
-    content: "\0xe438";
+    content: "\e438";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4678,7 +4678,7 @@
     vertical-align: bottom;
 }
 .list::before {
-    content: "\0xe896";
+    content: "\e896";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4688,7 +4688,7 @@
     vertical-align: bottom;
 }
 .live_help::before {
-    content: "\0xe0c6";
+    content: "\e0c6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4698,7 +4698,7 @@
     vertical-align: bottom;
 }
 .live_tv::before {
-    content: "\0xe639";
+    content: "\e639";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4708,7 +4708,7 @@
     vertical-align: bottom;
 }
 .local_activity::before {
-    content: "\0xe53f";
+    content: "\e53f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4718,7 +4718,7 @@
     vertical-align: bottom;
 }
 .local_airport::before {
-    content: "\0xe53d";
+    content: "\e53d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4728,7 +4728,7 @@
     vertical-align: bottom;
 }
 .local_atm::before {
-    content: "\0xe53e";
+    content: "\e53e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4738,7 +4738,7 @@
     vertical-align: bottom;
 }
 .local_bar::before {
-    content: "\0xe540";
+    content: "\e540";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4748,7 +4748,7 @@
     vertical-align: bottom;
 }
 .local_cafe::before {
-    content: "\0xe541";
+    content: "\e541";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4758,7 +4758,7 @@
     vertical-align: bottom;
 }
 .local_car_wash::before {
-    content: "\0xe542";
+    content: "\e542";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4768,7 +4768,7 @@
     vertical-align: bottom;
 }
 .local_convenience_store::before {
-    content: "\0xe543";
+    content: "\e543";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4778,7 +4778,7 @@
     vertical-align: bottom;
 }
 .local_dining::before {
-    content: "\0xe556";
+    content: "\e556";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4788,7 +4788,7 @@
     vertical-align: bottom;
 }
 .local_drink::before {
-    content: "\0xe544";
+    content: "\e544";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4798,7 +4798,7 @@
     vertical-align: bottom;
 }
 .local_florist::before {
-    content: "\0xe545";
+    content: "\e545";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4808,7 +4808,7 @@
     vertical-align: bottom;
 }
 .local_gas_station::before {
-    content: "\0xe546";
+    content: "\e546";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4818,7 +4818,7 @@
     vertical-align: bottom;
 }
 .local_grocery_store::before {
-    content: "\0xe547";
+    content: "\e547";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4828,7 +4828,7 @@
     vertical-align: bottom;
 }
 .local_hospital::before {
-    content: "\0xe548";
+    content: "\e548";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4838,7 +4838,7 @@
     vertical-align: bottom;
 }
 .local_hotel::before {
-    content: "\0xe549";
+    content: "\e549";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4848,7 +4848,7 @@
     vertical-align: bottom;
 }
 .local_laundry_service::before {
-    content: "\0xe54a";
+    content: "\e54a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4858,7 +4858,7 @@
     vertical-align: bottom;
 }
 .local_library::before {
-    content: "\0xe54b";
+    content: "\e54b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4868,7 +4868,7 @@
     vertical-align: bottom;
 }
 .local_mall::before {
-    content: "\0xe54c";
+    content: "\e54c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4878,7 +4878,7 @@
     vertical-align: bottom;
 }
 .local_movies::before {
-    content: "\0xe54d";
+    content: "\e54d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4888,7 +4888,7 @@
     vertical-align: bottom;
 }
 .local_offer::before {
-    content: "\0xe54e";
+    content: "\e54e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4898,7 +4898,7 @@
     vertical-align: bottom;
 }
 .local_parking::before {
-    content: "\0xe54f";
+    content: "\e54f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4908,7 +4908,7 @@
     vertical-align: bottom;
 }
 .local_pharmacy::before {
-    content: "\0xe550";
+    content: "\e550";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4918,7 +4918,7 @@
     vertical-align: bottom;
 }
 .local_phone::before {
-    content: "\0xe551";
+    content: "\e551";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4928,7 +4928,7 @@
     vertical-align: bottom;
 }
 .local_pizza::before {
-    content: "\0xe552";
+    content: "\e552";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4938,7 +4938,7 @@
     vertical-align: bottom;
 }
 .local_play::before {
-    content: "\0xe553";
+    content: "\e553";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4948,7 +4948,7 @@
     vertical-align: bottom;
 }
 .local_post_office::before {
-    content: "\0xe554";
+    content: "\e554";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4958,7 +4958,7 @@
     vertical-align: bottom;
 }
 .local_printshop::before {
-    content: "\0xe555";
+    content: "\e555";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4968,7 +4968,7 @@
     vertical-align: bottom;
 }
 .local_see::before {
-    content: "\0xe557";
+    content: "\e557";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4978,7 +4978,7 @@
     vertical-align: bottom;
 }
 .local_shipping::before {
-    content: "\0xe558";
+    content: "\e558";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4988,7 +4988,7 @@
     vertical-align: bottom;
 }
 .local_taxi::before {
-    content: "\0xe559";
+    content: "\e559";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -4998,7 +4998,7 @@
     vertical-align: bottom;
 }
 .location_city::before {
-    content: "\0xe7f1";
+    content: "\e7f1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5008,7 +5008,7 @@
     vertical-align: bottom;
 }
 .location_disabled::before {
-    content: "\0xe1b6";
+    content: "\e1b6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5018,7 +5018,7 @@
     vertical-align: bottom;
 }
 .location_off::before {
-    content: "\0xe0c7";
+    content: "\e0c7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5028,7 +5028,7 @@
     vertical-align: bottom;
 }
 .location_on::before {
-    content: "\0xe0c8";
+    content: "\e0c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5038,7 +5038,7 @@
     vertical-align: bottom;
 }
 .location_searching::before {
-    content: "\0xe1b7";
+    content: "\e1b7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5048,7 +5048,7 @@
     vertical-align: bottom;
 }
 .lock::before {
-    content: "\0xe897";
+    content: "\e897";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5058,7 +5058,7 @@
     vertical-align: bottom;
 }
 .lock_open::before {
-    content: "\0xe898";
+    content: "\e898";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5068,7 +5068,7 @@
     vertical-align: bottom;
 }
 .lock_outline::before {
-    content: "\0xe899";
+    content: "\e899";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5078,7 +5078,7 @@
     vertical-align: bottom;
 }
 .looks::before {
-    content: "\0xe3fc";
+    content: "\e3fc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5088,7 +5088,7 @@
     vertical-align: bottom;
 }
 .looks_3::before {
-    content: "\0xe3fb";
+    content: "\e3fb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5098,7 +5098,7 @@
     vertical-align: bottom;
 }
 .looks_4::before {
-    content: "\0xe3fd";
+    content: "\e3fd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5108,7 +5108,7 @@
     vertical-align: bottom;
 }
 .looks_5::before {
-    content: "\0xe3fe";
+    content: "\e3fe";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5118,7 +5118,7 @@
     vertical-align: bottom;
 }
 .looks_6::before {
-    content: "\0xe3ff";
+    content: "\e3ff";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5128,7 +5128,7 @@
     vertical-align: bottom;
 }
 .looks_one::before {
-    content: "\0xe400";
+    content: "\e400";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5138,7 +5138,7 @@
     vertical-align: bottom;
 }
 .looks_two::before {
-    content: "\0xe401";
+    content: "\e401";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5148,7 +5148,7 @@
     vertical-align: bottom;
 }
 .loop::before {
-    content: "\0xe028";
+    content: "\e028";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5158,7 +5158,7 @@
     vertical-align: bottom;
 }
 .loupe::before {
-    content: "\0xe402";
+    content: "\e402";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5168,7 +5168,7 @@
     vertical-align: bottom;
 }
 .low_priority::before {
-    content: "\0xe16d";
+    content: "\e16d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5178,7 +5178,7 @@
     vertical-align: bottom;
 }
 .loyalty::before {
-    content: "\0xe89a";
+    content: "\e89a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5188,7 +5188,7 @@
     vertical-align: bottom;
 }
 .mail::before {
-    content: "\0xe158";
+    content: "\e158";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5198,7 +5198,7 @@
     vertical-align: bottom;
 }
 .mail_outline::before {
-    content: "\0xe0e1";
+    content: "\e0e1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5208,7 +5208,7 @@
     vertical-align: bottom;
 }
 .map::before {
-    content: "\0xe55b";
+    content: "\e55b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5218,7 +5218,7 @@
     vertical-align: bottom;
 }
 .markunread::before {
-    content: "\0xe159";
+    content: "\e159";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5228,7 +5228,7 @@
     vertical-align: bottom;
 }
 .markunread_mailbox::before {
-    content: "\0xe89b";
+    content: "\e89b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5238,7 +5238,7 @@
     vertical-align: bottom;
 }
 .memory::before {
-    content: "\0xe322";
+    content: "\e322";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5248,7 +5248,7 @@
     vertical-align: bottom;
 }
 .menu::before {
-    content: "\0xe5d2";
+    content: "\e5d2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5258,7 +5258,7 @@
     vertical-align: bottom;
 }
 .merge_type::before {
-    content: "\0xe252";
+    content: "\e252";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5268,7 +5268,7 @@
     vertical-align: bottom;
 }
 .message::before {
-    content: "\0xe0c9";
+    content: "\e0c9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5278,7 +5278,7 @@
     vertical-align: bottom;
 }
 .mic::before {
-    content: "\0xe029";
+    content: "\e029";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5288,7 +5288,7 @@
     vertical-align: bottom;
 }
 .mic_none::before {
-    content: "\0xe02a";
+    content: "\e02a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5298,7 +5298,7 @@
     vertical-align: bottom;
 }
 .mic_off::before {
-    content: "\0xe02b";
+    content: "\e02b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5308,7 +5308,7 @@
     vertical-align: bottom;
 }
 .mms::before {
-    content: "\0xe618";
+    content: "\e618";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5318,7 +5318,7 @@
     vertical-align: bottom;
 }
 .mode_comment::before {
-    content: "\0xe253";
+    content: "\e253";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5328,7 +5328,7 @@
     vertical-align: bottom;
 }
 .mode_edit::before {
-    content: "\0xe254";
+    content: "\e254";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5338,7 +5338,7 @@
     vertical-align: bottom;
 }
 .monetization_on::before {
-    content: "\0xe263";
+    content: "\e263";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5348,7 +5348,7 @@
     vertical-align: bottom;
 }
 .money_off::before {
-    content: "\0xe25c";
+    content: "\e25c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5358,7 +5358,7 @@
     vertical-align: bottom;
 }
 .monochrome_photos::before {
-    content: "\0xe403";
+    content: "\e403";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5368,7 +5368,7 @@
     vertical-align: bottom;
 }
 .mood::before {
-    content: "\0xe7f2";
+    content: "\e7f2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5378,7 +5378,7 @@
     vertical-align: bottom;
 }
 .mood_bad::before {
-    content: "\0xe7f3";
+    content: "\e7f3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5388,7 +5388,7 @@
     vertical-align: bottom;
 }
 .more::before {
-    content: "\0xe619";
+    content: "\e619";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5398,7 +5398,7 @@
     vertical-align: bottom;
 }
 .more_horiz::before {
-    content: "\0xe5d3";
+    content: "\e5d3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5408,7 +5408,7 @@
     vertical-align: bottom;
 }
 .more_vert::before {
-    content: "\0xe5d4";
+    content: "\e5d4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5418,7 +5418,7 @@
     vertical-align: bottom;
 }
 .motorcycle::before {
-    content: "\0xe91b";
+    content: "\e91b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5428,7 +5428,7 @@
     vertical-align: bottom;
 }
 .mouse::before {
-    content: "\0xe323";
+    content: "\e323";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5438,7 +5438,7 @@
     vertical-align: bottom;
 }
 .move_to_inbox::before {
-    content: "\0xe168";
+    content: "\e168";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5448,7 +5448,7 @@
     vertical-align: bottom;
 }
 .movie::before {
-    content: "\0xe02c";
+    content: "\e02c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5458,7 +5458,7 @@
     vertical-align: bottom;
 }
 .movie_creation::before {
-    content: "\0xe404";
+    content: "\e404";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5468,7 +5468,7 @@
     vertical-align: bottom;
 }
 .movie_filter::before {
-    content: "\0xe43a";
+    content: "\e43a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5478,7 +5478,7 @@
     vertical-align: bottom;
 }
 .multiline_chart::before {
-    content: "\0xe6df";
+    content: "\e6df";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5488,7 +5488,7 @@
     vertical-align: bottom;
 }
 .music_note::before {
-    content: "\0xe405";
+    content: "\e405";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5498,7 +5498,7 @@
     vertical-align: bottom;
 }
 .music_video::before {
-    content: "\0xe063";
+    content: "\e063";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5508,7 +5508,7 @@
     vertical-align: bottom;
 }
 .my_location::before {
-    content: "\0xe55c";
+    content: "\e55c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5518,7 +5518,7 @@
     vertical-align: bottom;
 }
 .nature::before {
-    content: "\0xe406";
+    content: "\e406";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5528,7 +5528,7 @@
     vertical-align: bottom;
 }
 .nature_people::before {
-    content: "\0xe407";
+    content: "\e407";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5538,7 +5538,7 @@
     vertical-align: bottom;
 }
 .navigate_before::before {
-    content: "\0xe408";
+    content: "\e408";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5548,7 +5548,7 @@
     vertical-align: bottom;
 }
 .navigate_next::before {
-    content: "\0xe409";
+    content: "\e409";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5558,7 +5558,7 @@
     vertical-align: bottom;
 }
 .navigation::before {
-    content: "\0xe55d";
+    content: "\e55d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5568,7 +5568,7 @@
     vertical-align: bottom;
 }
 .near_me::before {
-    content: "\0xe569";
+    content: "\e569";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5578,7 +5578,7 @@
     vertical-align: bottom;
 }
 .network_cell::before {
-    content: "\0xe1b9";
+    content: "\e1b9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5588,7 +5588,7 @@
     vertical-align: bottom;
 }
 .network_check::before {
-    content: "\0xe640";
+    content: "\e640";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5598,7 +5598,7 @@
     vertical-align: bottom;
 }
 .network_locked::before {
-    content: "\0xe61a";
+    content: "\e61a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5608,7 +5608,7 @@
     vertical-align: bottom;
 }
 .network_wifi::before {
-    content: "\0xe1ba";
+    content: "\e1ba";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5618,7 +5618,7 @@
     vertical-align: bottom;
 }
 .new_releases::before {
-    content: "\0xe031";
+    content: "\e031";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5628,7 +5628,7 @@
     vertical-align: bottom;
 }
 .next_week::before {
-    content: "\0xe16a";
+    content: "\e16a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5638,7 +5638,7 @@
     vertical-align: bottom;
 }
 .nfc::before {
-    content: "\0xe1bb";
+    content: "\e1bb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5648,7 +5648,7 @@
     vertical-align: bottom;
 }
 .no_encryption::before {
-    content: "\0xe641";
+    content: "\e641";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5658,7 +5658,7 @@
     vertical-align: bottom;
 }
 .no_sim::before {
-    content: "\0xe0cc";
+    content: "\e0cc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5668,7 +5668,7 @@
     vertical-align: bottom;
 }
 .not_interested::before {
-    content: "\0xe033";
+    content: "\e033";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5678,7 +5678,7 @@
     vertical-align: bottom;
 }
 .note::before {
-    content: "\0xe06f";
+    content: "\e06f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5688,7 +5688,7 @@
     vertical-align: bottom;
 }
 .note_add::before {
-    content: "\0xe89c";
+    content: "\e89c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5698,7 +5698,7 @@
     vertical-align: bottom;
 }
 .notifications::before {
-    content: "\0xe7f4";
+    content: "\e7f4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5708,7 +5708,7 @@
     vertical-align: bottom;
 }
 .notifications_active::before {
-    content: "\0xe7f7";
+    content: "\e7f7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5718,7 +5718,7 @@
     vertical-align: bottom;
 }
 .notifications_none::before {
-    content: "\0xe7f5";
+    content: "\e7f5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5728,7 +5728,7 @@
     vertical-align: bottom;
 }
 .notifications_off::before {
-    content: "\0xe7f6";
+    content: "\e7f6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5738,7 +5738,7 @@
     vertical-align: bottom;
 }
 .notifications_paused::before {
-    content: "\0xe7f8";
+    content: "\e7f8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5748,7 +5748,7 @@
     vertical-align: bottom;
 }
 .offline_pin::before {
-    content: "\0xe90a";
+    content: "\e90a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5758,7 +5758,7 @@
     vertical-align: bottom;
 }
 .ondemand_video::before {
-    content: "\0xe63a";
+    content: "\e63a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5768,7 +5768,7 @@
     vertical-align: bottom;
 }
 .opacity::before {
-    content: "\0xe91c";
+    content: "\e91c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5778,7 +5778,7 @@
     vertical-align: bottom;
 }
 .open_in_browser::before {
-    content: "\0xe89d";
+    content: "\e89d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5788,7 +5788,7 @@
     vertical-align: bottom;
 }
 .open_in_new::before {
-    content: "\0xe89e";
+    content: "\e89e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5798,7 +5798,7 @@
     vertical-align: bottom;
 }
 .open_with::before {
-    content: "\0xe89f";
+    content: "\e89f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5808,7 +5808,7 @@
     vertical-align: bottom;
 }
 .pages::before {
-    content: "\0xe7f9";
+    content: "\e7f9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5818,7 +5818,7 @@
     vertical-align: bottom;
 }
 .pageview::before {
-    content: "\0xe8a0";
+    content: "\e8a0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5828,7 +5828,7 @@
     vertical-align: bottom;
 }
 .palette::before {
-    content: "\0xe40a";
+    content: "\e40a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5838,7 +5838,7 @@
     vertical-align: bottom;
 }
 .pan_tool::before {
-    content: "\0xe925";
+    content: "\e925";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5848,7 +5848,7 @@
     vertical-align: bottom;
 }
 .panorama::before {
-    content: "\0xe40b";
+    content: "\e40b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5858,7 +5858,7 @@
     vertical-align: bottom;
 }
 .panorama_fish_eye::before {
-    content: "\0xe40c";
+    content: "\e40c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5868,7 +5868,7 @@
     vertical-align: bottom;
 }
 .panorama_horizontal::before {
-    content: "\0xe40d";
+    content: "\e40d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5878,7 +5878,7 @@
     vertical-align: bottom;
 }
 .panorama_vertical::before {
-    content: "\0xe40e";
+    content: "\e40e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5888,7 +5888,7 @@
     vertical-align: bottom;
 }
 .panorama_wide_angle::before {
-    content: "\0xe40f";
+    content: "\e40f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5898,7 +5898,7 @@
     vertical-align: bottom;
 }
 .party_mode::before {
-    content: "\0xe7fa";
+    content: "\e7fa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5908,7 +5908,7 @@
     vertical-align: bottom;
 }
 .pause::before {
-    content: "\0xe034";
+    content: "\e034";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5918,7 +5918,7 @@
     vertical-align: bottom;
 }
 .pause_circle_filled::before {
-    content: "\0xe035";
+    content: "\e035";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5928,7 +5928,7 @@
     vertical-align: bottom;
 }
 .pause_circle_outline::before {
-    content: "\0xe036";
+    content: "\e036";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5938,7 +5938,7 @@
     vertical-align: bottom;
 }
 .payment::before {
-    content: "\0xe8a1";
+    content: "\e8a1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5948,7 +5948,7 @@
     vertical-align: bottom;
 }
 .people::before {
-    content: "\0xe7fb";
+    content: "\e7fb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5958,7 +5958,7 @@
     vertical-align: bottom;
 }
 .people_outline::before {
-    content: "\0xe7fc";
+    content: "\e7fc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5968,7 +5968,7 @@
     vertical-align: bottom;
 }
 .perm_camera_mic::before {
-    content: "\0xe8a2";
+    content: "\e8a2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5978,7 +5978,7 @@
     vertical-align: bottom;
 }
 .perm_contact_calendar::before {
-    content: "\0xe8a3";
+    content: "\e8a3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5988,7 +5988,7 @@
     vertical-align: bottom;
 }
 .perm_data_setting::before {
-    content: "\0xe8a4";
+    content: "\e8a4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -5998,7 +5998,7 @@
     vertical-align: bottom;
 }
 .perm_device_information::before {
-    content: "\0xe8a5";
+    content: "\e8a5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6008,7 +6008,7 @@
     vertical-align: bottom;
 }
 .perm_identity::before {
-    content: "\0xe8a6";
+    content: "\e8a6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6018,7 +6018,7 @@
     vertical-align: bottom;
 }
 .perm_media::before {
-    content: "\0xe8a7";
+    content: "\e8a7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6028,7 +6028,7 @@
     vertical-align: bottom;
 }
 .perm_phone_msg::before {
-    content: "\0xe8a8";
+    content: "\e8a8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6038,7 +6038,7 @@
     vertical-align: bottom;
 }
 .perm_scan_wifi::before {
-    content: "\0xe8a9";
+    content: "\e8a9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6048,7 +6048,7 @@
     vertical-align: bottom;
 }
 .person::before {
-    content: "\0xe7fd";
+    content: "\e7fd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6058,7 +6058,7 @@
     vertical-align: bottom;
 }
 .person_add::before {
-    content: "\0xe7fe";
+    content: "\e7fe";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6068,7 +6068,7 @@
     vertical-align: bottom;
 }
 .person_outline::before {
-    content: "\0xe7ff";
+    content: "\e7ff";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6078,7 +6078,7 @@
     vertical-align: bottom;
 }
 .person_pin::before {
-    content: "\0xe55a";
+    content: "\e55a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6088,7 +6088,7 @@
     vertical-align: bottom;
 }
 .person_pin_circle::before {
-    content: "\0xe56a";
+    content: "\e56a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6098,7 +6098,7 @@
     vertical-align: bottom;
 }
 .personal_video::before {
-    content: "\0xe63b";
+    content: "\e63b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6108,7 +6108,7 @@
     vertical-align: bottom;
 }
 .pets::before {
-    content: "\0xe91d";
+    content: "\e91d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6118,7 +6118,7 @@
     vertical-align: bottom;
 }
 .phone::before {
-    content: "\0xe0cd";
+    content: "\e0cd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6128,7 +6128,7 @@
     vertical-align: bottom;
 }
 .phone_android::before {
-    content: "\0xe324";
+    content: "\e324";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6138,7 +6138,7 @@
     vertical-align: bottom;
 }
 .phone_bluetooth_speaker::before {
-    content: "\0xe61b";
+    content: "\e61b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6148,7 +6148,7 @@
     vertical-align: bottom;
 }
 .phone_forwarded::before {
-    content: "\0xe61c";
+    content: "\e61c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6158,7 +6158,7 @@
     vertical-align: bottom;
 }
 .phone_in_talk::before {
-    content: "\0xe61d";
+    content: "\e61d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6168,7 +6168,7 @@
     vertical-align: bottom;
 }
 .phone_iphone::before {
-    content: "\0xe325";
+    content: "\e325";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6178,7 +6178,7 @@
     vertical-align: bottom;
 }
 .phone_locked::before {
-    content: "\0xe61e";
+    content: "\e61e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6188,7 +6188,7 @@
     vertical-align: bottom;
 }
 .phone_missed::before {
-    content: "\0xe61f";
+    content: "\e61f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6198,7 +6198,7 @@
     vertical-align: bottom;
 }
 .phone_paused::before {
-    content: "\0xe620";
+    content: "\e620";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6208,7 +6208,7 @@
     vertical-align: bottom;
 }
 .phonelink::before {
-    content: "\0xe326";
+    content: "\e326";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6218,7 +6218,7 @@
     vertical-align: bottom;
 }
 .phonelink_erase::before {
-    content: "\0xe0db";
+    content: "\e0db";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6228,7 +6228,7 @@
     vertical-align: bottom;
 }
 .phonelink_lock::before {
-    content: "\0xe0dc";
+    content: "\e0dc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6238,7 +6238,7 @@
     vertical-align: bottom;
 }
 .phonelink_off::before {
-    content: "\0xe327";
+    content: "\e327";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6248,7 +6248,7 @@
     vertical-align: bottom;
 }
 .phonelink_ring::before {
-    content: "\0xe0dd";
+    content: "\e0dd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6258,7 +6258,7 @@
     vertical-align: bottom;
 }
 .phonelink_setup::before {
-    content: "\0xe0de";
+    content: "\e0de";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6268,7 +6268,7 @@
     vertical-align: bottom;
 }
 .photo::before {
-    content: "\0xe410";
+    content: "\e410";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6278,7 +6278,7 @@
     vertical-align: bottom;
 }
 .photo_album::before {
-    content: "\0xe411";
+    content: "\e411";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6288,7 +6288,7 @@
     vertical-align: bottom;
 }
 .photo_camera::before {
-    content: "\0xe412";
+    content: "\e412";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6298,7 +6298,7 @@
     vertical-align: bottom;
 }
 .photo_filter::before {
-    content: "\0xe43b";
+    content: "\e43b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6308,7 +6308,7 @@
     vertical-align: bottom;
 }
 .photo_library::before {
-    content: "\0xe413";
+    content: "\e413";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6318,7 +6318,7 @@
     vertical-align: bottom;
 }
 .photo_size_select_actual::before {
-    content: "\0xe432";
+    content: "\e432";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6328,7 +6328,7 @@
     vertical-align: bottom;
 }
 .photo_size_select_large::before {
-    content: "\0xe433";
+    content: "\e433";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6338,7 +6338,7 @@
     vertical-align: bottom;
 }
 .photo_size_select_small::before {
-    content: "\0xe434";
+    content: "\e434";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6348,7 +6348,7 @@
     vertical-align: bottom;
 }
 .picture_as_pdf::before {
-    content: "\0xe415";
+    content: "\e415";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6358,7 +6358,7 @@
     vertical-align: bottom;
 }
 .picture_in_picture::before {
-    content: "\0xe8aa";
+    content: "\e8aa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6368,7 +6368,7 @@
     vertical-align: bottom;
 }
 .picture_in_picture_alt::before {
-    content: "\0xe911";
+    content: "\e911";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6378,7 +6378,7 @@
     vertical-align: bottom;
 }
 .pie_chart::before {
-    content: "\0xe6c4";
+    content: "\e6c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6388,7 +6388,7 @@
     vertical-align: bottom;
 }
 .pie_chart_outlined::before {
-    content: "\0xe6c5";
+    content: "\e6c5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6398,7 +6398,7 @@
     vertical-align: bottom;
 }
 .pin_drop::before {
-    content: "\0xe55e";
+    content: "\e55e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6408,7 +6408,7 @@
     vertical-align: bottom;
 }
 .place::before {
-    content: "\0xe55f";
+    content: "\e55f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6418,7 +6418,7 @@
     vertical-align: bottom;
 }
 .play_arrow::before {
-    content: "\0xe037";
+    content: "\e037";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6428,7 +6428,7 @@
     vertical-align: bottom;
 }
 .play_circle_filled::before {
-    content: "\0xe038";
+    content: "\e038";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6438,7 +6438,7 @@
     vertical-align: bottom;
 }
 .play_circle_outline::before {
-    content: "\0xe039";
+    content: "\e039";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6448,7 +6448,7 @@
     vertical-align: bottom;
 }
 .play_for_work::before {
-    content: "\0xe906";
+    content: "\e906";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6458,7 +6458,7 @@
     vertical-align: bottom;
 }
 .playlist_add::before {
-    content: "\0xe03b";
+    content: "\e03b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6468,7 +6468,7 @@
     vertical-align: bottom;
 }
 .playlist_add_check::before {
-    content: "\0xe065";
+    content: "\e065";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6478,7 +6478,7 @@
     vertical-align: bottom;
 }
 .playlist_play::before {
-    content: "\0xe05f";
+    content: "\e05f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6488,7 +6488,7 @@
     vertical-align: bottom;
 }
 .plus_one::before {
-    content: "\0xe800";
+    content: "\e800";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6498,7 +6498,7 @@
     vertical-align: bottom;
 }
 .poll::before {
-    content: "\0xe801";
+    content: "\e801";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6508,7 +6508,7 @@
     vertical-align: bottom;
 }
 .polymer::before {
-    content: "\0xe8ab";
+    content: "\e8ab";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6518,7 +6518,7 @@
     vertical-align: bottom;
 }
 .pool::before {
-    content: "\0xeb48";
+    content: "\eb48";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6528,7 +6528,7 @@
     vertical-align: bottom;
 }
 .portable_wifi_off::before {
-    content: "\0xe0ce";
+    content: "\e0ce";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6538,7 +6538,7 @@
     vertical-align: bottom;
 }
 .portrait::before {
-    content: "\0xe416";
+    content: "\e416";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6548,7 +6548,7 @@
     vertical-align: bottom;
 }
 .power::before {
-    content: "\0xe63c";
+    content: "\e63c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6558,7 +6558,7 @@
     vertical-align: bottom;
 }
 .power_input::before {
-    content: "\0xe336";
+    content: "\e336";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6568,7 +6568,7 @@
     vertical-align: bottom;
 }
 .power_settings_new::before {
-    content: "\0xe8ac";
+    content: "\e8ac";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6578,7 +6578,7 @@
     vertical-align: bottom;
 }
 .pregnant_woman::before {
-    content: "\0xe91e";
+    content: "\e91e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6588,7 +6588,7 @@
     vertical-align: bottom;
 }
 .present_to_all::before {
-    content: "\0xe0df";
+    content: "\e0df";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6598,7 +6598,7 @@
     vertical-align: bottom;
 }
 .print::before {
-    content: "\0xe8ad";
+    content: "\e8ad";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6608,7 +6608,7 @@
     vertical-align: bottom;
 }
 .priority_high::before {
-    content: "\0xe645";
+    content: "\e645";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6618,7 +6618,7 @@
     vertical-align: bottom;
 }
 .public::before {
-    content: "\0xe80b";
+    content: "\e80b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6628,7 +6628,7 @@
     vertical-align: bottom;
 }
 .publish::before {
-    content: "\0xe255";
+    content: "\e255";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6638,7 +6638,7 @@
     vertical-align: bottom;
 }
 .query_builder::before {
-    content: "\0xe8ae";
+    content: "\e8ae";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6648,7 +6648,7 @@
     vertical-align: bottom;
 }
 .question_answer::before {
-    content: "\0xe8af";
+    content: "\e8af";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6658,7 +6658,7 @@
     vertical-align: bottom;
 }
 .queue::before {
-    content: "\0xe03c";
+    content: "\e03c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6668,7 +6668,7 @@
     vertical-align: bottom;
 }
 .queue_music::before {
-    content: "\0xe03d";
+    content: "\e03d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6678,7 +6678,7 @@
     vertical-align: bottom;
 }
 .queue_play_next::before {
-    content: "\0xe066";
+    content: "\e066";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6688,7 +6688,7 @@
     vertical-align: bottom;
 }
 .radio::before {
-    content: "\0xe03e";
+    content: "\e03e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6698,7 +6698,7 @@
     vertical-align: bottom;
 }
 .radio_button_checked::before {
-    content: "\0xe837";
+    content: "\e837";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6708,7 +6708,7 @@
     vertical-align: bottom;
 }
 .radio_button_unchecked::before {
-    content: "\0xe836";
+    content: "\e836";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6718,7 +6718,7 @@
     vertical-align: bottom;
 }
 .rate_review::before {
-    content: "\0xe560";
+    content: "\e560";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6728,7 +6728,7 @@
     vertical-align: bottom;
 }
 .receipt::before {
-    content: "\0xe8b0";
+    content: "\e8b0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6738,7 +6738,7 @@
     vertical-align: bottom;
 }
 .recent_actors::before {
-    content: "\0xe03f";
+    content: "\e03f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6748,7 +6748,7 @@
     vertical-align: bottom;
 }
 .record_voice_over::before {
-    content: "\0xe91f";
+    content: "\e91f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6758,7 +6758,7 @@
     vertical-align: bottom;
 }
 .redeem::before {
-    content: "\0xe8b1";
+    content: "\e8b1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6768,7 +6768,7 @@
     vertical-align: bottom;
 }
 .redo::before {
-    content: "\0xe15a";
+    content: "\e15a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6778,7 +6778,7 @@
     vertical-align: bottom;
 }
 .refresh::before {
-    content: "\0xe5d5";
+    content: "\e5d5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6788,7 +6788,7 @@
     vertical-align: bottom;
 }
 .remove::before {
-    content: "\0xe15b";
+    content: "\e15b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6798,7 +6798,7 @@
     vertical-align: bottom;
 }
 .remove_circle::before {
-    content: "\0xe15c";
+    content: "\e15c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6808,7 +6808,7 @@
     vertical-align: bottom;
 }
 .remove_circle_outline::before {
-    content: "\0xe15d";
+    content: "\e15d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6818,7 +6818,7 @@
     vertical-align: bottom;
 }
 .remove_from_queue::before {
-    content: "\0xe067";
+    content: "\e067";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6828,7 +6828,7 @@
     vertical-align: bottom;
 }
 .remove_red_eye::before {
-    content: "\0xe417";
+    content: "\e417";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6838,7 +6838,7 @@
     vertical-align: bottom;
 }
 .remove_shopping_cart::before {
-    content: "\0xe928";
+    content: "\e928";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6848,7 +6848,7 @@
     vertical-align: bottom;
 }
 .reorder::before {
-    content: "\0xe8fe";
+    content: "\e8fe";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6858,7 +6858,7 @@
     vertical-align: bottom;
 }
 .repeat::before {
-    content: "\0xe040";
+    content: "\e040";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6868,7 +6868,7 @@
     vertical-align: bottom;
 }
 .repeat_one::before {
-    content: "\0xe041";
+    content: "\e041";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6878,7 +6878,7 @@
     vertical-align: bottom;
 }
 .replay::before {
-    content: "\0xe042";
+    content: "\e042";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6888,7 +6888,7 @@
     vertical-align: bottom;
 }
 .replay_10::before {
-    content: "\0xe059";
+    content: "\e059";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6898,7 +6898,7 @@
     vertical-align: bottom;
 }
 .replay_30::before {
-    content: "\0xe05a";
+    content: "\e05a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6908,7 +6908,7 @@
     vertical-align: bottom;
 }
 .replay_5::before {
-    content: "\0xe05b";
+    content: "\e05b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6918,7 +6918,7 @@
     vertical-align: bottom;
 }
 .reply::before {
-    content: "\0xe15e";
+    content: "\e15e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6928,7 +6928,7 @@
     vertical-align: bottom;
 }
 .reply_all::before {
-    content: "\0xe15f";
+    content: "\e15f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6938,7 +6938,7 @@
     vertical-align: bottom;
 }
 .report::before {
-    content: "\0xe160";
+    content: "\e160";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6948,7 +6948,7 @@
     vertical-align: bottom;
 }
 .report_problem::before {
-    content: "\0xe8b2";
+    content: "\e8b2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6958,7 +6958,7 @@
     vertical-align: bottom;
 }
 .restaurant::before {
-    content: "\0xe56c";
+    content: "\e56c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6968,7 +6968,7 @@
     vertical-align: bottom;
 }
 .restaurant_menu::before {
-    content: "\0xe561";
+    content: "\e561";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6978,7 +6978,7 @@
     vertical-align: bottom;
 }
 .restore::before {
-    content: "\0xe8b3";
+    content: "\e8b3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6988,7 +6988,7 @@
     vertical-align: bottom;
 }
 .restore_page::before {
-    content: "\0xe929";
+    content: "\e929";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -6998,7 +6998,7 @@
     vertical-align: bottom;
 }
 .ring_volume::before {
-    content: "\0xe0d1";
+    content: "\e0d1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7008,7 +7008,7 @@
     vertical-align: bottom;
 }
 .room::before {
-    content: "\0xe8b4";
+    content: "\e8b4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7018,7 +7018,7 @@
     vertical-align: bottom;
 }
 .room_service::before {
-    content: "\0xeb49";
+    content: "\eb49";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7028,7 +7028,7 @@
     vertical-align: bottom;
 }
 .rotate_90_degrees_ccw::before {
-    content: "\0xe418";
+    content: "\e418";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7038,7 +7038,7 @@
     vertical-align: bottom;
 }
 .rotate_left::before {
-    content: "\0xe419";
+    content: "\e419";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7048,7 +7048,7 @@
     vertical-align: bottom;
 }
 .rotate_right::before {
-    content: "\0xe41a";
+    content: "\e41a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7058,7 +7058,7 @@
     vertical-align: bottom;
 }
 .rounded_corner::before {
-    content: "\0xe920";
+    content: "\e920";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7068,7 +7068,7 @@
     vertical-align: bottom;
 }
 .router::before {
-    content: "\0xe328";
+    content: "\e328";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7078,7 +7078,7 @@
     vertical-align: bottom;
 }
 .rowing::before {
-    content: "\0xe921";
+    content: "\e921";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7088,7 +7088,7 @@
     vertical-align: bottom;
 }
 .rss_feed::before {
-    content: "\0xe0e5";
+    content: "\e0e5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7098,7 +7098,7 @@
     vertical-align: bottom;
 }
 .rv_hookup::before {
-    content: "\0xe642";
+    content: "\e642";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7108,7 +7108,7 @@
     vertical-align: bottom;
 }
 .satellite::before {
-    content: "\0xe562";
+    content: "\e562";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7118,7 +7118,7 @@
     vertical-align: bottom;
 }
 .save::before {
-    content: "\0xe161";
+    content: "\e161";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7128,7 +7128,7 @@
     vertical-align: bottom;
 }
 .scanner::before {
-    content: "\0xe329";
+    content: "\e329";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7138,7 +7138,7 @@
     vertical-align: bottom;
 }
 .schedule::before {
-    content: "\0xe8b5";
+    content: "\e8b5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7148,7 +7148,7 @@
     vertical-align: bottom;
 }
 .school::before {
-    content: "\0xe80c";
+    content: "\e80c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7158,7 +7158,7 @@
     vertical-align: bottom;
 }
 .screen_lock_landscape::before {
-    content: "\0xe1be";
+    content: "\e1be";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7168,7 +7168,7 @@
     vertical-align: bottom;
 }
 .screen_lock_portrait::before {
-    content: "\0xe1bf";
+    content: "\e1bf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7178,7 +7178,7 @@
     vertical-align: bottom;
 }
 .screen_lock_rotation::before {
-    content: "\0xe1c0";
+    content: "\e1c0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7188,7 +7188,7 @@
     vertical-align: bottom;
 }
 .screen_rotation::before {
-    content: "\0xe1c1";
+    content: "\e1c1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7198,7 +7198,7 @@
     vertical-align: bottom;
 }
 .screen_share::before {
-    content: "\0xe0e2";
+    content: "\e0e2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7208,7 +7208,7 @@
     vertical-align: bottom;
 }
 .sd_card::before {
-    content: "\0xe623";
+    content: "\e623";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7218,7 +7218,7 @@
     vertical-align: bottom;
 }
 .sd_storage::before {
-    content: "\0xe1c2";
+    content: "\e1c2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7228,7 +7228,7 @@
     vertical-align: bottom;
 }
 .search::before {
-    content: "\0xe8b6";
+    content: "\e8b6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7238,7 +7238,7 @@
     vertical-align: bottom;
 }
 .security::before {
-    content: "\0xe32a";
+    content: "\e32a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7248,7 +7248,7 @@
     vertical-align: bottom;
 }
 .select_all::before {
-    content: "\0xe162";
+    content: "\e162";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7258,7 +7258,7 @@
     vertical-align: bottom;
 }
 .send::before {
-    content: "\0xe163";
+    content: "\e163";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7268,7 +7268,7 @@
     vertical-align: bottom;
 }
 .sentiment_dissatisfied::before {
-    content: "\0xe811";
+    content: "\e811";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7278,7 +7278,7 @@
     vertical-align: bottom;
 }
 .sentiment_neutral::before {
-    content: "\0xe812";
+    content: "\e812";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7288,7 +7288,7 @@
     vertical-align: bottom;
 }
 .sentiment_satisfied::before {
-    content: "\0xe813";
+    content: "\e813";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7298,7 +7298,7 @@
     vertical-align: bottom;
 }
 .sentiment_very_dissatisfied::before {
-    content: "\0xe814";
+    content: "\e814";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7308,7 +7308,7 @@
     vertical-align: bottom;
 }
 .sentiment_very_satisfied::before {
-    content: "\0xe815";
+    content: "\e815";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7318,7 +7318,7 @@
     vertical-align: bottom;
 }
 .settings::before {
-    content: "\0xe8b8";
+    content: "\e8b8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7328,7 +7328,7 @@
     vertical-align: bottom;
 }
 .settings_applications::before {
-    content: "\0xe8b9";
+    content: "\e8b9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7338,7 +7338,7 @@
     vertical-align: bottom;
 }
 .settings_backup_restore::before {
-    content: "\0xe8ba";
+    content: "\e8ba";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7348,7 +7348,7 @@
     vertical-align: bottom;
 }
 .settings_bluetooth::before {
-    content: "\0xe8bb";
+    content: "\e8bb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7358,7 +7358,7 @@
     vertical-align: bottom;
 }
 .settings_brightness::before {
-    content: "\0xe8bd";
+    content: "\e8bd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7368,7 +7368,7 @@
     vertical-align: bottom;
 }
 .settings_cell::before {
-    content: "\0xe8bc";
+    content: "\e8bc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7378,7 +7378,7 @@
     vertical-align: bottom;
 }
 .settings_ethernet::before {
-    content: "\0xe8be";
+    content: "\e8be";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7388,7 +7388,7 @@
     vertical-align: bottom;
 }
 .settings_input_antenna::before {
-    content: "\0xe8bf";
+    content: "\e8bf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7398,7 +7398,7 @@
     vertical-align: bottom;
 }
 .settings_input_component::before {
-    content: "\0xe8c0";
+    content: "\e8c0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7408,7 +7408,7 @@
     vertical-align: bottom;
 }
 .settings_input_composite::before {
-    content: "\0xe8c1";
+    content: "\e8c1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7418,7 +7418,7 @@
     vertical-align: bottom;
 }
 .settings_input_hdmi::before {
-    content: "\0xe8c2";
+    content: "\e8c2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7428,7 +7428,7 @@
     vertical-align: bottom;
 }
 .settings_input_svideo::before {
-    content: "\0xe8c3";
+    content: "\e8c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7438,7 +7438,7 @@
     vertical-align: bottom;
 }
 .settings_overscan::before {
-    content: "\0xe8c4";
+    content: "\e8c4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7448,7 +7448,7 @@
     vertical-align: bottom;
 }
 .settings_phone::before {
-    content: "\0xe8c5";
+    content: "\e8c5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7458,7 +7458,7 @@
     vertical-align: bottom;
 }
 .settings_power::before {
-    content: "\0xe8c6";
+    content: "\e8c6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7468,7 +7468,7 @@
     vertical-align: bottom;
 }
 .settings_remote::before {
-    content: "\0xe8c7";
+    content: "\e8c7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7478,7 +7478,7 @@
     vertical-align: bottom;
 }
 .settings_system_daydream::before {
-    content: "\0xe1c3";
+    content: "\e1c3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7488,7 +7488,7 @@
     vertical-align: bottom;
 }
 .settings_voice::before {
-    content: "\0xe8c8";
+    content: "\e8c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7498,7 +7498,7 @@
     vertical-align: bottom;
 }
 .share::before {
-    content: "\0xe80d";
+    content: "\e80d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7508,7 +7508,7 @@
     vertical-align: bottom;
 }
 .shop::before {
-    content: "\0xe8c9";
+    content: "\e8c9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7518,7 +7518,7 @@
     vertical-align: bottom;
 }
 .shop_two::before {
-    content: "\0xe8ca";
+    content: "\e8ca";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7528,7 +7528,7 @@
     vertical-align: bottom;
 }
 .shopping_basket::before {
-    content: "\0xe8cb";
+    content: "\e8cb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7538,7 +7538,7 @@
     vertical-align: bottom;
 }
 .shopping_cart::before {
-    content: "\0xe8cc";
+    content: "\e8cc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7548,7 +7548,7 @@
     vertical-align: bottom;
 }
 .short_text::before {
-    content: "\0xe261";
+    content: "\e261";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7558,7 +7558,7 @@
     vertical-align: bottom;
 }
 .show_chart::before {
-    content: "\0xe6e1";
+    content: "\e6e1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7568,7 +7568,7 @@
     vertical-align: bottom;
 }
 .shuffle::before {
-    content: "\0xe043";
+    content: "\e043";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7578,7 +7578,7 @@
     vertical-align: bottom;
 }
 .signal_cellular_4_bar::before {
-    content: "\0xe1c8";
+    content: "\e1c8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7588,7 +7588,7 @@
     vertical-align: bottom;
 }
 .signal_cellular_connected_no_internet_4_bar::before {
-    content: "\0xe1cd";
+    content: "\e1cd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7598,7 +7598,7 @@
     vertical-align: bottom;
 }
 .signal_cellular_no_sim::before {
-    content: "\0xe1ce";
+    content: "\e1ce";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7608,7 +7608,7 @@
     vertical-align: bottom;
 }
 .signal_cellular_null::before {
-    content: "\0xe1cf";
+    content: "\e1cf";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7618,7 +7618,7 @@
     vertical-align: bottom;
 }
 .signal_cellular_off::before {
-    content: "\0xe1d0";
+    content: "\e1d0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7628,7 +7628,7 @@
     vertical-align: bottom;
 }
 .signal_wifi_4_bar::before {
-    content: "\0xe1d8";
+    content: "\e1d8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7638,7 +7638,7 @@
     vertical-align: bottom;
 }
 .signal_wifi_4_bar_lock::before {
-    content: "\0xe1d9";
+    content: "\e1d9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7648,7 +7648,7 @@
     vertical-align: bottom;
 }
 .signal_wifi_off::before {
-    content: "\0xe1da";
+    content: "\e1da";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7658,7 +7658,7 @@
     vertical-align: bottom;
 }
 .sim_card::before {
-    content: "\0xe32b";
+    content: "\e32b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7668,7 +7668,7 @@
     vertical-align: bottom;
 }
 .sim_card_alert::before {
-    content: "\0xe624";
+    content: "\e624";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7678,7 +7678,7 @@
     vertical-align: bottom;
 }
 .skip_next::before {
-    content: "\0xe044";
+    content: "\e044";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7688,7 +7688,7 @@
     vertical-align: bottom;
 }
 .skip_previous::before {
-    content: "\0xe045";
+    content: "\e045";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7698,7 +7698,7 @@
     vertical-align: bottom;
 }
 .slideshow::before {
-    content: "\0xe41b";
+    content: "\e41b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7708,7 +7708,7 @@
     vertical-align: bottom;
 }
 .slow_motion_video::before {
-    content: "\0xe068";
+    content: "\e068";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7718,7 +7718,7 @@
     vertical-align: bottom;
 }
 .smartphone::before {
-    content: "\0xe32c";
+    content: "\e32c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7728,7 +7728,7 @@
     vertical-align: bottom;
 }
 .smoke_free::before {
-    content: "\0xeb4a";
+    content: "\eb4a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7738,7 +7738,7 @@
     vertical-align: bottom;
 }
 .smoking_rooms::before {
-    content: "\0xeb4b";
+    content: "\eb4b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7748,7 +7748,7 @@
     vertical-align: bottom;
 }
 .sms::before {
-    content: "\0xe625";
+    content: "\e625";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7758,7 +7758,7 @@
     vertical-align: bottom;
 }
 .sms_failed::before {
-    content: "\0xe626";
+    content: "\e626";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7768,7 +7768,7 @@
     vertical-align: bottom;
 }
 .snooze::before {
-    content: "\0xe046";
+    content: "\e046";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7778,7 +7778,7 @@
     vertical-align: bottom;
 }
 .sort::before {
-    content: "\0xe164";
+    content: "\e164";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7788,7 +7788,7 @@
     vertical-align: bottom;
 }
 .sort_by_alpha::before {
-    content: "\0xe053";
+    content: "\e053";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7798,7 +7798,7 @@
     vertical-align: bottom;
 }
 .spa::before {
-    content: "\0xeb4c";
+    content: "\eb4c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7808,7 +7808,7 @@
     vertical-align: bottom;
 }
 .space_bar::before {
-    content: "\0xe256";
+    content: "\e256";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7818,7 +7818,7 @@
     vertical-align: bottom;
 }
 .speaker::before {
-    content: "\0xe32d";
+    content: "\e32d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7828,7 +7828,7 @@
     vertical-align: bottom;
 }
 .speaker_group::before {
-    content: "\0xe32e";
+    content: "\e32e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7838,7 +7838,7 @@
     vertical-align: bottom;
 }
 .speaker_notes::before {
-    content: "\0xe8cd";
+    content: "\e8cd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7848,7 +7848,7 @@
     vertical-align: bottom;
 }
 .speaker_notes_off::before {
-    content: "\0xe92a";
+    content: "\e92a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7858,7 +7858,7 @@
     vertical-align: bottom;
 }
 .speaker_phone::before {
-    content: "\0xe0d2";
+    content: "\e0d2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7868,7 +7868,7 @@
     vertical-align: bottom;
 }
 .spellcheck::before {
-    content: "\0xe8ce";
+    content: "\e8ce";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7878,7 +7878,7 @@
     vertical-align: bottom;
 }
 .star::before {
-    content: "\0xe838";
+    content: "\e838";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7888,7 +7888,7 @@
     vertical-align: bottom;
 }
 .star_border::before {
-    content: "\0xe83a";
+    content: "\e83a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7898,7 +7898,7 @@
     vertical-align: bottom;
 }
 .star_half::before {
-    content: "\0xe839";
+    content: "\e839";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7908,7 +7908,7 @@
     vertical-align: bottom;
 }
 .stars::before {
-    content: "\0xe8d0";
+    content: "\e8d0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7918,7 +7918,7 @@
     vertical-align: bottom;
 }
 .stay_current_landscape::before {
-    content: "\0xe0d3";
+    content: "\e0d3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7928,7 +7928,7 @@
     vertical-align: bottom;
 }
 .stay_current_portrait::before {
-    content: "\0xe0d4";
+    content: "\e0d4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7938,7 +7938,7 @@
     vertical-align: bottom;
 }
 .stay_primary_landscape::before {
-    content: "\0xe0d5";
+    content: "\e0d5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7948,7 +7948,7 @@
     vertical-align: bottom;
 }
 .stay_primary_portrait::before {
-    content: "\0xe0d6";
+    content: "\e0d6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7958,7 +7958,7 @@
     vertical-align: bottom;
 }
 .stop::before {
-    content: "\0xe047";
+    content: "\e047";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7968,7 +7968,7 @@
     vertical-align: bottom;
 }
 .stop_screen_share::before {
-    content: "\0xe0e3";
+    content: "\e0e3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7978,7 +7978,7 @@
     vertical-align: bottom;
 }
 .storage::before {
-    content: "\0xe1db";
+    content: "\e1db";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7988,7 +7988,7 @@
     vertical-align: bottom;
 }
 .store::before {
-    content: "\0xe8d1";
+    content: "\e8d1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -7998,7 +7998,7 @@
     vertical-align: bottom;
 }
 .store_mall_directory::before {
-    content: "\0xe563";
+    content: "\e563";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8008,7 +8008,7 @@
     vertical-align: bottom;
 }
 .straighten::before {
-    content: "\0xe41c";
+    content: "\e41c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8018,7 +8018,7 @@
     vertical-align: bottom;
 }
 .streetview::before {
-    content: "\0xe56e";
+    content: "\e56e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8028,7 +8028,7 @@
     vertical-align: bottom;
 }
 .strikethrough_s::before {
-    content: "\0xe257";
+    content: "\e257";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8038,7 +8038,7 @@
     vertical-align: bottom;
 }
 .style::before {
-    content: "\0xe41d";
+    content: "\e41d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8048,7 +8048,7 @@
     vertical-align: bottom;
 }
 .subdirectory_arrow_left::before {
-    content: "\0xe5d9";
+    content: "\e5d9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8058,7 +8058,7 @@
     vertical-align: bottom;
 }
 .subdirectory_arrow_right::before {
-    content: "\0xe5da";
+    content: "\e5da";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8068,7 +8068,7 @@
     vertical-align: bottom;
 }
 .subject::before {
-    content: "\0xe8d2";
+    content: "\e8d2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8078,7 +8078,7 @@
     vertical-align: bottom;
 }
 .subscriptions::before {
-    content: "\0xe064";
+    content: "\e064";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8088,7 +8088,7 @@
     vertical-align: bottom;
 }
 .subtitles::before {
-    content: "\0xe048";
+    content: "\e048";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8098,7 +8098,7 @@
     vertical-align: bottom;
 }
 .subway::before {
-    content: "\0xe56f";
+    content: "\e56f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8108,7 +8108,7 @@
     vertical-align: bottom;
 }
 .supervisor_account::before {
-    content: "\0xe8d3";
+    content: "\e8d3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8118,7 +8118,7 @@
     vertical-align: bottom;
 }
 .surround_sound::before {
-    content: "\0xe049";
+    content: "\e049";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8128,7 +8128,7 @@
     vertical-align: bottom;
 }
 .swap_calls::before {
-    content: "\0xe0d7";
+    content: "\e0d7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8138,7 +8138,7 @@
     vertical-align: bottom;
 }
 .swap_horiz::before {
-    content: "\0xe8d4";
+    content: "\e8d4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8148,7 +8148,7 @@
     vertical-align: bottom;
 }
 .swap_vert::before {
-    content: "\0xe8d5";
+    content: "\e8d5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8158,7 +8158,7 @@
     vertical-align: bottom;
 }
 .swap_vertical_circle::before {
-    content: "\0xe8d6";
+    content: "\e8d6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8168,7 +8168,7 @@
     vertical-align: bottom;
 }
 .switch_camera::before {
-    content: "\0xe41e";
+    content: "\e41e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8178,7 +8178,7 @@
     vertical-align: bottom;
 }
 .switch_video::before {
-    content: "\0xe41f";
+    content: "\e41f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8188,7 +8188,7 @@
     vertical-align: bottom;
 }
 .sync::before {
-    content: "\0xe627";
+    content: "\e627";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8198,7 +8198,7 @@
     vertical-align: bottom;
 }
 .sync_disabled::before {
-    content: "\0xe628";
+    content: "\e628";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8208,7 +8208,7 @@
     vertical-align: bottom;
 }
 .sync_problem::before {
-    content: "\0xe629";
+    content: "\e629";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8218,7 +8218,7 @@
     vertical-align: bottom;
 }
 .system_update::before {
-    content: "\0xe62a";
+    content: "\e62a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8228,7 +8228,7 @@
     vertical-align: bottom;
 }
 .system_update_alt::before {
-    content: "\0xe8d7";
+    content: "\e8d7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8238,7 +8238,7 @@
     vertical-align: bottom;
 }
 .tab::before {
-    content: "\0xe8d8";
+    content: "\e8d8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8248,7 +8248,7 @@
     vertical-align: bottom;
 }
 .tab_unselected::before {
-    content: "\0xe8d9";
+    content: "\e8d9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8258,7 +8258,7 @@
     vertical-align: bottom;
 }
 .tablet::before {
-    content: "\0xe32f";
+    content: "\e32f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8268,7 +8268,7 @@
     vertical-align: bottom;
 }
 .tablet_android::before {
-    content: "\0xe330";
+    content: "\e330";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8278,7 +8278,7 @@
     vertical-align: bottom;
 }
 .tablet_mac::before {
-    content: "\0xe331";
+    content: "\e331";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8288,7 +8288,7 @@
     vertical-align: bottom;
 }
 .tag_faces::before {
-    content: "\0xe420";
+    content: "\e420";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8298,7 +8298,7 @@
     vertical-align: bottom;
 }
 .tap_and_play::before {
-    content: "\0xe62b";
+    content: "\e62b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8308,7 +8308,7 @@
     vertical-align: bottom;
 }
 .terrain::before {
-    content: "\0xe564";
+    content: "\e564";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8318,7 +8318,7 @@
     vertical-align: bottom;
 }
 .text_fields::before {
-    content: "\0xe262";
+    content: "\e262";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8328,7 +8328,7 @@
     vertical-align: bottom;
 }
 .text_format::before {
-    content: "\0xe165";
+    content: "\e165";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8338,7 +8338,7 @@
     vertical-align: bottom;
 }
 .textsms::before {
-    content: "\0xe0d8";
+    content: "\e0d8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8348,7 +8348,7 @@
     vertical-align: bottom;
 }
 .texture::before {
-    content: "\0xe421";
+    content: "\e421";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8358,7 +8358,7 @@
     vertical-align: bottom;
 }
 .theaters::before {
-    content: "\0xe8da";
+    content: "\e8da";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8368,7 +8368,7 @@
     vertical-align: bottom;
 }
 .thumb_down::before {
-    content: "\0xe8db";
+    content: "\e8db";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8378,7 +8378,7 @@
     vertical-align: bottom;
 }
 .thumb_up::before {
-    content: "\0xe8dc";
+    content: "\e8dc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8388,7 +8388,7 @@
     vertical-align: bottom;
 }
 .thumbs_up_down::before {
-    content: "\0xe8dd";
+    content: "\e8dd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8398,7 +8398,7 @@
     vertical-align: bottom;
 }
 .time_to_leave::before {
-    content: "\0xe62c";
+    content: "\e62c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8408,7 +8408,7 @@
     vertical-align: bottom;
 }
 .timelapse::before {
-    content: "\0xe422";
+    content: "\e422";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8418,7 +8418,7 @@
     vertical-align: bottom;
 }
 .timeline::before {
-    content: "\0xe922";
+    content: "\e922";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8428,7 +8428,7 @@
     vertical-align: bottom;
 }
 .timer::before {
-    content: "\0xe425";
+    content: "\e425";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8438,7 +8438,7 @@
     vertical-align: bottom;
 }
 .timer_10::before {
-    content: "\0xe423";
+    content: "\e423";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8448,7 +8448,7 @@
     vertical-align: bottom;
 }
 .timer_3::before {
-    content: "\0xe424";
+    content: "\e424";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8458,7 +8458,7 @@
     vertical-align: bottom;
 }
 .timer_off::before {
-    content: "\0xe426";
+    content: "\e426";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8468,7 +8468,7 @@
     vertical-align: bottom;
 }
 .title::before {
-    content: "\0xe264";
+    content: "\e264";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8478,7 +8478,7 @@
     vertical-align: bottom;
 }
 .toc::before {
-    content: "\0xe8de";
+    content: "\e8de";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8488,7 +8488,7 @@
     vertical-align: bottom;
 }
 .today::before {
-    content: "\0xe8df";
+    content: "\e8df";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8498,7 +8498,7 @@
     vertical-align: bottom;
 }
 .toll::before {
-    content: "\0xe8e0";
+    content: "\e8e0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8508,7 +8508,7 @@
     vertical-align: bottom;
 }
 .tonality::before {
-    content: "\0xe427";
+    content: "\e427";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8518,7 +8518,7 @@
     vertical-align: bottom;
 }
 .touch_app::before {
-    content: "\0xe913";
+    content: "\e913";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8528,7 +8528,7 @@
     vertical-align: bottom;
 }
 .toys::before {
-    content: "\0xe332";
+    content: "\e332";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8538,7 +8538,7 @@
     vertical-align: bottom;
 }
 .track_changes::before {
-    content: "\0xe8e1";
+    content: "\e8e1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8548,7 +8548,7 @@
     vertical-align: bottom;
 }
 .traffic::before {
-    content: "\0xe565";
+    content: "\e565";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8558,7 +8558,7 @@
     vertical-align: bottom;
 }
 .train::before {
-    content: "\0xe570";
+    content: "\e570";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8568,7 +8568,7 @@
     vertical-align: bottom;
 }
 .tram::before {
-    content: "\0xe571";
+    content: "\e571";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8578,7 +8578,7 @@
     vertical-align: bottom;
 }
 .transfer_within_a_station::before {
-    content: "\0xe572";
+    content: "\e572";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8588,7 +8588,7 @@
     vertical-align: bottom;
 }
 .transform::before {
-    content: "\0xe428";
+    content: "\e428";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8598,7 +8598,7 @@
     vertical-align: bottom;
 }
 .translate::before {
-    content: "\0xe8e2";
+    content: "\e8e2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8608,7 +8608,7 @@
     vertical-align: bottom;
 }
 .trending_down::before {
-    content: "\0xe8e3";
+    content: "\e8e3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8618,7 +8618,7 @@
     vertical-align: bottom;
 }
 .trending_flat::before {
-    content: "\0xe8e4";
+    content: "\e8e4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8628,7 +8628,7 @@
     vertical-align: bottom;
 }
 .trending_up::before {
-    content: "\0xe8e5";
+    content: "\e8e5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8638,7 +8638,7 @@
     vertical-align: bottom;
 }
 .tune::before {
-    content: "\0xe429";
+    content: "\e429";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8648,7 +8648,7 @@
     vertical-align: bottom;
 }
 .turned_in::before {
-    content: "\0xe8e6";
+    content: "\e8e6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8658,7 +8658,7 @@
     vertical-align: bottom;
 }
 .turned_in_not::before {
-    content: "\0xe8e7";
+    content: "\e8e7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8668,7 +8668,7 @@
     vertical-align: bottom;
 }
 .tv::before {
-    content: "\0xe333";
+    content: "\e333";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8678,7 +8678,7 @@
     vertical-align: bottom;
 }
 .unarchive::before {
-    content: "\0xe169";
+    content: "\e169";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8688,7 +8688,7 @@
     vertical-align: bottom;
 }
 .undo::before {
-    content: "\0xe166";
+    content: "\e166";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8698,7 +8698,7 @@
     vertical-align: bottom;
 }
 .unfold_less::before {
-    content: "\0xe5d6";
+    content: "\e5d6";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8708,7 +8708,7 @@
     vertical-align: bottom;
 }
 .unfold_more::before {
-    content: "\0xe5d7";
+    content: "\e5d7";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8718,7 +8718,7 @@
     vertical-align: bottom;
 }
 .update::before {
-    content: "\0xe923";
+    content: "\e923";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8728,7 +8728,7 @@
     vertical-align: bottom;
 }
 .usb::before {
-    content: "\0xe1e0";
+    content: "\e1e0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8738,7 +8738,7 @@
     vertical-align: bottom;
 }
 .verified_user::before {
-    content: "\0xe8e8";
+    content: "\e8e8";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8748,7 +8748,7 @@
     vertical-align: bottom;
 }
 .vertical_align_bottom::before {
-    content: "\0xe258";
+    content: "\e258";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8758,7 +8758,7 @@
     vertical-align: bottom;
 }
 .vertical_align_center::before {
-    content: "\0xe259";
+    content: "\e259";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8768,7 +8768,7 @@
     vertical-align: bottom;
 }
 .vertical_align_top::before {
-    content: "\0xe25a";
+    content: "\e25a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8778,7 +8778,7 @@
     vertical-align: bottom;
 }
 .vibration::before {
-    content: "\0xe62d";
+    content: "\e62d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8788,7 +8788,7 @@
     vertical-align: bottom;
 }
 .video_call::before {
-    content: "\0xe070";
+    content: "\e070";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8798,7 +8798,7 @@
     vertical-align: bottom;
 }
 .video_label::before {
-    content: "\0xe071";
+    content: "\e071";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8808,7 +8808,7 @@
     vertical-align: bottom;
 }
 .video_library::before {
-    content: "\0xe04a";
+    content: "\e04a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8818,7 +8818,7 @@
     vertical-align: bottom;
 }
 .videocam::before {
-    content: "\0xe04b";
+    content: "\e04b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8828,7 +8828,7 @@
     vertical-align: bottom;
 }
 .videocam_off::before {
-    content: "\0xe04c";
+    content: "\e04c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8838,7 +8838,7 @@
     vertical-align: bottom;
 }
 .videogame_asset::before {
-    content: "\0xe338";
+    content: "\e338";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8848,7 +8848,7 @@
     vertical-align: bottom;
 }
 .view_agenda::before {
-    content: "\0xe8e9";
+    content: "\e8e9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8858,7 +8858,7 @@
     vertical-align: bottom;
 }
 .view_array::before {
-    content: "\0xe8ea";
+    content: "\e8ea";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8868,7 +8868,7 @@
     vertical-align: bottom;
 }
 .view_carousel::before {
-    content: "\0xe8eb";
+    content: "\e8eb";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8878,7 +8878,7 @@
     vertical-align: bottom;
 }
 .view_column::before {
-    content: "\0xe8ec";
+    content: "\e8ec";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8888,7 +8888,7 @@
     vertical-align: bottom;
 }
 .view_comfy::before {
-    content: "\0xe42a";
+    content: "\e42a";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8898,7 +8898,7 @@
     vertical-align: bottom;
 }
 .view_compact::before {
-    content: "\0xe42b";
+    content: "\e42b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8908,7 +8908,7 @@
     vertical-align: bottom;
 }
 .view_day::before {
-    content: "\0xe8ed";
+    content: "\e8ed";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8918,7 +8918,7 @@
     vertical-align: bottom;
 }
 .view_headline::before {
-    content: "\0xe8ee";
+    content: "\e8ee";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8928,7 +8928,7 @@
     vertical-align: bottom;
 }
 .view_list::before {
-    content: "\0xe8ef";
+    content: "\e8ef";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8938,7 +8938,7 @@
     vertical-align: bottom;
 }
 .view_module::before {
-    content: "\0xe8f0";
+    content: "\e8f0";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8948,7 +8948,7 @@
     vertical-align: bottom;
 }
 .view_quilt::before {
-    content: "\0xe8f1";
+    content: "\e8f1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8958,7 +8958,7 @@
     vertical-align: bottom;
 }
 .view_stream::before {
-    content: "\0xe8f2";
+    content: "\e8f2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8968,7 +8968,7 @@
     vertical-align: bottom;
 }
 .view_week::before {
-    content: "\0xe8f3";
+    content: "\e8f3";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8978,7 +8978,7 @@
     vertical-align: bottom;
 }
 .vignette::before {
-    content: "\0xe435";
+    content: "\e435";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8988,7 +8988,7 @@
     vertical-align: bottom;
 }
 .visibility::before {
-    content: "\0xe8f4";
+    content: "\e8f4";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -8998,7 +8998,7 @@
     vertical-align: bottom;
 }
 .visibility_off::before {
-    content: "\0xe8f5";
+    content: "\e8f5";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9008,7 +9008,7 @@
     vertical-align: bottom;
 }
 .voice_chat::before {
-    content: "\0xe62e";
+    content: "\e62e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9018,7 +9018,7 @@
     vertical-align: bottom;
 }
 .voicemail::before {
-    content: "\0xe0d9";
+    content: "\e0d9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9028,7 +9028,7 @@
     vertical-align: bottom;
 }
 .volume_down::before {
-    content: "\0xe04d";
+    content: "\e04d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9038,7 +9038,7 @@
     vertical-align: bottom;
 }
 .volume_mute::before {
-    content: "\0xe04e";
+    content: "\e04e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9048,7 +9048,7 @@
     vertical-align: bottom;
 }
 .volume_off::before {
-    content: "\0xe04f";
+    content: "\e04f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9058,7 +9058,7 @@
     vertical-align: bottom;
 }
 .volume_up::before {
-    content: "\0xe050";
+    content: "\e050";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9068,7 +9068,7 @@
     vertical-align: bottom;
 }
 .vpn_key::before {
-    content: "\0xe0da";
+    content: "\e0da";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9078,7 +9078,7 @@
     vertical-align: bottom;
 }
 .vpn_lock::before {
-    content: "\0xe62f";
+    content: "\e62f";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9088,7 +9088,7 @@
     vertical-align: bottom;
 }
 .wallpaper::before {
-    content: "\0xe1bc";
+    content: "\e1bc";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9098,7 +9098,7 @@
     vertical-align: bottom;
 }
 .warning::before {
-    content: "\0xe002";
+    content: "\e002";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9108,7 +9108,7 @@
     vertical-align: bottom;
 }
 .watch::before {
-    content: "\0xe334";
+    content: "\e334";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9118,7 +9118,7 @@
     vertical-align: bottom;
 }
 .watch_later::before {
-    content: "\0xe924";
+    content: "\e924";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9128,7 +9128,7 @@
     vertical-align: bottom;
 }
 .wb_auto::before {
-    content: "\0xe42c";
+    content: "\e42c";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9138,7 +9138,7 @@
     vertical-align: bottom;
 }
 .wb_cloudy::before {
-    content: "\0xe42d";
+    content: "\e42d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9148,7 +9148,7 @@
     vertical-align: bottom;
 }
 .wb_incandescent::before {
-    content: "\0xe42e";
+    content: "\e42e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9158,7 +9158,7 @@
     vertical-align: bottom;
 }
 .wb_iridescent::before {
-    content: "\0xe436";
+    content: "\e436";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9168,7 +9168,7 @@
     vertical-align: bottom;
 }
 .wb_sunny::before {
-    content: "\0xe430";
+    content: "\e430";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9178,7 +9178,7 @@
     vertical-align: bottom;
 }
 .wc::before {
-    content: "\0xe63d";
+    content: "\e63d";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9188,7 +9188,7 @@
     vertical-align: bottom;
 }
 .web::before {
-    content: "\0xe051";
+    content: "\e051";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9198,7 +9198,7 @@
     vertical-align: bottom;
 }
 .web_asset::before {
-    content: "\0xe069";
+    content: "\e069";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9208,7 +9208,7 @@
     vertical-align: bottom;
 }
 .weekend::before {
-    content: "\0xe16b";
+    content: "\e16b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9218,7 +9218,7 @@
     vertical-align: bottom;
 }
 .whatshot::before {
-    content: "\0xe80e";
+    content: "\e80e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9228,7 +9228,7 @@
     vertical-align: bottom;
 }
 .widgets::before {
-    content: "\0xe1bd";
+    content: "\e1bd";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9238,7 +9238,7 @@
     vertical-align: bottom;
 }
 .wifi::before {
-    content: "\0xe63e";
+    content: "\e63e";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9248,7 +9248,7 @@
     vertical-align: bottom;
 }
 .wifi_lock::before {
-    content: "\0xe1e1";
+    content: "\e1e1";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9258,7 +9258,7 @@
     vertical-align: bottom;
 }
 .wifi_tethering::before {
-    content: "\0xe1e2";
+    content: "\e1e2";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9268,7 +9268,7 @@
     vertical-align: bottom;
 }
 .work::before {
-    content: "\0xe8f9";
+    content: "\e8f9";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9278,7 +9278,7 @@
     vertical-align: bottom;
 }
 .wrap_text::before {
-    content: "\0xe25b";
+    content: "\e25b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9288,7 +9288,7 @@
     vertical-align: bottom;
 }
 .youtube_searched_for::before {
-    content: "\0xe8fa";
+    content: "\e8fa";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9298,7 +9298,7 @@
     vertical-align: bottom;
 }
 .zoom_in::before {
-    content: "\0xe8ff";
+    content: "\e8ff";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9308,7 +9308,7 @@
     vertical-align: bottom;
 }
 .zoom_out::before {
-    content: "\0xe900";
+    content: "\e900";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;
@@ -9318,7 +9318,7 @@
     vertical-align: bottom;
 }
 .zoom_out_map::before {
-    content: "\0xe56b";
+    content: "\e56b";
     font-family: "MaterialIcons-Regular";
     speak: none;
     font-style: normal;

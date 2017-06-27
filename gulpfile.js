@@ -2,7 +2,7 @@
 
 var config = require('./gulp-settings.json');
 var gulp = require('gulp');
-//var gutil = require('gulp-util');
+var gutil = require('gulp-util');
 var $ = require('gulp-load-plugins')();
 
 var browserSync = require('browser-sync').create();
@@ -43,7 +43,7 @@ var AUTOPREFIXER_BROWSERS = [
 //only needed to genereate font mappings for md-icons (currently manually)
 /*
 var cssCodepoints = require('css-codepoints');
-var codepoints = JSON.parse(fs.readFileSync('./codepoints.json'));
+var codepoints = JSON.parse(fs.readFileSync('./django_slick_admin/tools/codepoints.json'));
 
 var css = cssCodepoints({
     fontFamily: 'MaterialIcons-Regular',
@@ -59,8 +59,9 @@ var css = cssCodepoints({
 
     icons: codepoints.icons
 });
-*/
 
+fs.writeFileSync('./django_slick_admin/tools/codepoints_generated.css', css);
+*/
 
 gulp.task('proxy', ['styles'], function () {
 
