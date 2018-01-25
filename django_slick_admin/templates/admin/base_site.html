@@ -1,11 +1,12 @@
 {% extends "admin/base.html" %}
 {% load i18n staticfiles slick_admin_tags %}
 
-{% block bodyclass %}{% slick_admin_cms_enabled_as as cms_enabled %}slick-admin{% if cms_enabled %} slick-admin-cms{% endif %}{% endblock %}
+{% block bodyclass %}{% slick_admin_cms_enabled_as as cms_enabled %}{% if cms_enabled %} slick-admin-cms{% endif %}{% endblock %}
 
-{% block extrahead %}
+{% block slickhead %}
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="{% static 'django_slick_admin/css/django-slick-admin.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/hacks.css' %}"/>
 {% endblock %}
 
 {% block branding %}
