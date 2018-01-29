@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpalmbeach-interactive%2Fdjango-slick-admin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpalmbeach-interactive%2Fdjango-slick-admin?ref=badge_shield)
+
 Django Slick Admin
 ===================
 
@@ -140,3 +142,7 @@ See [gulpfile.js](https://github.com/palmbeach-interactive/django-slick-admin/bl
     });
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpalmbeach-interactive%2Fdjango-slick-admin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpalmbeach-interactive%2Fdjango-slick-admin?ref=badge_large)
