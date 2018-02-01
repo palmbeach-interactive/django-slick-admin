@@ -11,6 +11,6 @@ node_modules/*
 
 
 django_slick_admin/sass
+django_slick_admin/tools
 django-slick-admin-styles
-django_slick_admin
 package-lock.json
