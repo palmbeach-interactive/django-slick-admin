@@ -8,7 +8,7 @@ Well not *everything* - there are some optional & tiny bits of JavaScript involv
 
 *Slick admin* works with the standard Django admin - and comes with support for:
 
- - [django CMS](https://www.django-cms.org/en/) (>=3.2.0)
+ - [django CMS](https://www.django-cms.org/en/) (>=3.4.0)
  - [django-admin-tools](https://github.com/django-admin-tools/django-admin-tools) [Dashboard](http://django-admin-tools.readthedocs.io/en/latest/dashboard.html)
 
 
