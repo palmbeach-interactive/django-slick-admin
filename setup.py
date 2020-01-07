@@ -20,6 +20,7 @@ setup(
     version=django_slick_admin.__version__,
     description='Slick admin styles for Django and django CMS.',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/palmbeach-interactive/django-slick-admin/',
     license='MIT License',
     platforms=['OS Independent'],
