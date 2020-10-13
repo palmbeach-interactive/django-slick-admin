@@ -1,7 +1,7 @@
 Django Slick Admin
 ===================
 
-A slick & clean look for your Django (>=1.9) admin interface.
+A slick & clean look for your Django (>=1.10) admin interface.
 
 *Slick admin* works completely unobtrusive and does everything via CSS.
 Well not *everything* - there are some optional & tiny bits of JavaScript involved as well.
