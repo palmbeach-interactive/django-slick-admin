@@ -1,12 +1,40 @@
 {% extends "admin/base.html" %}
-{% load i18n staticfiles slick_admin_tags %}
+{% load i18n static slick_admin_tags %}
 
 {% block bodyclass %}{% slick_admin_cms_enabled_as as cms_enabled %}{% if cms_enabled %} slick-admin-cms{% endif %}{% endblock %}
 
 {% block slickhead %}
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'django_slick_admin/css/django-slick-admin.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/hacks.css' %}"/>
+    {% if webpack_devserver %}
+      <script
+        src="{% static 'bundle.js' %}"
+      ></script>
+    {% else %}
+      <link rel="stylesheet" type="text/css" href="{% static 'django_slick_admin/css/bundle.css' %}"/>
+    {% endif %}
+
+  <style>
+    @font-face {
+      font-family: "django-admin-iconfont";
+      src: url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.eot'%}?v=3.2.0);
+      src: url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.eot'%}?v=3.2.0#iefix) format("eot"),
+      url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.woff2'%}?v=3.2.0) format("woff2"),
+      url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.woff'%}?v=3.2.0) format("woff"),
+      url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.ttf'%}?v=3.2.0) format("truetype"),
+      url({% static 'django_slick_admin/asset/fonts/django-admin-iconfont.svg'%}?v=3.2.0#django-admin-iconfont) format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "Material Icons";
+      font-style: normal;
+      font-weight: normal;
+      src: local("Material Icons"), local("MaterialIcons-Regular"), url({% static 'django_slick_admin/fonts/MaterialIcons-Regular.woff2' %}) format("woff2"),
+      url({% static 'django_slick_admin/fonts/MaterialIcons-Regular.woff' %}) format("woff"),
+      url({% static 'django_slick_admin/fonts/MaterialIcons-Regular.ttf' %}) format("truetype");
+    }
+  </style>
 {% endblock %}
 
 {% block branding %}
@@ -18,5 +46,7 @@
     {% include 'admin/components/header_default.html' %}
 {% endif %}
 {% endblock %}
+
+{% block nav-global %}{% endblock %}
 
 {% block footer %}{% include 'admin/components/footer.html' %}{% endblock %}
