@@ -1,7 +1,7 @@
 {% load i18n static %}
 
 <div id="header-logo">
-    <a class="icon-logo" href="/"><span>django CMS</span></a>
+    <a class="icon-logo" href="{% url 'admin:index' %}"><span>django CMS</span></a>
 </div>
 
 <h1>{{ site_header|default:_('Django Administration') }}</h1>
@@ -38,7 +38,7 @@
     {% if LANGUAGES|length > 1 %}
         <div id="language-chooser" style="display: inline;">
             <div class="language-chooser-inner" style="display: inline; line-height: 48px; padding-left: 24px;">
-                <span class="label">{% trans 'Backend Sprache' %}:</span>
+                <span class="label">{% trans 'Backend Language' %}:</span>
                 {% for lang in LANGUAGES %}
                 <a href="/{{ lang.0 }}{{ request.get_full_path|slice:'3:' }}" class="button {% ifequal lang.0 request.LANGUAGE_CODE %} active{% endifequal %}">
                     {% ifequal lang.0 request.LANGUAGE_CODE %}{{ lang.1 }}{% else %}{{ lang.1 }}{% endifequal %}
@@ -52,7 +52,7 @@
 
 <div id="header-btn">
     <a href="/" class="icon-arrow-right btn js-header-link">
-        {% trans 'Open' %} {{ request.site.name|default:_('my site') }}
+        {% trans 'View' %} {{ request.site.name|default:_('Site') }}
     </a>
 </div>
 
