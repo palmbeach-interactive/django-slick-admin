@@ -14,3 +14,5 @@ django_slick_admin/sass
 django_slick_admin/tools
 django-slick-admin-styles
 package-lock.json
+/django_slick_admin/static/django_slick_admin/bundle.js
+/django_slick_admin/static/django_slick_admin/cms-styles.js
