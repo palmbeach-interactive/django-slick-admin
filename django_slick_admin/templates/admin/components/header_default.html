@@ -67,11 +67,11 @@
 
 
 <div id="header-logo">
-    <a href="/">
-        <svg class="graphics icecream">
-            <use xlink:href="#icecream"/>
-        </svg>
-        <span>Django Admin</span></a>
+  <a href="/">
+    <svg class="graphics icecream">
+      <use xlink:href="#icecream" />
+    </svg>
+    <span>Django Admin</span></a>
 </div>
 
 {% block language_chooser %}
@@ -80,8 +80,8 @@
             <div class="language-chooser-inner" style="display: inline; line-height: 48px; padding-left: 24px;">
                 <span class="label">{% trans 'Backend Sprache' %}:</span>
                 {% for lang in LANGUAGES %}
-                <a href="/{{ lang.0 }}{{ request.get_full_path|slice:'3:' }}" class="button {% ifequal lang.0 request.LANGUAGE_CODE %} active{% endifequal %}">
-                    {% ifequal lang.0 request.LANGUAGE_CODE %}{{ lang.1 }}{% else %}{{ lang.1 }}{% endifequal %}
+                <a href="/{{ lang.0 }}{{ request.get_full_path|slice:'3:' }}" class="button {% if lang.0 == request.LANGUAGE_CODE %} active{% endif %}">
+                    {% if lang.0 == request.LANGUAGE_CODE %}{{ lang.1 }}{% else %}{{ lang.1 }}{% endif %}
                 </a>
 
                 {% endfor %}
